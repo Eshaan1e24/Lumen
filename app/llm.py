@@ -1,9 +1,10 @@
 """Gemini calls + the safety layer (SQL guard, sandboxed DuckDB, answer verification)."""
-import os, re, json, threading
+import os, re, json, time, threading
 import duckdb, pandas as pd
 from .analytics import clean
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+# gemini-2.5-flash is being retired (Oct 2026); 3.5 Flash is the GA replacement. "-latest" is a fallback alias.
+MODELS = [m for m in dict.fromkeys([os.getenv("GEMINI_MODEL"), "gemini-3.5-flash", "gemini-flash-latest", "gemini-3.1-flash-lite"]) if m]
 _client = None
 
 
@@ -11,13 +12,31 @@ def available() -> bool: return bool(os.getenv("GEMINI_API_KEY"))
 
 
 def _json(prompt: str) -> dict:
-    global _client
+    global _client, _good
     from google import genai
     from google.genai import types
     if _client is None: _client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    cfg = types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2)
-    t = _client.models.generate_content(model=MODEL, contents=prompt, config=cfg).text.strip()
-    return json.loads(re.sub(r"^```(?:json)?|```$", "", t, flags=re.M).strip())
+    cfg = types.GenerateContentConfig(response_mime_type="application/json")
+    last = None
+    for model in ([_good] + [m for m in MODELS if m != _good] if _good else MODELS):
+        for attempt in range(2):
+            try:
+                t = _client.models.generate_content(model=model, contents=prompt, config=cfg).text.strip()
+                _good = model
+                return json.loads(re.sub(r"^```(?:json)?|```$", "", t, flags=re.M).strip())
+            except Exception as e:
+                last = e
+                if MISSING.search(str(e)): break                      # model gone: try the next one
+                if BUSY.search(str(e)):                               # overloaded: retry once, then try the next model
+                    if attempt == 0: time.sleep(1.5); continue
+                    break
+                raise
+    raise last
+
+
+MISSING = re.compile(r"404|NOT_FOUND|no longer available", re.I)
+BUSY = re.compile(r"503|UNAVAILABLE|high demand|overloaded|500|INTERNAL|DEADLINE", re.I)
+_good = None
 
 
 # ---- Safety: only one read-only SELECT, run in an isolated DuckDB with no file/network access ----

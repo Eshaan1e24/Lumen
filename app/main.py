@@ -1,4 +1,4 @@
-import uuid, pathlib
+import uuid, pathlib, logging, re
 from dotenv import load_dotenv
 load_dotenv()  # reads GEMINI_API_KEY from .env
 from fastapi import FastAPI, UploadFile, File, HTTPException
@@ -53,7 +53,15 @@ def ask(body: Ask):
     if not llm.available(): raise HTTPException(503, "Plain-English questions need a Gemini API key (set GEMINI_API_KEY).")
     try: return llm.answer(df, body.question[:500])
     except ValueError as e: raise HTTPException(400, str(e))
-    except Exception: raise HTTPException(502, "The AI service didn't respond. Try again in a moment.")
+    except Exception as e:
+        logging.exception("Gemini call failed")  # full traceback appears in the server terminal
+        t = str(e)
+        if re.search(r"API_KEY|API key|401|403|PERMISSION_DENIED|UNAUTHENTICATED", t, re.I): msg = "Gemini rejected the API key. Check GEMINI_API_KEY in your .env file and restart the server."
+        elif re.search(r"429|RESOURCE_EXHAUSTED|quota", t, re.I): msg = "Gemini's free quota is used up for now. Wait a minute and try again."
+        elif re.search(r"503|UNAVAILABLE|high demand", t, re.I): msg = "Gemini is very busy right now (all backup models too). Try again in a few seconds."
+        elif re.search(r"404|NOT_FOUND", t, re.I): msg = "No Gemini model was available. Set GEMINI_MODEL in .env to a current model name."
+        else: msg = "The AI service failed: " + t[:160]
+        raise HTTPException(502, msg)
 
 
 class Fc(BaseModel):
