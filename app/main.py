@@ -12,13 +12,15 @@ SESSIONS: dict = {}   # in-memory only: data is never written to disk
 MAX_BYTES = 25 * 1024 * 1024
 
 
-def start_session(df):
+def start_session(df, raw_preview=None):
     if len(SESSIONS) > 50: SESSIONS.pop(next(iter(SESSIONS)))
     sid = uuid.uuid4().hex; SESSIONS[sid] = df
     p = A.profile(df); facts = A.insights(df, p)
     meta = {"rows": p["rows"], "metric": p["metric"], "date_column": p["date"], "columns": [c["name"] for c in p["columns"]]}
+    processed_preview = A.df_to_preview(df)
     return A.clean({"session_id": sid, "profile": p, "charts": A.starter_charts(df, p), "insights": facts,
-                    "narrative": llm.narrate(facts, meta), "suggested_questions": A.suggested_questions(p), "ai": llm.available()})
+                    "narrative": llm.narrate(facts, meta), "suggested_questions": A.suggested_questions(p), "ai": llm.available(),
+                    "raw_preview": raw_preview or processed_preview, "processed_preview": processed_preview})
 
 
 def get_df(sid):
@@ -34,8 +36,15 @@ def health(): return {"ok": True, "ai": llm.available()}
 async def upload(file: UploadFile = File(...)):
     raw = await file.read()
     if len(raw) > MAX_BYTES: raise HTTPException(413, "File is larger than 25 MB.")
-    try: return start_session(A.load_df(raw, file.filename or ""))
+    try:
+        raw_df = A.read_raw_df(raw, file.filename or "")
+        raw_preview = A.df_to_preview(raw_df)
+        processed_df = A.preprocess_df(raw_df)
+        return start_session(processed_df, raw_preview)
     except ValueError as e: raise HTTPException(400, str(e))
+    except Exception as e:
+        logging.exception("Upload processing failed")
+        raise HTTPException(400, f"Could not process file: {e}")
 
 
 @app.post("/api/demo")
@@ -75,6 +84,9 @@ class Fc(BaseModel):
 def fc(body: Fc):
     try: return A.clean(A.forecast(get_df(body.session_id), body.date_col, body.value_col, max(1, min(body.periods, 24))))
     except ValueError as e: raise HTTPException(400, str(e))
+    except Exception as e:
+        logging.exception("Forecast failed")
+        raise HTTPException(400, f"Could not generate forecast: {e}")
 
 
 app.mount("/assets", StaticFiles(directory=pathlib.Path(__file__).parent.parent / "static"), name="assets")

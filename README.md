@@ -9,6 +9,7 @@ Built for small businesses, NGOs and student organizations that have data but no
 | Feature | How it works |
 |---|---|
 | Auto profiling + starter dashboard | pandas: column types, missing values, outliers (IQR), date detection, auto charts |
+| Data Preview | View raw and cleaned data side-by-side to validate automated preprocessing and type inference |
 | Plain-English questions | Gemini writes one DuckDB `SELECT`; it is validated and run in a locked-down sandbox |
 | Automated insights | Statistics, not LLM guesses: trend (first vs last third), anomalies (robust z-score on MAD), drivers (share of total, correlation) |
 | Forecasting | statsmodels Holt-Winters (damped trend, seasonal when 2+ cycles), 95% range |

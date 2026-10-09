@@ -1,177 +1,744 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lumen: your data, explained</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js"></script>
-<style>
-:root{--ink:#14202B;--muted:#586674;--paper:#EEF2F3;--panel:#fff;--rule:#D6DDE1;--teal:#0E6B6B;--teal-d:#083F40;--teal-l:#9CC7C4;--mist:#E3EEED;--amber:#C77F00;--green:#2E7D4F;--red:#B3261E;--r:8px}
-*{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Figtree,system-ui,sans-serif}
-h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,sans-serif;line-height:1.1;margin:0}
-header{display:flex;align-items:center;gap:12px;padding:14px 28px;background:var(--teal-d);color:#fff}
-header svg{flex:none}header b{font:800 22px 'Bricolage Grotesque'}header span{color:#A9CFCC;font-size:14px}
-header .btn{margin-left:auto;display:none}
-main{max-width:1280px;margin:0 auto;padding:26px 28px 60px}
-button,select,input{font:inherit}
-.btn{background:var(--teal);color:#fff;border:0;border-radius:var(--r);padding:10px 18px;font-weight:600;cursor:pointer;transition:background .15s}
-.btn:hover{background:var(--teal-d)}.btn.ghost{background:none;color:var(--teal-d);border:1px solid var(--teal)}.btn.ghost:hover{background:var(--mist)}
-header .btn{background:none;border:1px solid #4E8C8B;padding:7px 14px}header .btn:hover{background:#0E5555}
-:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
-#hero{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center;min-height:68vh}
-#hero h1{font-size:clamp(36px,5vw,60px);font-weight:800;letter-spacing:-.025em;max-width:11ch}
-#hero p{color:var(--muted);max-width:46ch;margin:18px 0 0;font-size:18px}
-#drop{border:2px dashed var(--teal);border-radius:12px;padding:46px 26px;text-align:center;background:var(--panel);transition:background .15s}
-#drop.over{background:var(--mist)}#drop p{margin:8px 0 20px;color:var(--muted)}.row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-#app{display:none;grid-template-columns:320px minmax(0,1fr);gap:26px;align-items:start}
-aside{position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto;padding-right:4px}
-.summary{background:var(--teal-d);color:#fff;padding:18px;border-radius:var(--r);margin-bottom:6px}
-.summary h3{font-size:18px;margin-bottom:8px}.summary p{margin:0;font-size:15px;line-height:1.5}
-aside h3{font-size:17px;margin:22px 0 10px}
-.ins{border-left:4px solid var(--rule);padding:2px 0 2px 12px;margin:0 0 14px}
-.ins.warn{border-color:var(--amber)}.ins.good{border-color:var(--green)}.ins.info{border-color:var(--teal)}
-.ins b{display:block;font-weight:600}.ins p{margin:2px 0;font-size:14px;color:var(--muted)}
-.recs{padding-left:20px;margin:0;font-size:15px}.recs li{margin-bottom:8px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));background:var(--panel);border:1px solid var(--rule);border-radius:var(--r);margin-bottom:20px}
-.kpi{padding:16px 20px;border-right:1px solid var(--rule)}.kpi:last-child{border-right:0}
-.kpi small{display:block;color:var(--muted);font-size:13px}.kpi strong{display:block;font:800 30px/1.15 'Bricolage Grotesque';letter-spacing:-.01em}
-.kpi em{font-style:normal;font-size:13px;color:var(--muted)}.up{color:var(--green)!important;font-weight:600}.down{color:var(--red)!important;font-weight:600}
-section{background:var(--panel);border:1px solid var(--rule);border-radius:var(--r);padding:20px 22px;margin-bottom:20px;min-width:0}
-section h2{font-size:21px;margin-bottom:4px}.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
-.charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 26px}
-.charts .wide{grid-column:1/-1}.chart{width:100%;height:280px}.charts .wide{height:320px}
-.askbar{display:flex;gap:10px}.askbar input{flex:1;padding:12px 14px;border:1px solid var(--rule);border-radius:var(--r);min-width:0}
-.askbar input:focus{border-color:var(--teal);outline:none;box-shadow:0 0 0 3px var(--mist)}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 0}
-.chip{background:var(--mist);border:0;border-radius:99px;padding:6px 14px;font-size:14px;cursor:pointer;color:var(--teal-d)}.chip:hover{background:#D3E6E4}
-.answer{margin-top:16px}.answer .a{font-size:19px;margin:0 0 6px;max-width:70ch}.big{font:800 54px 'Bricolage Grotesque';color:var(--teal)}
-.badge{display:inline-block;font-size:13px;border-radius:99px;padding:2px 10px;margin-bottom:8px}.badge.ok{background:#E2F1E8;color:var(--green)}.badge.chk{background:#FBEFD3;color:#8A5A00}
-details{margin-top:10px;font-size:13px;color:var(--muted)}summary{cursor:pointer}pre{background:var(--paper);padding:10px;border-radius:var(--r);overflow:auto}
-table{border-collapse:collapse;font-size:14px;width:100%}td,th{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left}
-.fcbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:10px 0}.fcbar label{font-size:14px;color:var(--muted)}
-.fcbar select,.fcbar input{padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r);color:var(--ink);background:#fff}
-.note{color:var(--muted);font-size:14px}.err{color:var(--red);margin-top:10px}.busy{opacity:.55;pointer-events:none}
-.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--teal-l);border-top-color:var(--teal);border-radius:50%;animation:s .7s linear infinite;vertical-align:-2px;margin-right:8px}
-@keyframes s{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.spin{animation:none}}
-@media(max-width:960px){#hero,#app{grid-template-columns:1fr}aside{position:static;max-height:none}.charts{grid-template-columns:1fr}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumen: your data, explained</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --ink: #14202B;
+      --muted: #586674;
+      --paper: #EEF2F3;
+      --panel: #fff;
+      --rule: #D6DDE1;
+      --teal: #0E6B6B;
+      --teal-d: #083F40;
+      --teal-l: #9CC7C4;
+      --mist: #E3EEED;
+      --amber: #C77F00;
+      --green: #2E7D4F;
+      --red: #B3261E;
+      --r: 8px
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.55 Figtree, system-ui, sans-serif
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Bricolage Grotesque', Figtree, sans-serif;
+      line-height: 1.1;
+      margin: 0
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 28px;
+      background: var(--teal-d);
+      color: #fff
+    }
+
+    header svg {
+      flex: none
+    }
+
+    header b {
+      font: 800 22px 'Bricolage Grotesque'
+    }
+
+    header span {
+      color: #A9CFCC;
+      font-size: 14px
+    }
+
+    header .btn {
+      margin-left: auto;
+      display: none
+    }
+
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 26px 28px 60px
+    }
+
+    button,
+    select,
+    input {
+      font: inherit
+    }
+
+    .btn {
+      background: var(--teal);
+      color: #fff;
+      border: 0;
+      border-radius: var(--r);
+      padding: 10px 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s
+    }
+
+    .btn:hover {
+      background: var(--teal-d)
+    }
+
+    .btn.ghost {
+      background: none;
+      color: var(--teal-d);
+      border: 1px solid var(--teal)
+    }
+
+    .btn.ghost:hover {
+      background: var(--mist)
+    }
+
+    header .btn {
+      background: none;
+      border: 1px solid #4E8C8B;
+      padding: 7px 14px
+    }
+
+    header .btn:hover {
+      background: #0E5555
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--amber);
+      outline-offset: 2px
+    }
+
+    #hero {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 56px;
+      align-items: center;
+      min-height: 68vh
+    }
+
+    #hero h1 {
+      font-size: clamp(36px, 5vw, 60px);
+      font-weight: 800;
+      letter-spacing: -.025em;
+      max-width: 11ch
+    }
+
+    #hero p {
+      color: var(--muted);
+      max-width: 46ch;
+      margin: 18px 0 0;
+      font-size: 18px
+    }
+
+    #drop {
+      border: 2px dashed var(--teal);
+      border-radius: 12px;
+      padding: 46px 26px;
+      text-align: center;
+      background: var(--panel);
+      transition: background .15s
+    }
+
+    #drop.over {
+      background: var(--mist)
+    }
+
+    #drop p {
+      margin: 8px 0 20px;
+      color: var(--muted)
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap
+    }
+
+    #app {
+      display: none;
+      grid-template-columns: 320px minmax(0, 1fr);
+      gap: 26px;
+      align-items: start
+    }
+
+    aside {
+      position: sticky;
+      top: 14px;
+      max-height: calc(100vh - 28px);
+      overflow: auto;
+      padding-right: 4px
+    }
+
+    .summary {
+      background: var(--teal-d);
+      color: #fff;
+      padding: 18px;
+      border-radius: var(--r);
+      margin-bottom: 6px
+    }
+
+    .summary h3 {
+      font-size: 18px;
+      margin-bottom: 8px
+    }
+
+    .summary p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.5
+    }
+
+    aside h3 {
+      font-size: 17px;
+      margin: 22px 0 10px
+    }
+
+    .ins {
+      border-left: 4px solid var(--rule);
+      padding: 2px 0 2px 12px;
+      margin: 0 0 14px
+    }
+
+    .ins.warn {
+      border-color: var(--amber)
+    }
+
+    .ins.good {
+      border-color: var(--green)
+    }
+
+    .ins.info {
+      border-color: var(--teal)
+    }
+
+    .ins b {
+      display: block;
+      font-weight: 600
+    }
+
+    .ins p {
+      margin: 2px 0;
+      font-size: 14px;
+      color: var(--muted)
+    }
+
+    .recs {
+      padding-left: 20px;
+      margin: 0;
+      font-size: 15px
+    }
+
+    .recs li {
+      margin-bottom: 8px
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: var(--r);
+      margin-bottom: 20px
+    }
+
+    .kpi {
+      padding: 16px 20px;
+      border-right: 1px solid var(--rule)
+    }
+
+    .kpi:last-child {
+      border-right: 0
+    }
+
+    .kpi small {
+      display: block;
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    .kpi strong {
+      display: block;
+      font: 800 30px/1.15 'Bricolage Grotesque';
+      letter-spacing: -.01em
+    }
+
+    .kpi em {
+      font-style: normal;
+      font-size: 13px;
+      color: var(--muted)
+    }
+
+    .up {
+      color: var(--green) !important;
+      font-weight: 600
+    }
+
+    .down {
+      color: var(--red) !important;
+      font-weight: 600
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: var(--r);
+      padding: 20px 22px;
+      margin-bottom: 20px;
+      min-width: 0
+    }
+
+    section h2 {
+      font-size: 21px;
+      margin-bottom: 4px
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 14px
+    }
+
+    .charts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px 26px
+    }
+
+    .charts .wide {
+      grid-column: 1/-1
+    }
+
+    .chart {
+      width: 100%;
+      height: 280px
+    }
+
+    .charts .wide {
+      height: 320px
+    }
+
+    .askbar {
+      display: flex;
+      gap: 10px
+    }
+
+    .askbar input {
+      flex: 1;
+      padding: 12px 14px;
+      border: 1px solid var(--rule);
+      border-radius: var(--r);
+      min-width: 0
+    }
+
+    .askbar input:focus {
+      border-color: var(--teal);
+      outline: none;
+      box-shadow: 0 0 0 3px var(--mist)
+    }
+
+    .chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 12px 0 0
+    }
+
+    .chip {
+      background: var(--mist);
+      border: 0;
+      border-radius: 99px;
+      padding: 6px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      color: var(--teal-d)
+    }
+
+    .chip:hover {
+      background: #D3E6E4
+    }
+
+    .answer {
+      margin-top: 16px
+    }
+
+    .answer .a {
+      font-size: 19px;
+      margin: 0 0 6px;
+      max-width: 70ch
+    }
+
+    .big {
+      font: 800 54px 'Bricolage Grotesque';
+      color: var(--teal)
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 13px;
+      border-radius: 99px;
+      padding: 2px 10px;
+      margin-bottom: 8px
+    }
+
+    .badge.ok {
+      background: #E2F1E8;
+      color: var(--green)
+    }
+
+    .badge.chk {
+      background: #FBEFD3;
+      color: #8A5A00
+    }
+
+    details {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--muted)
+    }
+
+    summary {
+      cursor: pointer
+    }
+
+    pre {
+      background: var(--paper);
+      padding: 10px;
+      border-radius: var(--r);
+      overflow: auto
+    }
+
+    table {
+      border-collapse: collapse;
+      font-size: 14px;
+      width: 100%
+    }
+
+    td,
+    th {
+      border-bottom: 1px solid var(--rule);
+      padding: 6px 8px;
+      text-align: left
+    }
+
+    .tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+    .tab { padding: 6px 16px; border-radius: 20px; background: #fff; border: 1px solid var(--rule); cursor: pointer; font-size: 14px; font-weight: 500; }
+    .tab.active { background: var(--teal); color: white; border-color: var(--teal); }
+    .preview-table { overflow-x: auto; max-height: 400px; border-radius: var(--r); border: 1px solid var(--rule); }
+    .preview-table table { min-width: 600px; font-size: 13px; }
+    .preview-table th { background: #f9fafb; position: sticky; top: 0; box-shadow: 0 1px 0 var(--rule); border-bottom: none; }
+    .preview-table td { white-space: nowrap; max-width: 250px; overflow: hidden; text-overflow: ellipsis; }
+
+    .fcbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 10px 0
+    }
+
+    .fcbar label {
+      font-size: 14px;
+      color: var(--muted)
+    }
+
+    .fcbar select,
+    .fcbar input {
+      padding: 8px 10px;
+      border: 1px solid var(--rule);
+      border-radius: var(--r);
+      color: var(--ink);
+      background: #fff
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 14px
+    }
+
+    .err {
+      color: var(--red);
+      margin-top: 10px
+    }
+
+    .busy {
+      opacity: .55;
+      pointer-events: none
+    }
+
+    .spin {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid var(--teal-l);
+      border-top-color: var(--teal);
+      border-radius: 50%;
+      animation: s .7s linear infinite;
+      vertical-align: -2px;
+      margin-right: 8px
+    }
+
+    @keyframes s {
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    @media(prefers-reduced-motion:reduce) {
+      .spin {
+        animation: none
+      }
+    }
+
+    @media(max-width:960px) {
+
+      #hero,
+      #app {
+        grid-template-columns: 1fr
+      }
+
+      aside {
+        position: static;
+        max-height: none
+      }
+
+      .charts {
+        grid-template-columns: 1fr
+      }
+    }
+  </style>
 </head>
+
 <body>
-<header>
-  <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11" fill="none" stroke="#9CC7C4" stroke-width="2"/><circle cx="13" cy="13" r="5" fill="#E8A33D"/></svg>
-  <b>Lumen</b><span>Upload a spreadsheet. Know what to do next.</span>
-  <button class="btn" id="again">Use another file</button>
-</header>
-<main>
-<div id="hero">
-  <div><h1>Your data already knows what to do next.</h1>
-  <p>Drop in a sales, donations or expenses file. Lumen finds the trends and odd spots, answers your questions in plain English, and suggests next steps. Free and open source.</p></div>
-  <div id="drop"><h2>Add your spreadsheet</h2><p>CSV or Excel, up to 25 MB. Your file stays in memory and is never saved.</p>
-    <div class="row"><button class="btn" id="pick">Choose a file</button><button class="btn ghost" id="demo">Try sample shop data</button></div>
-    <input type="file" id="file" accept=".csv,.xlsx,.xls" hidden><div class="err" id="uerr" role="alert"></div></div>
-</div>
-<div id="app">
-  <aside>
-    <div class="summary"><h3>What matters most</h3><p id="sum"></p></div>
-    <h3>Findings</h3><div id="ins"></div>
-    <h3>What to do next</h3><ol class="recs" id="recs"></ol>
-    <h3>Your data</h3><p class="note" id="meta"></p>
-  </aside>
-  <div>
-    <div class="kpis" id="kpis"></div>
-    <section><h2>Ask a question</h2><p class="sub">Type it the way you would ask a colleague.</p>
-      <div class="askbar"><input id="q" placeholder="e.g. Which product sold the most last quarter?" aria-label="Question"><button class="btn" id="go">Ask</button></div>
-      <div class="chips" id="chips"></div><div class="err" id="qerr" role="alert"></div><div class="answer" id="ans"></div></section>
-    <section><h2>At a glance</h2><p class="sub">Charts picked automatically from your columns.</p><div class="charts" id="charts"></div></section>
-    <section><h2>Forecast</h2><p class="sub" id="fsub">Where this measure is heading, with the range it will probably stay inside.</p>
-      <div class="fcbar"><label>Predict <select id="fv"></select></label><label>over time in <select id="fd"></select></label>
-      <label>for the next <input id="fp" type="number" min="1" max="24" value="6" style="width:64px"> periods</label><button class="btn" id="fgo">Update forecast</button></div>
-      <div class="err" id="ferr" role="alert"></div><div id="fchart" class="chart" style="height:340px"></div><p class="note" id="fnote"></p></section>
-  </div>
-</div>
-</main>
-<script>
-const $=s=>document.querySelector(s);let sid=null;
-const C={teal:'#0E6B6B',light:'#9CC7C4',amber:'#C77F00',ink:'#14202B',rule:'#E1E6E9'};
-const cfg={displayModeBar:false,responsive:true};
-const fmt=n=>{if(n==null||isNaN(n))return'–';const a=Math.abs(n);if(a>=1e6)return(n/1e6).toFixed(a>=1e7?0:1)+'M';if(a>=1e4)return Math.round(n/1e3)+'k';if(a>=1e3)return(n/1e3).toFixed(1)+'k';return Number.isInteger(n)?String(n):n.toFixed(1)};
-const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const lay=(o={})=>({autosize:true,margin:{l:56,r:16,t:8,b:36},font:{family:'Figtree',color:C.ink,size:12},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',
-  xaxis:{gridcolor:'rgba(0,0,0,0)',linecolor:C.rule,automargin:true,...(o.xaxis||{})},yaxis:{gridcolor:C.rule,zeroline:false,tickformat:'~s',automargin:true,...(o.yaxis||{})},hoverlabel:{font:{family:'Figtree'}},...o.rest});
-async function api(p,o){const r=await fetch(p,o);const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.detail||'Something went wrong. Try again.');return j}
-const busy=(el,on)=>el.classList.toggle('busy',on);
+  <header>
+    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+      <circle cx="13" cy="13" r="11" fill="none" stroke="#9CC7C4" stroke-width="2" />
+      <circle cx="13" cy="13" r="5" fill="#E8A33D" />
+    </svg>
+    <b>Lumen</b><span>Upload a spreadsheet. Know what to do next.</span>
+    <button class="btn" id="again">Use another file</button>
+  </header>
+  <main>
+    <div id="hero">
+      <div>
+        <h1>Your data already knows what to do next.</h1>
+        <p>Drop in a sales, donations or expenses file. Lumen finds the trends and odd spots, answers your questions in
+          plain English, and suggests next steps. Free and open source.</p>
+      </div>
+      <div id="drop">
+        <h2>Add your spreadsheet</h2>
+        <p>CSV or Excel, up to 25 MB. Your file stays in memory and is never saved.</p>
+        <div class="row"><button class="btn" id="pick">Choose a file</button><button class="btn ghost" id="demo">Try
+            sample shop data</button></div>
+        <input type="file" id="file" accept=".csv,.xlsx,.xls" hidden>
+        <div class="err" id="uerr" role="alert"></div>
+      </div>
+    </div>
+    <div id="app">
+      <aside>
+        <div class="summary">
+          <h3>What matters most</h3>
+          <p id="sum"></p>
+        </div>
+        <h3>Findings</h3>
+        <div id="ins"></div>
+        <h3>What to do next</h3>
+        <ol class="recs" id="recs"></ol>
+        <h3>Your data</h3>
+        <p class="note" id="meta"></p>
+      </aside>
+      <div>
+        <div class="kpis" id="kpis"></div>
+        <section>
+          <h2>Ask a question</h2>
+          <p class="sub">Type it the way you would ask a colleague.</p>
+          <div class="askbar"><input id="q" placeholder="e.g. Which product sold the most last quarter?"
+              aria-label="Question"><button class="btn" id="go">Ask</button></div>
+          <div class="chips" id="chips"></div>
+          <div class="err" id="qerr" role="alert"></div>
+          <div class="answer" id="ans"></div>
+        </section>
+        <section>
+          <h2>At a glance</h2>
+          <p class="sub">Charts picked automatically from your columns.</p>
+          <div class="charts" id="charts"></div>
+        </section>
+        <section>
+          <h2>Data Preview</h2>
+          <p class="sub">View your data before and after automatic cleaning.</p>
+          <div class="tabs">
+            <button class="tab" id="tab-raw">Raw Input</button>
+            <button class="tab active" id="tab-processed">Cleaned Output</button>
+          </div>
+          <div class="preview-table" id="preview-box"></div>
+          <p class="note" style="margin-top:8px" id="preview-note"></p>
+        </section>
+        <section>
+          <h2>Forecast</h2>
+          <p class="sub" id="fsub">Where this measure is heading, with the range it will probably stay inside.</p>
+          <div class="fcbar"><label>Predict <select id="fv"></select></label><label>over time in <select
+                id="fd"></select></label>
+            <label>for the next <input id="fp" type="number" min="1" max="24" value="6" style="width:64px">
+              periods</label><button class="btn" id="fgo">Update forecast</button>
+          </div>
+          <div class="err" id="ferr" role="alert"></div>
+          <div id="fchart" class="chart" style="height:340px"></div>
+          <p class="note" id="fnote"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script>
+    const $ = s => document.querySelector(s); let sid = null;
+    const C = { teal: '#0E6B6B', light: '#9CC7C4', amber: '#C77F00', ink: '#14202B', rule: '#E1E6E9' };
+    const cfg = { displayModeBar: false, responsive: true };
+    const fmt = n => { if (n == null || isNaN(n)) return '–'; const a = Math.abs(n); if (a >= 1e6) return (n / 1e6).toFixed(a >= 1e7 ? 0 : 1) + 'M'; if (a >= 1e4) return Math.round(n / 1e3) + 'k'; if (a >= 1e3) return (n / 1e3).toFixed(1) + 'k'; return Number.isInteger(n) ? String(n) : n.toFixed(1) };
+    const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const lay = (o = {}) => ({
+      autosize: true, margin: { l: 56, r: 16, t: 8, b: 36 }, font: { family: 'Figtree', color: C.ink, size: 12 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
+      xaxis: { gridcolor: 'rgba(0,0,0,0)', linecolor: C.rule, automargin: true, ...(o.xaxis || {}) }, yaxis: { gridcolor: C.rule, zeroline: false, tickformat: '~s', automargin: true, ...(o.yaxis || {}) }, hoverlabel: { font: { family: 'Figtree' } }, ...o.rest
+    });
+    async function api(p, o) { const r = await fetch(p, o); const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.detail || 'Something went wrong. Try again.'); return j }
+    const busy = (el, on) => el.classList.toggle('busy', on);
 
-async function load(p){$('#uerr').textContent='';busy($('#drop'),true);$('#uerr').style.color='#586674';$('#uerr').innerHTML='<span class="spin"></span>Reading your data…';
-  try{const d=await p;$('#uerr').textContent='';render(d)}catch(e){$('#uerr').style.color='';$('#uerr').textContent=e.message}finally{busy($('#drop'),false)}}
-const send=f=>{if(!f)return;const fd=new FormData();fd.append('file',f);load(api('/api/upload',{method:'POST',body:fd}))};
-$('#pick').onclick=()=>$('#file').click();$('#file').onchange=e=>send(e.target.files[0]);
-$('#demo').onclick=()=>load(api('/api/demo',{method:'POST'}));
-const drop=$('#drop');['dragover','dragenter'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.add('over')}));
-['dragleave','drop'].forEach(t=>drop.addEventListener(t,e=>{e.preventDefault();drop.classList.remove('over')}));
-drop.addEventListener('drop',e=>send(e.dataTransfer.files[0]));
-$('#again').onclick=()=>{$('#app').style.display='none';$('#hero').style.display='grid';$('#again').style.display='none';$('#file').value=''};
+    async function load(p) {
+      $('#uerr').textContent = ''; busy($('#drop'), true); $('#uerr').style.color = '#586674'; $('#uerr').innerHTML = '<span class="spin"></span>Reading your data…';
+      try { const d = await p; $('#uerr').textContent = ''; render(d) } catch (e) { $('#uerr').style.color = ''; $('#uerr').textContent = e.message } finally { busy($('#drop'), false) }
+    }
+    const send = f => { if (!f) return; const fd = new FormData(); fd.append('file', f); load(api('/api/upload', { method: 'POST', body: fd })) };
+    $('#pick').onclick = () => $('#file').click(); $('#file').onchange = e => send(e.target.files[0]);
+    $('#demo').onclick = () => load(api('/api/demo', { method: 'POST' }));
+    const drop = $('#drop');['dragover', 'dragenter'].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.add('over') }));
+    ['dragleave', 'drop'].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.remove('over') }));
+    drop.addEventListener('drop', e => send(e.dataTransfer.files[0]));
+    $('#again').onclick = () => { $('#app').style.display = 'none'; $('#hero').style.display = 'grid'; $('#again').style.display = 'none'; $('#file').value = '' };
 
-function lineChart(el,c){const x=c.x,y=c.y;let mi=y.indexOf(Math.max(...y));
-  Plotly.newPlot(el,[{x,y,mode:'lines',line:{color:C.teal,width:2.5,shape:'spline',smoothing:.4},fill:'tozeroy',fillcolor:'rgba(14,107,107,.09)',hovertemplate:'%{x|%b %Y}: %{y:,.0f}<extra></extra>'},
-    {x:[x[mi]],y:[y[mi]],mode:'markers+text',text:['Peak '+fmt(y[mi])],textposition:'top center',marker:{color:C.amber,size:9},hoverinfo:'skip',cliponaxis:false}],
-    lay({xaxis:{tickformat:'%b %Y'},rest:{showlegend:false,margin:{l:56,r:16,t:26,b:36}}}),cfg)}
-function barH(el,x,y){const n=x.length;
-  Plotly.newPlot(el,[{type:'bar',orientation:'h',y:x,x:y,marker:{color:y.map((_,i)=>i===0?C.teal:C.light)},text:y.map(fmt),textposition:'outside',cliponaxis:false,hovertemplate:'%{y}: %{x:,.0f}<extra></extra>'}],
-    lay({xaxis:{showgrid:false,showticklabels:false,range:[0,Math.max(...y)*1.18]},yaxis:{autorange:'reversed',tickformat:'',gridcolor:'rgba(0,0,0,0)',linecolor:C.rule},rest:{showlegend:false,margin:{l:90,r:30,t:6,b:10}}}),cfg)}
+    function lineChart(el, c) {
+      const x = c.x, y = c.y; let mi = y.length ? y.indexOf(Math.max(...y)) : -1;
+      const tf = c.freq === 'D' ? '%d %b %Y' : (c.freq === 'W' ? '%d %b' : '%b %Y');
+      const ht = c.freq === 'D' ? '%{x|%d %b %Y}: %{y:,.0f}<extra></extra>' : '%{x|%b %Y}: %{y:,.0f}<extra></extra>';
+      Plotly.newPlot(el, [{ x, y, mode: 'lines', line: { color: C.teal, width: 2.5, shape: 'spline', smoothing: .4 }, fill: 'tozeroy', fillcolor: 'rgba(14,107,107,.09)', hovertemplate: ht },
+      { x: mi >= 0 ? [x[mi]] : [], y: mi >= 0 ? [y[mi]] : [], mode: 'markers+text', text: mi >= 0 ? ['Peak ' + fmt(y[mi])] : [], textposition: 'top center', marker: { color: C.amber, size: 9 }, hoverinfo: 'skip', cliponaxis: false }],
+        lay({ xaxis: { tickformat: tf }, rest: { showlegend: false, margin: { l: 56, r: 16, t: 26, b: 36 } } }), cfg)
+    }
+    function barH(el, x, y) {
+      const n = x.length;
+      Plotly.newPlot(el, [{ type: 'bar', orientation: 'h', y: x, x: y, marker: { color: y.map((_, i) => i === 0 ? C.teal : C.light) }, text: y.map(fmt), textposition: 'outside', cliponaxis: false, hovertemplate: '%{y}: %{x:,.0f}<extra></extra>' }],
+        lay({ xaxis: { showgrid: false, showticklabels: false, range: [0, Math.max(...y) * 1.18] }, yaxis: { autorange: 'reversed', tickformat: '', gridcolor: 'rgba(0,0,0,0)', linecolor: C.rule }, rest: { showlegend: false, margin: { l: 90, r: 30, t: 6, b: 10 } } }), cfg)
+    }
 
-function render(d){sid=d.session_id;$('#hero').style.display='none';$('#app').style.display='grid';$('#again').style.display='block';
-  $('#sum').textContent=d.narrative.summary;
-  $('#ins').innerHTML=d.insights.length?d.insights.map(i=>`<div class="ins ${i.severity}"><b>${esc(i.title)}</b><p>${esc(i.detail)}</p></div>`).join(''):'<p class="note">No strong patterns found. Try asking a question.</p>';
-  $('#recs').innerHTML=d.narrative.recommendations.map(r=>`<li>${esc(r)}</li>`).join('');
-  const p=d.profile;$('#meta').textContent=`${p.rows.toLocaleString()} rows, ${p.columns.length} columns. Main measure: ${p.metric||'none found'}.`;
-  $('#kpis').innerHTML=(p.kpis||[]).map(k=>`<div class="kpi"><small>${esc(k.label)}</small><strong>${k.kind==='int'?k.value.toLocaleString():fmt(k.value)}</strong>${k.delta!=null?`<em class="${k.delta>=0?'up':'down'}">${k.delta>=0?'+':''}${k.delta.toFixed(0)}% <span style="font-weight:400;color:var(--muted)">${esc(k.vs)}</span></em>`:`<em>${esc(k.note||'')}</em>`}</div>`).join('');
-  $('#chips').innerHTML=d.suggested_questions.map(q=>`<button class="chip">${esc(q)}</button>`).join('');
-  document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{$('#q').value=b.textContent;ask()});
-  $('#qerr').textContent=d.ai?'':'Questions are switched off: add a GEMINI_API_KEY on the server. Everything else works without it.';$('#ans').innerHTML='';
-  $('#charts').innerHTML='';
-  $('#fv').innerHTML=p.metric_cols.map(c=>`<option ${c===p.metric?'selected':''}>${esc(c)}</option>`).join('');
-  $('#fd').innerHTML=p.date_cols.map(c=>`<option>${esc(c)}</option>`).join('');
-  $('#fgo').disabled=!p.date_cols.length;$('#ferr').textContent=p.date_cols.length?'':'Forecasting needs a date column, and none was found.';
-  // draw after the grid has laid out, so charts get the right width
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-    d.charts.forEach(c=>{const el=document.createElement('div');el.className='chart'+(c.type==='line'?' wide':'');$('#charts').appendChild(el);c.type==='line'?lineChart(el,c):barH(el,c.x,c.y);
-      const t=document.createElement('p');t.className='note';t.style.margin='0 0 -6px';t.textContent=c.title;el.before(t);if(c.type==='line')t.style.gridColumn='1/-1'});
-    if(p.date_cols.length)runForecast()}))}
+    function render(d) {
+      sid = d.session_id; $('#hero').style.display = 'none'; $('#app').style.display = 'grid'; $('#again').style.display = 'block';
+      $('#sum').textContent = d.narrative.summary;
+      $('#ins').innerHTML = d.insights.length ? d.insights.map(i => `<div class="ins ${i.severity}"><b>${esc(i.title)}</b><p>${esc(i.detail)}</p></div>`).join('') : '<p class="note">No strong patterns found. Try asking a question.</p>';
+      $('#recs').innerHTML = d.narrative.recommendations.map(r => `<li>${esc(r)}</li>`).join('');
+      const p = d.profile; $('#meta').textContent = `${p.rows.toLocaleString()} rows, ${p.columns.length} columns. Main measure: ${p.metric || 'none found'}.`;
+      $('#kpis').innerHTML = (p.kpis || []).map(k => `<div class="kpi"><small>${esc(k.label)}</small><strong>${k.kind === 'int' ? k.value.toLocaleString() : fmt(k.value)}</strong>${k.delta != null ? `<em class="${k.delta >= 0 ? 'up' : 'down'}">${k.delta >= 0 ? '+' : ''}${k.delta.toFixed(0)}% <span style="font-weight:400;color:var(--muted)">${esc(k.vs)}</span></em>` : `<em>${esc(k.note || '')}</em>`}</div>`).join('');
+      $('#chips').innerHTML = d.suggested_questions.map(q => `<button class="chip">${esc(q)}</button>`).join('');
+      document.querySelectorAll('.chip').forEach(b => b.onclick = () => { $('#q').value = b.textContent; ask() });
+      $('#qerr').textContent = d.ai ? '' : 'Questions are switched off: add a GEMINI_API_KEY on the server. Everything else works without it.'; $('#ans').innerHTML = '';
+      $('#charts').innerHTML = '';
+      $('#fv').innerHTML = p.metric_cols.map(c => `<option ${c === p.metric ? 'selected' : ''}>${esc(c)}</option>`).join('');
+      $('#fd').innerHTML = p.date_cols.map(c => `<option ${c === p.date ? 'selected' : ''}>${esc(c)}</option>`).join('');
+      $('#fgo').disabled = !p.date_cols.length; $('#ferr').textContent = p.date_cols.length ? '' : 'Forecasting needs a date column, and none was found.';
+      
+      const renderTable = (pv) => {
+        if(!pv) return '';
+        let h = `<table><thead><tr>` + pv.columns.map((c, i) => `<th>${esc(c)}<br><small style="color:var(--muted);font-weight:normal">${esc(pv.dtypes[i])}</small></th>`).join('') + `</tr></thead><tbody>`;
+        h += pv.rows.map(r => `<tr>` + r.map(v => `<td title="${esc(v)}">${esc(v)}</td>`).join('') + `</tr>`).join('');
+        return h + `</tbody></table>`;
+      };
+      const showPreview = (type) => {
+        const isRaw = type === 'raw';
+        $('#tab-raw').className = isRaw ? 'tab active' : 'tab';
+        $('#tab-processed').className = !isRaw ? 'tab active' : 'tab';
+        const pv = isRaw ? d.raw_preview : d.processed_preview;
+        if(pv) {
+          $('#preview-box').innerHTML = renderTable(pv);
+          $('#preview-note').textContent = `Showing first ${pv.rows.length} rows of ${pv.total_rows.toLocaleString()} total rows.`;
+        }
+      };
+      if(d.processed_preview) {
+        $('#tab-raw').onclick = () => showPreview('raw');
+        $('#tab-processed').onclick = () => showPreview('processed');
+        showPreview('processed');
+      }
 
-async function ask(){const q=$('#q').value.trim();if(!q)return;$('#qerr').textContent='';busy($('#go'),true);$('#ans').innerHTML='<p class="note"><span class="spin"></span>Working it out…</p>';
-  try{const r=await api('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:sid,question:q})});
-    const cols=r.columns,rows=r.rows,ch=r.chart||{};
-    const single=rows.length===1&&(ch.type==='number'||cols.length===1);
-    let html=`<span class="badge ${r.verified?'ok':'chk'}">${r.verified?'Answer checked against the data':'Please double-check this one'}</span>`;
-    html+=single?`<div class="big">${typeof rows[0][0]==='number'?fmt(rows[0][0]):esc(rows[0][0])}</div>`:'';
-    html+=`<p class="a">${esc(r.answer)}</p>`;if(r.caveats)html+=`<p class="note">${esc(r.caveats)}</p>`;
-    if(!single)html+='<div id="rc" class="chart" style="height:300px"></div>';
-    html+=`<details><summary>How this was worked out</summary><pre>${esc(r.sql)}</pre><div style="overflow:auto"><table><tr>${cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr>${rows.slice(0,50).map(x=>`<tr>${x.map(v=>`<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</table></div></details>`;
-    $('#ans').innerHTML=html;if(single)return;
-    const xi=cols.indexOf(ch.x),yi=cols.indexOf(ch.y);
-    if(['bar','line','pie'].includes(ch.type)&&xi>=0&&yi>=0){const x=rows.map(r=>r[xi]),y=rows.map(r=>r[yi]);const isDate=/^\d{4}-\d{2}/.test(String(x[0]));
-      requestAnimationFrame(()=>{
-      if(ch.type==='pie')Plotly.newPlot('rc',[{type:'pie',labels:x,values:y,hole:.45,marker:{colors:[C.teal,C.light,C.amber,'#5F9EA0','#D9B26A','#7A8B99']}}],lay({rest:{margin:{l:10,r:10,t:10,b:10}}}),cfg);
-      else if(isDate||ch.type==='line')Plotly.newPlot('rc',[{x,y,mode:'lines+markers',line:{color:C.teal,width:2.5},marker:{size:6},hovertemplate:'%{y:,.0f}<extra></extra>'}],lay({rest:{showlegend:false}}),cfg);
-      else barH('rc',x.map(String),y)})}
-    else $('#rc').remove()
-  }catch(e){$('#ans').innerHTML='';$('#qerr').textContent=e.message}finally{busy($('#go'),false)}}
-$('#go').onclick=ask;$('#q').onkeydown=e=>{if(e.key==='Enter')ask()};
+      // draw after the grid has laid out, so charts get the right width
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        d.charts.forEach(c => {
+          const el = document.createElement('div'); el.className = 'chart' + (c.type === 'line' ? ' wide' : ''); $('#charts').appendChild(el); c.type === 'line' ? lineChart(el, c) : barH(el, c.x, c.y);
+          const t = document.createElement('p'); t.className = 'note'; t.style.margin = '0 0 -6px'; t.textContent = c.title; el.before(t); if (c.type === 'line') t.style.gridColumn = '1/-1'
+        });
+        if (p.date_cols.length) runForecast()
+      }))
+    }
 
-async function runForecast(){$('#ferr').textContent='';busy($('#fgo'),true);
-  try{const r=await api('/api/forecast',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:sid,date_col:$('#fd').value,value_col:$('#fv').value,periods:+$('#fp').value})});
-    const f=r.forecast,h=r.history,last=h.x.length-1;
-    Plotly.newPlot('fchart',[
-      {x:h.x,y:h.y,mode:'lines',name:'Actual',line:{color:C.teal,width:2.5},hovertemplate:'%{x|%b %Y}: %{y:,.0f}<extra>Actual</extra>'},
-      {x:[...f.x,...f.x.slice().reverse()],y:[...f.upper,...f.lower.slice().reverse()],fill:'toself',fillcolor:'rgba(199,127,0,.16)',line:{width:0},name:'Likely range',hoverinfo:'skip'},
-      {x:[h.x[last],...f.x],y:[h.y[last],...f.y],mode:'lines',name:'Forecast',line:{color:C.amber,width:2.5,dash:'dot'},hovertemplate:'%{x|%b %Y}: %{y:,.0f}<extra>Forecast</extra>'}],
-      lay({xaxis:{tickformat:'%b %Y'},rest:{legend:{orientation:'h',y:1.12,x:0},margin:{l:56,r:16,t:30,b:36},
-        shapes:[{type:'line',x0:h.x[last],x1:h.x[last],yref:'paper',y0:0,y1:1,line:{color:'#9AA7B1',width:1,dash:'dash'}}]}}),cfg);
-    $('#fnote').textContent=r.note}catch(e){$('#ferr').textContent=e.message}finally{busy($('#fgo'),false)}}
-$('#fgo').onclick=runForecast;
-</script>
+    async function ask() {
+      const q = $('#q').value.trim(); if (!q) return; $('#qerr').textContent = ''; busy($('#go'), true); $('#ans').innerHTML = '<p class="note"><span class="spin"></span>Working it out…</p>';
+      try {
+        const r = await api('/api/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sid, question: q }) });
+        const cols = r.columns, rows = r.rows, ch = r.chart || {};
+        const single = rows.length === 1 && (ch.type === 'number' || cols.length === 1);
+        let html = `<span class="badge ${r.verified ? 'ok' : 'chk'}">${r.verified ? 'Answer checked against the data' : 'Please double-check this one'}</span>`;
+        html += single ? `<div class="big">${typeof rows[0][0] === 'number' ? fmt(rows[0][0]) : esc(rows[0][0])}</div>` : '';
+        html += `<p class="a">${esc(r.answer)}</p>`; if (r.caveats) html += `<p class="note">${esc(r.caveats)}</p>`;
+        if (!single) html += '<div id="rc" class="chart" style="height:300px"></div>';
+        html += `<details><summary>How this was worked out</summary><pre>${esc(r.sql)}</pre><div style="overflow:auto"><table><tr>${cols.map(c => `<th>${esc(c)}</th>`).join('')}</tr>${rows.slice(0, 50).map(x => `<tr>${x.map(v => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</table></div></details>`;
+        $('#ans').innerHTML = html; if (single) return;
+        const xi = cols.indexOf(ch.x), yi = cols.indexOf(ch.y);
+        if (['bar', 'line', 'pie'].includes(ch.type) && xi >= 0 && yi >= 0) {
+          const x = rows.map(r => r[xi]), y = rows.map(r => r[yi]); const isDate = /^\d{4}-\d{2}/.test(String(x[0]));
+          requestAnimationFrame(() => {
+            if (ch.type === 'pie') Plotly.newPlot('rc', [{ type: 'pie', labels: x, values: y, hole: .45, marker: { colors: [C.teal, C.light, C.amber, '#5F9EA0', '#D9B26A', '#7A8B99'] } }], lay({ rest: { margin: { l: 10, r: 10, t: 10, b: 10 } } }), cfg);
+            else if (isDate || ch.type === 'line') Plotly.newPlot('rc', [{ x, y, mode: 'lines+markers', line: { color: C.teal, width: 2.5 }, marker: { size: 6 }, hovertemplate: '%{y:,.0f}<extra></extra>' }], lay({ rest: { showlegend: false } }), cfg);
+            else barH('rc', x.map(String), y)
+          })
+        }
+        else $('#rc').remove()
+      } catch (e) { $('#ans').innerHTML = ''; $('#qerr').textContent = e.message } finally { busy($('#go'), false) }
+    }
+    $('#go').onclick = ask; $('#q').onkeydown = e => { if (e.key === 'Enter') ask() };
+
+    async function runForecast() {
+      $('#ferr').textContent = ''; busy($('#fgo'), true);
+      try {
+        const r = await api('/api/forecast', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sid, date_col: $('#fd').value, value_col: $('#fv').value, periods: +$('#fp').value }) });
+        const f = r.forecast, h = r.history, last = h.x.length - 1;
+        const tf = r.freq === 'D' ? '%d %b %Y' : (r.freq === 'W' ? '%d %b' : '%b %Y');
+        const ht = r.freq === 'D' ? '%{x|%d %b %Y}: %{y:,.0f}' : '%{x|%b %Y}: %{y:,.0f}';
+        Plotly.newPlot('fchart', [
+          { x: h.x, y: h.y, mode: 'lines', name: 'Actual', line: { color: C.teal, width: 2.5 }, hovertemplate: ht + '<extra>Actual</extra>' },
+          { x: [...f.x, ...f.x.slice().reverse()], y: [...f.upper, ...f.lower.slice().reverse()], fill: 'toself', fillcolor: 'rgba(199,127,0,.16)', line: { width: 0 }, name: 'Likely range', hoverinfo: 'skip' },
+          { x: [h.x[last], ...f.x], y: [h.y[last], ...f.y], mode: 'lines', name: 'Forecast', line: { color: C.amber, width: 2.5, dash: 'dot' }, hovertemplate: ht + '<extra>Forecast</extra>' }],
+          lay({
+            xaxis: { tickformat: tf }, rest: {
+              legend: { orientation: 'h', y: 1.12, x: 0 }, margin: { l: 56, r: 16, t: 30, b: 36 },
+              shapes: [{ type: 'line', x0: h.x[last], x1: h.x[last], yref: 'paper', y0: 0, y1: 1, line: { color: '#9AA7B1', width: 1, dash: 'dash' } }]
+            }
+          }), cfg);
+        $('#fnote').textContent = r.note
+      } catch (e) { $('#ferr').textContent = e.message } finally { busy($('#fgo'), false) }
+    }
+    $('#fgo').onclick = runForecast;
+  </script>
 </body>
+
 </html>
