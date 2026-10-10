@@ -1,0 +1,17 @@
+# Render Blueprint (optional): New > Blueprint > pick this repo. You can also create a Web Service by hand (see README).
+services:
+  - type: web
+    name: lumen
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false            # paste the key in the Render dashboard; it is never stored in the repo
+      - key: LUMEN_MAX_UPLOAD_MB
+        value: "5"             # the free tier has 512 MB of RAM in total
+      - key: LUMEN_MAX_CELLS
+        value: "3000000"       # rows x columns held across all sessions (the real memory limit); many small sessions still fit
+      - key: LUMEN_TRUST_PROXY
+        value: "1"             # read the client IP from X-Forwarded-For (for the per-client rate limit)
