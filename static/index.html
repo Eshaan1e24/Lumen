@@ -708,7 +708,7 @@
     function render(d) {
       sid = d.session_id; askSeq++; asking = false; busy($('#go'), false); $('#q').value = ''; document.querySelectorAll('#charts .js-plotly-plot, #fchart.js-plotly-plot, #rc').forEach(g => { try { hasPlotly() && Plotly.purge(g) } catch (e) { } }); $('#hero').style.display = 'none'; $('#app').style.display = 'grid'; $('#again').style.display = 'block';
       LX.state.session = d; LX.state.fc = null; { const hs = $('#health'); if (hs) hs.innerHTML = LX.healthHtml(d.profile) }
-      { const pk = $('#measurepick'); if (pk) { pk.innerHTML = LX.pickerHtml(d.profile);
+      { const pk = $('#measurepick'); if (pk) { pk.classList.remove('busy'); pk.innerHTML = LX.pickerHtml(d.profile);
         pk.querySelectorAll('select').forEach(sel => sel.onchange = async () => {
           const pm = $('#pm'), pd = $('#pdate'); pk.classList.add('busy');
           try { const d2 = await api('/api/reanalyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: d.session_id, metric: pm ? pm.value : null, date: pd ? pd.value : null }) }); render(d2) }
