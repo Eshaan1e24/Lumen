@@ -1,3 +1,4 @@
 Third-party files served locally so the page makes no third-party requests:
 - plotly.js (basic bundle) 2.35.2, MIT License, https://github.com/plotly/plotly.js
-- Figtree variable font and Bricolage Grotesque variable font via @fontsource-variable, SIL Open Font License 1.1
+- Figtree, Fraunces and Geist Mono variable fonts via @fontsource-variable, SIL Open Font License 1.1
+  (Bricolage Grotesque files are still bundled but no longer used by the UI)

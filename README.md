@@ -154,4 +154,4 @@ Built with AI coding assistance (Claude), as permitted by the ForgeHacks rules. 
 
 ## License
 
-MIT, see `LICENSE`. Plotly.js (MIT) and the Figtree and Bricolage Grotesque fonts (SIL OFL 1.1) are bundled under `static/vendor`.
+MIT, see `LICENSE`. Plotly.js (MIT) and the Figtree, Fraunces and Geist Mono fonts (SIL OFL 1.1) are bundled under `static/vendor`.

@@ -51,7 +51,7 @@
     return '<ol class="trust-steps">'
       + '<li><span class="n" aria-hidden="true">1</span><p><b>Findings are computed in code.</b> Trends, spikes, what changed and forecasts are plain statistics you can check. The AI does not invent numbers.</p></li>'
       + '<li><span class="n" aria-hidden="true">2</span><p><b>Questions are checked three ways.</b> The AI\'s SQL is parsed and must be a single read-only query. A second, differently written query must return the same values. Every number, and every product or customer name from your data, in the explanation must appear in, or be calculated from, the result. If a check fails you will see it.</p></li>'
-      + '<li><span class="n" aria-hidden="true">3</span><p><b>Forecasts are tested on your own history first,</b> and Lumen tells you whether they beat a simple guess.</p></li></ol>'
+      + '<li><span class="n" aria-hidden="true">3</span><p><b>Forecasts are tested on your own history first.</b> Lumen tells you whether they beat a simple guess.</p></li></ol>'
       + '<p class="trust-priv"><b>Privacy.</b> Your file is held in memory on this server and is not stored by Lumen (large uploads may use a temporary file while being read). When AI is on, Gemini receives your column names, a few sample values, your question, the query and the results or findings needed to answer. On Google\'s free tier prompts may be used to improve their products, so do not upload sensitive data to a shared demo. Self-host and leave the API key unset to keep everything on your own machine.</p>'
       + '<p class="trust-foot">Free and open source (MIT).</p>';
   }
@@ -226,8 +226,8 @@
       return { x: [...ix.map(i => fx[i]), ...ix.map(i => fx[i]).reverse()], y: [...ix.map(i => hi[i]), ...ix.map(i => lo[i]).reverse()], mode: 'lines', fill: 'toself', fillcolor: color, line: { width: 0 }, name, hoverinfo: 'skip', showlegend: false };
     };
     const two = Array.isArray(lo80) && Array.isArray(hi80) && Array.isArray(lo95) && Array.isArray(hi95);
-    const b95 = band(lo95, hi95, 'rgba(199,127,0,.15)', two ? 'Wider range (95%)' : 'Likely range');
-    const b80 = two ? band(lo80, hi80, 'rgba(199,127,0,.34)', 'Likely range (80%)') : null;
+    const b95 = band(lo95, hi95, 'rgba(227,160,8,.18)', two ? 'Wider range (95%)' : 'Likely range');
+    const b80 = two ? band(lo80, hi80, 'rgba(227,160,8,.38)', 'Likely range (80%)') : null;
     const ftext = fx.map((x, i) => {
       let t = isNum(fy[i]) ? full(fy[i]) : '–';
       if (b80 && finite(lo80, i) && finite(hi80, i)) t += `<br>Likely range: ${full(lo80[i])} to ${full(hi80[i])}`;
@@ -241,7 +241,7 @@
     Plotly.newPlot(g, traces, lay({
       xaxis: isDate ? { tickformat: tf } : {}, rest: {
         showlegend: false, margin: { l: 56, r: 16, t: 12, b: 36 },
-        shapes: [{ type: 'line', x0: hx[last], x1: hx[last], yref: 'paper', y0: 0, y1: 1, line: { color: '#9AA7B1', width: 1, dash: 'dash' } }]
+        shapes: [{ type: 'line', x0: hx[last], x1: hx[last], yref: 'paper', y0: 0, y1: 1, line: { color: '#8A7F68', width: 1, dash: 'dash' } }]
       }
     }), cfg);
     g.setAttribute('role', 'img'); g.setAttribute('aria-label', `Forecast of ${metric || 'the measure'}: ${r.note || ''}`.slice(0, 400));
