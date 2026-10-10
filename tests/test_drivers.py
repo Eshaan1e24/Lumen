@@ -46,6 +46,14 @@ def test_price_volume_split_is_exact_and_attributes_price_rise():
     assert abs(pv["volume_effect"] + pv["price_effect"] - f["evidence"]["change"]) < 1e-6
 
 
+def test_price_volume_float_noise_is_exactly_zero():
+    """Unchanged prices used to show as '-5.9e-11 from the average price per unit' in the UI."""
+    df = A.preprocess_df(A.demo_df())
+    f = next(i for i in A.insights(df, A.profile(df)) if (i.get("evidence") or {}).get("price_volume"))
+    pv = f["evidence"]["price_volume"]
+    assert pv["price_effect"] == 0.0 and pv["volume_effect"] == f["evidence"]["change"]
+
+
 def test_no_bridge_when_nothing_changed():
     df = _orders(5, days=212); s, freq = _prep(df)
     assert D.bridge(df, "date", "amount", ["product"], freq, s, min_change=0.5) is None

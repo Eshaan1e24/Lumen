@@ -298,7 +298,7 @@ def answer(df: pd.DataFrame, question: str, ai: bool = True) -> dict:
 
     cols = [str(c) for c in res.columns]
     rows = res.astype(object).where(res.notna(), None).values.tolist()
-    head = res.head(20).to_csv(index=False)
+    head = res.head(20).to_csv(index=False, float_format="%.10g")      # 1963.36, not 1963.3600000000001 (the model copies what it sees)
     expl = None
     try:
         expl = generate(f"""Question: {question}
@@ -306,7 +306,8 @@ SQL: {plan.sql}
 Result ({len(rows)} rows, first 20 shown):
 {head}
 Explain the answer to a non-technical person in 1-3 plain sentences. Use ONLY numbers that appear in the result (or simple
-percentages and differences computed from them). Put assumptions or limits in caveats, or leave it empty.""", Explanation)
+percentages and differences computed from them). Write numbers the way a person would: thousands separators, no trailing ".0",
+at most 2 decimals. Put assumptions or limits in caveats, or leave it empty.""", Explanation)
     except AIUnavailable: pass                                       # the numbers and SQL are still valid; fall back to a built-in summary
     text, caveats = (expl.answer.strip(), expl.caveats.strip()) if expl else ("", "")
     bad = ungrounded(text, allowed_numbers(question, cols, rows)) if text else []

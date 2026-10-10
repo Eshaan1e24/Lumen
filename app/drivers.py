@@ -151,7 +151,11 @@ def _price_volume(prev, cur, dim, metric, qty, scale=1.0):
     price = (q1 * (p1 - p0)).where(q0 > 0, 0.0)
     total = float(r1.sum() - r0.sum())
     if abs(float(vol.sum() + price.sum()) - total) > 1e-6 * max(1.0, abs(total)): return None
-    return {"volume_effect": float(vol.sum()), "price_effect": float(price.sum())}
+    v, p = float(vol.sum()), float(price.sum())
+    eps = 1e-6 * max(1.0, abs(total))                 # float noise (e.g. -5.9e-11 when prices did not change) is shown as exactly 0
+    if abs(p) < eps: v, p = total, 0.0
+    elif abs(v) < eps: v, p = 0.0, total
+    return {"volume_effect": v, "price_effect": p}
 
 
 def daily_anomalies(df: pd.DataFrame, date: str, metric: str, dims: list, mean_metric: bool = False, z: float = 6.0, max_n: int = 2):
