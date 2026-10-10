@@ -1,0 +1,3001 @@
+donor,date,amount,campaign,channel
+Donor 66,2023-01-01,52.21,Monthly,Bank transfer
+Donor 28,2023-01-01,12.98,Giving Tuesday,Cash
+Donor 295,2023-01-01,64.23,Giving Tuesday,Online
+Donor 74,2023-01-01,50.52,Annual Appeal,Cheque
+Donor 41,2023-01-02,14.21,Gala,Bank transfer
+Donor 253,2023-01-02,117.35,Giving Tuesday,Bank transfer
+Donor 56,2023-01-02,35.32,Giving Tuesday,Cheque
+Donor 297,2023-01-02,54.24,Annual Appeal,Cheque
+Donor 115,2023-01-03,7.56,Monthly,Bank transfer
+Donor 147,2023-01-03,92.27,Giving Tuesday,Online
+Donor 273,2023-01-03,10.93,Giving Tuesday,Cheque
+Donor 111,2023-01-04,69.38,Giving Tuesday,Bank transfer
+Donor 114,2023-01-04,9.14,Gala,Cheque
+Donor 85,2023-01-04,18.41,Annual Appeal,Online
+Donor 26,2023-01-04,159.17,Giving Tuesday,Cash
+Donor 126,2023-01-04,17.68,Giving Tuesday,Bank transfer
+Donor 98,2023-01-04,37.11,Annual Appeal,Cheque
+Donor 64,2023-01-04,71.93,Monthly,Cash
+Donor 222,2023-01-04,47.91,Annual Appeal,Online
+Donor 76,2023-01-04,20.22,Monthly,Cash
+Donor 285,2023-01-04,5.95,Annual Appeal,Cash
+Donor 98,2023-01-04,54.34,Gala,Bank transfer
+Donor 274,2023-01-05,9.83,Giving Tuesday,Bank transfer
+Donor 179,2023-01-05,31.34,Annual Appeal,Cash
+Donor 278,2023-01-06,49.52,Monthly,Bank transfer
+Donor 121,2023-01-06,362.37,Giving Tuesday,Cheque
+Donor 30,2023-01-06,37.1,Annual Appeal,Cash
+Donor 55,2023-01-06,10.52,Annual Appeal,Online
+Donor 234,2023-01-06,551.5,Giving Tuesday,Cash
+Donor 148,2023-01-06,386.93,Annual Appeal,Cash
+Donor 324,2023-01-07,7.23,Annual Appeal,Cheque
+Donor 373,2023-01-07,2.12,Annual Appeal,Bank transfer
+Donor 392,2023-01-07,103.57,Monthly,Cheque
+Donor 306,2023-01-07,168.58,Annual Appeal,Bank transfer
+Donor 340,2023-01-08,17.64,Annual Appeal,Bank transfer
+Donor 344,2023-01-08,19.26,Annual Appeal,Cash
+Donor 97,2023-01-08,6.29,Annual Appeal,Cash
+Donor 286,2023-01-09,106.24,Annual Appeal,Bank transfer
+Donor 137,2023-01-09,3.07,Annual Appeal,Online
+Donor 292,2023-01-10,686.61,Giving Tuesday,Cash
+Donor 98,2023-01-11,19.94,Annual Appeal,Cash
+Donor 284,2023-01-11,41.91,Annual Appeal,Bank transfer
+Donor 233,2023-01-11,12.29,Giving Tuesday,Online
+Donor 21,2023-01-11,3.7,Giving Tuesday,Bank transfer
+Donor 325,2023-01-12,148.71,Gala,Online
+Donor 81,2023-01-13,29.48,Monthly,Bank transfer
+Donor 22,2023-01-13,223.17,Annual Appeal,Online
+Donor 102,2023-01-13,19.64,Annual Appeal,Bank transfer
+Donor 185,2023-01-14,10.36,Monthly,Cash
+Donor 31,2023-01-14,30.7,Annual Appeal,Cash
+Donor 225,2023-01-14,111.66,Giving Tuesday,Cash
+Donor 259,2023-01-14,11.42,Annual Appeal,Bank transfer
+Donor 283,2023-01-15,58.47,Gala,Cheque
+Donor 375,2023-01-15,8.31,Gala,Cash
+Donor 133,2023-01-16,303.13,Monthly,Cash
+Donor 59,2023-01-16,41.35,Monthly,Cash
+Donor 393,2023-01-16,68.5,Annual Appeal,Online
+Donor 227,2023-01-16,35.53,Monthly,Online
+Donor 367,2023-01-17,13.79,Monthly,Online
+Donor 332,2023-01-17,99.93,Monthly,Cheque
+Donor 29,2023-01-17,18.71,Annual Appeal,Bank transfer
+Donor 233,2023-01-17,128.13,Annual Appeal,Online
+Donor 186,2023-01-17,97.3,Annual Appeal,Online
+Donor 391,2023-01-17,32.11,Giving Tuesday,Online
+Donor 3,2023-01-18,34.68,Annual Appeal,Cheque
+Donor 186,2023-01-18,60.77,Giving Tuesday,Online
+Donor 164,2023-01-18,113.89,Monthly,Cheque
+Donor 71,2023-01-18,42.93,Annual Appeal,Online
+Donor 308,2023-01-19,6.95,Annual Appeal,Bank transfer
+Donor 7,2023-01-19,1.79,Annual Appeal,Bank transfer
+Donor 334,2023-01-19,23.58,Monthly,Bank transfer
+Donor 26,2023-01-19,18.45,Giving Tuesday,Bank transfer
+Donor 298,2023-01-20,58.14,Annual Appeal,Online
+Donor 232,2023-01-20,37.97,Monthly,Cheque
+Donor 228,2023-01-20,7.89,Monthly,Bank transfer
+Donor 125,2023-01-20,196.61,Monthly,Online
+Donor 314,2023-01-20,5.67,Annual Appeal,Online
+Donor 397,2023-01-22,24.67,Annual Appeal,Cheque
+Donor 327,2023-01-22,137.49,Annual Appeal,Cash
+Donor 119,2023-01-22,94.81,Monthly,Bank transfer
+Donor 365,2023-01-22,6.82,Annual Appeal,Cash
+Donor 162,2023-01-22,79.2,Annual Appeal,Online
+Donor 99,2023-01-23,15.39,Monthly,Cash
+Donor 221,2023-01-23,16.88,Annual Appeal,Cheque
+Donor 162,2023-01-23,138.15,Monthly,Cash
+Donor 61,2023-01-23,24.02,Gala,Online
+Donor 109,2023-01-23,42.04,Giving Tuesday,Cash
+Donor 197,2023-01-24,17.66,Annual Appeal,Online
+Donor 32,2023-01-24,6.81,Annual Appeal,Bank transfer
+Donor 253,2023-01-24,8.93,Monthly,Online
+Donor 70,2023-01-24,84.36,Giving Tuesday,Cheque
+Donor 352,2023-01-26,5.19,Monthly,Cash
+Donor 326,2023-01-26,21.27,Gala,Cash
+Donor 69,2023-01-26,55.04,Monthly,Bank transfer
+Donor 202,2023-01-26,26.38,Gala,Online
+Donor 23,2023-01-26,14.74,Annual Appeal,Cheque
+Donor 222,2023-01-27,34.51,Gala,Cheque
+Donor 253,2023-01-27,21.44,Monthly,Cash
+Donor 23,2023-01-27,10.05,Annual Appeal,Bank transfer
+Donor 247,2023-01-27,44.84,Annual Appeal,Cash
+Donor 392,2023-01-27,204.8,Annual Appeal,Online
+Donor 138,2023-01-27,22.86,Annual Appeal,Cheque
+Donor 368,2023-01-28,34.1,Giving Tuesday,Bank transfer
+Donor 242,2023-01-28,6.74,Annual Appeal,Bank transfer
+Donor 379,2023-01-29,21.55,Annual Appeal,Bank transfer
+Donor 113,2023-01-29,70.43,Monthly,Online
+Donor 133,2023-01-30,218.75,Monthly,Online
+Donor 287,2023-01-30,97.45,Monthly,Bank transfer
+Donor 22,2023-01-30,13.99,Giving Tuesday,Online
+Donor 58,2023-01-30,4.31,Gala,Cash
+Donor 246,2023-01-30,89.99,Gala,Online
+Donor 139,2023-01-30,67.0,Gala,Cheque
+Donor 351,2023-01-30,22.93,Annual Appeal,Cheque
+Donor 239,2023-01-31,70.96,Annual Appeal,Cash
+Donor 117,2023-01-31,12.21,Giving Tuesday,Bank transfer
+Donor 291,2023-01-31,28.11,Gala,Cash
+Donor 34,2023-01-31,139.07,Monthly,Cheque
+Donor 121,2023-02-01,15.03,Gala,Cash
+Donor 275,2023-02-01,9.22,Gala,Bank transfer
+Donor 300,2023-02-01,76.65,Monthly,Bank transfer
+Donor 339,2023-02-01,33.75,Annual Appeal,Online
+Donor 292,2023-02-01,40.87,Annual Appeal,Online
+Donor 64,2023-02-02,25.65,Annual Appeal,Online
+Donor 93,2023-02-02,12.59,Monthly,Online
+Donor 172,2023-02-02,62.85,Monthly,Cheque
+Donor 57,2023-02-02,49.16,Annual Appeal,Cash
+Donor 331,2023-02-02,27.98,Monthly,Online
+Donor 202,2023-02-02,52.95,Annual Appeal,Cash
+Donor 229,2023-02-02,50.22,Giving Tuesday,Cash
+Donor 84,2023-02-02,4.6,Giving Tuesday,Cheque
+Donor 368,2023-02-04,21.18,Annual Appeal,Cheque
+Donor 113,2023-02-04,9.27,Monthly,Bank transfer
+Donor 246,2023-02-04,100.85,Annual Appeal,Cash
+Donor 262,2023-02-05,20.39,Giving Tuesday,Cash
+Donor 217,2023-02-05,9.35,Annual Appeal,Online
+Donor 17,2023-02-05,29.22,Annual Appeal,Cheque
+Donor 292,2023-02-05,22.27,Monthly,Cash
+Donor 372,2023-02-05,105.65,Annual Appeal,Bank transfer
+Donor 348,2023-02-06,65.2,Gala,Cheque
+Donor 320,2023-02-06,11.87,Monthly,Cash
+Donor 140,2023-02-06,56.05,Annual Appeal,Cash
+Donor 311,2023-02-06,19.64,Annual Appeal,Bank transfer
+Donor 396,2023-02-07,17.38,Annual Appeal,Online
+Donor 173,2023-02-07,6.33,Monthly,Bank transfer
+Donor 253,2023-02-07,33.08,Gala,Bank transfer
+Donor 185,2023-02-07,15.43,Monthly,Bank transfer
+Donor 367,2023-02-07,33.56,Gala,Bank transfer
+Donor 303,2023-02-07,155.16,Gala,Cheque
+Donor 168,2023-02-07,26.06,Monthly,Online
+Donor 175,2023-02-07,166.66,Monthly,Bank transfer
+Donor 336,2023-02-08,27.76,Monthly,Cheque
+Donor 26,2023-02-08,57.17,Giving Tuesday,Cash
+Donor 5,2023-02-08,101.77,Monthly,Cash
+Donor 62,2023-02-08,20.47,Monthly,Online
+Donor 290,2023-02-09,45.79,Giving Tuesday,Bank transfer
+Donor 348,2023-02-09,35.3,Monthly,Cash
+Donor 60,2023-02-10,29.54,Giving Tuesday,Cash
+Donor 330,2023-02-10,17.02,Monthly,Bank transfer
+Donor 299,2023-02-10,13.4,Monthly,Online
+Donor 245,2023-02-10,203.68,Monthly,Online
+Donor 25,2023-02-10,4.62,Monthly,Cash
+Donor 128,2023-02-11,36.87,Giving Tuesday,Cash
+Donor 92,2023-02-11,24.93,Giving Tuesday,Bank transfer
+Donor 142,2023-02-11,49.65,Giving Tuesday,Cash
+Donor 89,2023-02-12,22.56,Annual Appeal,Online
+Donor 88,2023-02-12,14.55,Annual Appeal,Online
+Donor 214,2023-02-12,102.2,Giving Tuesday,Cheque
+Donor 329,2023-02-13,117.64,Monthly,Cheque
+Donor 267,2023-02-13,54.64,Annual Appeal,Cheque
+Donor 308,2023-02-13,49.16,Annual Appeal,Online
+Donor 37,2023-02-14,24.25,Annual Appeal,Cheque
+Donor 283,2023-02-14,3.83,Monthly,Cash
+Donor 16,2023-02-14,3.83,Annual Appeal,Bank transfer
+Donor 64,2023-02-14,56.79,Annual Appeal,Cash
+Donor 110,2023-02-14,17.56,Monthly,Cheque
+Donor 190,2023-02-14,5.24,Giving Tuesday,Bank transfer
+Donor 303,2023-02-14,27.72,Monthly,Online
+Donor 291,2023-02-15,14.79,Gala,Cheque
+Donor 99,2023-02-15,8.06,Annual Appeal,Bank transfer
+Donor 313,2023-02-16,3.47,Annual Appeal,Online
+Donor 340,2023-02-16,10.98,Giving Tuesday,Online
+Donor 257,2023-02-16,14.88,Monthly,Cheque
+Donor 309,2023-02-16,78.87,Giving Tuesday,Cheque
+Donor 345,2023-02-17,231.5,Annual Appeal,Online
+Donor 61,2023-02-17,20.56,Giving Tuesday,Cheque
+Donor 104,2023-02-17,14.59,Giving Tuesday,Online
+Donor 281,2023-02-18,41.15,Monthly,Cash
+Donor 213,2023-02-18,95.73,Annual Appeal,Bank transfer
+Donor 157,2023-02-18,16.52,Annual Appeal,Cash
+Donor 174,2023-02-18,98.56,Annual Appeal,Bank transfer
+Donor 98,2023-02-18,45.65,Gala,Online
+Donor 261,2023-02-19,44.65,Monthly,Bank transfer
+Donor 265,2023-02-19,61.29,Gala,Online
+Donor 305,2023-02-19,8.64,Monthly,Bank transfer
+Donor 162,2023-02-19,34.22,Annual Appeal,Cheque
+Donor 170,2023-02-19,26.8,Gala,Cash
+Donor 347,2023-02-20,30.4,Gala,Bank transfer
+Donor 353,2023-02-20,26.43,Annual Appeal,Cash
+Donor 393,2023-02-20,15.02,Annual Appeal,Online
+Donor 188,2023-02-21,80.59,Annual Appeal,Cheque
+Donor 302,2023-02-21,110.97,Annual Appeal,Cheque
+Donor 271,2023-02-22,41.06,Annual Appeal,Online
+Donor 265,2023-02-22,37.69,Monthly,Online
+Donor 1,2023-02-22,57.62,Monthly,Online
+Donor 90,2023-02-22,13.72,Monthly,Cash
+Donor 239,2023-02-23,79.39,Annual Appeal,Cash
+Donor 283,2023-02-24,26.06,Monthly,Cash
+Donor 83,2023-02-24,30.73,Monthly,Online
+Donor 253,2023-02-24,25.66,Monthly,Cash
+Donor 334,2023-02-25,37.48,Gala,Online
+Donor 384,2023-02-25,26.74,Giving Tuesday,Cash
+Donor 6,2023-02-25,3.92,Annual Appeal,Cheque
+Donor 43,2023-02-26,36.86,Giving Tuesday,Cheque
+Donor 385,2023-02-26,31.42,Giving Tuesday,Bank transfer
+Donor 246,2023-02-26,35.45,Monthly,Cheque
+Donor 191,2023-02-27,29.97,Annual Appeal,Bank transfer
+Donor 191,2023-02-27,3.18,Annual Appeal,Cheque
+Donor 146,2023-02-27,55.86,Giving Tuesday,Cash
+Donor 342,2023-02-27,88.99,Annual Appeal,Cheque
+Donor 301,2023-02-28,22.65,Giving Tuesday,Cash
+Donor 277,2023-02-28,44.73,Monthly,Cheque
+Donor 200,2023-03-01,19.96,Monthly,Cheque
+Donor 159,2023-03-01,21.12,Monthly,Online
+Donor 198,2023-03-02,57.51,Annual Appeal,Bank transfer
+Donor 54,2023-03-02,37.02,Annual Appeal,Online
+Donor 344,2023-03-02,7.09,Annual Appeal,Online
+Donor 220,2023-03-03,92.25,Annual Appeal,Cash
+Donor 181,2023-03-03,222.05,Annual Appeal,Cash
+Donor 17,2023-03-03,87.18,Annual Appeal,Cash
+Donor 77,2023-03-03,31.3,Annual Appeal,Cash
+Donor 351,2023-03-03,77.19,Annual Appeal,Cheque
+Donor 49,2023-03-03,35.43,Annual Appeal,Cash
+Donor 253,2023-03-04,9.15,Annual Appeal,Cash
+Donor 261,2023-03-04,145.4,Monthly,Bank transfer
+Donor 381,2023-03-04,25.64,Annual Appeal,Cheque
+Donor 153,2023-03-04,120.5,Annual Appeal,Online
+Donor 269,2023-03-05,13.38,Giving Tuesday,Bank transfer
+Donor 207,2023-03-05,109.58,Giving Tuesday,Online
+Donor 182,2023-03-05,6.91,Monthly,Cash
+Donor 374,2023-03-05,13.02,Annual Appeal,Online
+Donor 286,2023-03-06,20.73,Monthly,Cash
+Donor 53,2023-03-06,12.34,Monthly,Online
+Donor 133,2023-03-06,236.54,Annual Appeal,Cash
+Donor 16,2023-03-07,41.44,Annual Appeal,Online
+Donor 275,2023-03-07,42.35,Monthly,Cheque
+Donor 225,2023-03-07,86.74,Monthly,Cheque
+Donor 337,2023-03-07,14.43,Giving Tuesday,Cheque
+Donor 268,2023-03-07,24.21,Annual Appeal,Online
+Donor 292,2023-03-07,11.32,Annual Appeal,Cash
+Donor 234,2023-03-07,62.85,Monthly,Cheque
+Donor 61,2023-03-08,27.83,Annual Appeal,Online
+Donor 391,2023-03-08,18.36,Annual Appeal,Bank transfer
+Donor 323,2023-03-08,84.55,Monthly,Cash
+Donor 218,2023-03-08,24.98,Giving Tuesday,Bank transfer
+Donor 84,2023-03-08,47.61,Gala,Bank transfer
+Donor 175,2023-03-08,72.89,Giving Tuesday,Online
+Donor 220,2023-03-08,53.73,Monthly,Bank transfer
+Donor 223,2023-03-08,47.09,Annual Appeal,Cheque
+Donor 265,2023-03-09,17.77,Giving Tuesday,Cash
+Donor 63,2023-03-09,31.5,Monthly,Bank transfer
+Donor 52,2023-03-10,83.32,Annual Appeal,Online
+Donor 327,2023-03-10,42.06,Giving Tuesday,Bank transfer
+Donor 52,2023-03-10,13.45,Monthly,Online
+Donor 214,2023-03-10,22.49,Monthly,Bank transfer
+Donor 146,2023-03-10,36.16,Giving Tuesday,Cash
+Donor 230,2023-03-10,5.65,Monthly,Cheque
+Donor 89,2023-03-11,11.74,Annual Appeal,Cheque
+Donor 308,2023-03-11,12.39,Annual Appeal,Online
+Donor 47,2023-03-11,20.58,Annual Appeal,Online
+Donor 10,2023-03-11,38.15,Monthly,Cheque
+Donor 13,2023-03-11,19.27,Giving Tuesday,Cash
+Donor 116,2023-03-11,45.79,Monthly,Cash
+Donor 130,2023-03-11,15.74,Annual Appeal,Bank transfer
+Donor 360,2023-03-11,132.55,Annual Appeal,Cash
+Donor 365,2023-03-12,260.29,Gala,Bank transfer
+Donor 113,2023-03-12,47.68,Annual Appeal,Online
+Donor 398,2023-03-12,106.67,Giving Tuesday,Online
+Donor 221,2023-03-12,4.53,Annual Appeal,Bank transfer
+Donor 287,2023-03-12,5.58,Monthly,Cheque
+Donor 171,2023-03-14,26.94,Annual Appeal,Online
+Donor 310,2023-03-14,48.19,Annual Appeal,Cheque
+Donor 317,2023-03-14,126.5,Monthly,Bank transfer
+Donor 10,2023-03-14,54.48,Gala,Cash
+Donor 328,2023-03-14,113.98,Monthly,Bank transfer
+Donor 166,2023-03-14,70.47,Annual Appeal,Online
+Donor 81,2023-03-14,63.53,Giving Tuesday,Online
+Donor 77,2023-03-14,8.59,Giving Tuesday,Cheque
+Donor 352,2023-03-15,1047.38,Gala,Online
+Donor 350,2023-03-15,6.5,Giving Tuesday,Cheque
+Donor 297,2023-03-16,28.03,Giving Tuesday,Cheque
+Donor 35,2023-03-16,44.46,Gala,Cash
+Donor 394,2023-03-16,9.87,Giving Tuesday,Cash
+Donor 243,2023-03-17,57.05,Monthly,Bank transfer
+Donor 341,2023-03-17,19.52,Monthly,Cheque
+Donor 192,2023-03-17,16.97,Annual Appeal,Bank transfer
+Donor 109,2023-03-17,29.58,Monthly,Online
+Donor 218,2023-03-17,35.8,Annual Appeal,Cash
+Donor 276,2023-03-17,45.77,Annual Appeal,Online
+Donor 394,2023-03-17,70.31,Giving Tuesday,Cash
+Donor 193,2023-03-18,28.36,Annual Appeal,Cash
+Donor 76,2023-03-18,25.44,Monthly,Online
+Donor 240,2023-03-18,8.48,Gala,Cash
+Donor 266,2023-03-18,71.51,Monthly,Online
+Donor 210,2023-03-18,8.51,Monthly,Online
+Donor 274,2023-03-18,49.23,Annual Appeal,Cheque
+Donor 231,2023-03-18,9.82,Gala,Cash
+Donor 127,2023-03-19,7.64,Annual Appeal,Online
+Donor 234,2023-03-19,29.94,Giving Tuesday,Cheque
+Donor 81,2023-03-19,9.78,Annual Appeal,Online
+Donor 354,2023-03-19,98.24,Giving Tuesday,Cash
+Donor 208,2023-03-19,225.08,Annual Appeal,Bank transfer
+Donor 349,2023-03-19,218.37,Annual Appeal,Online
+Donor 120,2023-03-20,21.01,Gala,Cheque
+Donor 7,2023-03-20,5.72,Annual Appeal,Cheque
+Donor 114,2023-03-20,117.92,Giving Tuesday,Bank transfer
+Donor 135,2023-03-20,36.43,Annual Appeal,Bank transfer
+Donor 103,2023-03-21,9.01,Gala,Online
+Donor 60,2023-03-21,549.81,Annual Appeal,Online
+Donor 326,2023-03-21,14.86,Annual Appeal,Online
+Donor 377,2023-03-22,10.68,Annual Appeal,Bank transfer
+Donor 13,2023-03-22,26.73,Giving Tuesday,Cash
+Donor 65,2023-03-22,340.71,Giving Tuesday,Cash
+Donor 186,2023-03-23,7.0,Annual Appeal,Cheque
+Donor 399,2023-03-23,24.69,Annual Appeal,Cash
+Donor 91,2023-03-23,59.46,Giving Tuesday,Online
+Donor 383,2023-03-23,68.44,Annual Appeal,Cheque
+Donor 28,2023-03-23,15.16,Annual Appeal,Cash
+Donor 97,2023-03-23,81.33,Annual Appeal,Cheque
+Donor 200,2023-03-24,8.03,Gala,Cheque
+Donor 311,2023-03-24,14.37,Monthly,Cheque
+Donor 335,2023-03-25,47.73,Monthly,Bank transfer
+Donor 44,2023-03-25,46.79,Annual Appeal,Bank transfer
+Donor 193,2023-03-25,34.59,Annual Appeal,Cash
+Donor 208,2023-03-25,42.98,Giving Tuesday,Cash
+Donor 319,2023-03-25,149.08,Monthly,Bank transfer
+Donor 12,2023-03-25,39.03,Gala,Online
+Donor 233,2023-03-26,13.74,Annual Appeal,Bank transfer
+Donor 81,2023-03-26,14.82,Gala,Cash
+Donor 296,2023-03-26,30.22,Annual Appeal,Cash
+Donor 347,2023-03-26,4.79,Monthly,Cheque
+Donor 274,2023-03-26,8.49,Annual Appeal,Bank transfer
+Donor 393,2023-03-26,25.03,Gala,Online
+Donor 31,2023-03-27,32.23,Annual Appeal,Online
+Donor 194,2023-03-27,33.69,Annual Appeal,Cheque
+Donor 107,2023-03-27,28.61,Giving Tuesday,Online
+Donor 106,2023-03-28,52.25,Annual Appeal,Cheque
+Donor 34,2023-03-28,5.7,Annual Appeal,Cash
+Donor 243,2023-03-28,9.51,Monthly,Cash
+Donor 75,2023-03-28,9.07,Monthly,Bank transfer
+Donor 74,2023-03-28,26.82,Monthly,Online
+Donor 236,2023-03-28,43.91,Giving Tuesday,Online
+Donor 392,2023-03-28,30.26,Monthly,Cash
+Donor 155,2023-03-28,82.11,Annual Appeal,Bank transfer
+Donor 76,2023-03-29,6.38,Annual Appeal,Online
+Donor 366,2023-03-29,103.57,Monthly,Bank transfer
+Donor 87,2023-03-29,12.15,Monthly,Online
+Donor 291,2023-03-29,79.38,Giving Tuesday,Cash
+Donor 116,2023-03-29,24.36,Monthly,Online
+Donor 298,2023-03-29,32.87,Annual Appeal,Bank transfer
+Donor 179,2023-03-30,202.13,Monthly,Cash
+Donor 45,2023-03-30,24.99,Annual Appeal,Online
+Donor 28,2023-03-30,9.4,Monthly,Cash
+Donor 395,2023-03-31,4.32,Annual Appeal,Bank transfer
+Donor 173,2023-03-31,8.22,Giving Tuesday,Cash
+Donor 343,2023-03-31,85.0,Annual Appeal,Online
+Donor 164,2023-03-31,11.77,Monthly,Cheque
+Donor 269,2023-04-01,38.31,Monthly,Cheque
+Donor 156,2023-04-01,24.78,Giving Tuesday,Cheque
+Donor 315,2023-04-01,53.24,Monthly,Cash
+Donor 366,2023-04-01,18.51,Monthly,Cheque
+Donor 126,2023-04-02,14.22,Giving Tuesday,Bank transfer
+Donor 265,2023-04-02,32.02,Annual Appeal,Cash
+Donor 219,2023-04-02,14.67,Gala,Cash
+Donor 381,2023-04-02,20.07,Annual Appeal,Bank transfer
+Donor 271,2023-04-03,73.54,Giving Tuesday,Cheque
+Donor 174,2023-04-03,610.48,Annual Appeal,Online
+Donor 331,2023-04-03,87.31,Annual Appeal,Cheque
+Donor 266,2023-04-03,50.09,Annual Appeal,Bank transfer
+Donor 80,2023-04-04,106.3,Annual Appeal,Cash
+Donor 221,2023-04-04,47.52,Annual Appeal,Cash
+Donor 146,2023-04-04,7.71,Giving Tuesday,Cash
+Donor 373,2023-04-04,17.3,Annual Appeal,Cheque
+Donor 281,2023-04-04,28.87,Annual Appeal,Cheque
+Donor 185,2023-04-04,20.28,Gala,Cash
+Donor 271,2023-04-04,7.38,Giving Tuesday,Bank transfer
+Donor 72,2023-04-04,22.69,Annual Appeal,Cheque
+Donor 250,2023-04-04,94.86,Gala,Cheque
+Donor 17,2023-04-04,16.4,Monthly,Cash
+Donor 369,2023-04-05,10.33,Annual Appeal,Cash
+Donor 176,2023-04-05,27.94,Annual Appeal,Bank transfer
+Donor 48,2023-04-05,60.64,Annual Appeal,Cheque
+Donor 63,2023-04-05,260.84,Giving Tuesday,Bank transfer
+Donor 307,2023-04-05,13.93,Giving Tuesday,Cheque
+Donor 399,2023-04-06,3.83,Annual Appeal,Bank transfer
+Donor 299,2023-04-06,57.16,Monthly,Bank transfer
+Donor 190,2023-04-06,25.37,Annual Appeal,Online
+Donor 153,2023-04-07,9.82,Giving Tuesday,Cash
+Donor 80,2023-04-07,50.71,Giving Tuesday,Online
+Donor 317,2023-04-07,96.4,Annual Appeal,Cash
+Donor 159,2023-04-07,10.03,Annual Appeal,Bank transfer
+Donor 80,2023-04-07,30.85,Gala,Cash
+Donor 65,2023-04-07,60.52,Annual Appeal,Cash
+Donor 353,2023-04-08,23.23,Annual Appeal,Cash
+Donor 35,2023-04-08,23.45,Monthly,Online
+Donor 189,2023-04-08,167.83,Monthly,Cash
+Donor 365,2023-04-09,15.39,Monthly,Cash
+Donor 203,2023-04-09,145.54,Annual Appeal,Bank transfer
+Donor 141,2023-04-09,33.43,Annual Appeal,Bank transfer
+Donor 118,2023-04-09,48.41,Annual Appeal,Cash
+Donor 105,2023-04-09,72.23,Annual Appeal,Cash
+Donor 24,2023-04-10,99.98,Annual Appeal,Cash
+Donor 251,2023-04-10,87.34,Monthly,Cash
+Donor 257,2023-04-10,49.38,Monthly,Cheque
+Donor 229,2023-04-11,23.76,Gala,Cash
+Donor 333,2023-04-11,37.97,Annual Appeal,Online
+Donor 149,2023-04-11,8.83,Annual Appeal,Cash
+Donor 175,2023-04-11,161.74,Monthly,Cheque
+Donor 301,2023-04-11,28.85,Annual Appeal,Cheque
+Donor 140,2023-04-11,61.58,Annual Appeal,Bank transfer
+Donor 243,2023-04-12,22.0,Giving Tuesday,Cash
+Donor 124,2023-04-12,14.25,Annual Appeal,Cheque
+Donor 242,2023-04-12,10.07,Giving Tuesday,Cheque
+Donor 76,2023-04-12,276.21,Giving Tuesday,Bank transfer
+Donor 359,2023-04-13,92.65,Monthly,Cheque
+Donor 73,2023-04-13,92.47,Annual Appeal,Cheque
+Donor 129,2023-04-13,28.62,Monthly,Cheque
+Donor 236,2023-04-13,28.67,Monthly,Bank transfer
+Donor 132,2023-04-13,10.72,Annual Appeal,Online
+Donor 263,2023-04-13,294.67,Monthly,Cheque
+Donor 208,2023-04-13,13.26,Annual Appeal,Cash
+Donor 334,2023-04-14,54.59,Monthly,Cheque
+Donor 309,2023-04-14,44.77,Annual Appeal,Cheque
+Donor 124,2023-04-14,170.78,Giving Tuesday,Cash
+Donor 90,2023-04-15,21.62,Gala,Cheque
+Donor 22,2023-04-15,96.0,Monthly,Cash
+Donor 58,2023-04-15,40.76,Annual Appeal,Online
+Donor 181,2023-04-15,69.71,Annual Appeal,Cheque
+Donor 314,2023-04-16,15.38,Giving Tuesday,Online
+Donor 6,2023-04-16,26.74,Giving Tuesday,Online
+Donor 80,2023-04-16,70.77,Annual Appeal,Cash
+Donor 174,2023-04-16,19.75,Annual Appeal,Cash
+Donor 86,2023-04-16,65.27,Monthly,Bank transfer
+Donor 291,2023-04-16,37.58,Annual Appeal,Cash
+Donor 161,2023-04-17,18.91,Annual Appeal,Cash
+Donor 18,2023-04-18,42.8,Annual Appeal,Cheque
+Donor 196,2023-04-18,25.98,Monthly,Online
+Donor 343,2023-04-18,88.2,Gala,Cash
+Donor 120,2023-04-18,20.23,Annual Appeal,Cheque
+Donor 325,2023-04-18,59.37,Monthly,Bank transfer
+Donor 210,2023-04-19,27.57,Giving Tuesday,Cheque
+Donor 39,2023-04-19,49.76,Monthly,Cash
+Donor 155,2023-04-19,27.12,Annual Appeal,Online
+Donor 212,2023-04-19,98.65,Annual Appeal,Cash
+Donor 372,2023-04-19,17.88,Giving Tuesday,Online
+Donor 119,2023-04-20,12.18,Annual Appeal,Online
+Donor 76,2023-04-20,25.45,Annual Appeal,Cheque
+Donor 240,2023-04-20,178.11,Giving Tuesday,Online
+Donor 271,2023-04-20,24.23,Gala,Bank transfer
+Donor 294,2023-04-20,117.42,Giving Tuesday,Bank transfer
+Donor 241,2023-04-20,42.92,Gala,Bank transfer
+Donor 392,2023-04-21,26.73,Annual Appeal,Cash
+Donor 146,2023-04-21,64.35,Giving Tuesday,Bank transfer
+Donor 143,2023-04-21,51.23,Annual Appeal,Cheque
+Donor 144,2023-04-21,171.17,Annual Appeal,Online
+Donor 348,2023-04-22,54.76,Monthly,Bank transfer
+Donor 78,2023-04-22,4.97,Annual Appeal,Online
+Donor 325,2023-04-22,99.04,Annual Appeal,Cash
+Donor 372,2023-04-22,64.16,Gala,Cheque
+Donor 182,2023-04-22,73.15,Annual Appeal,Cash
+Donor 81,2023-04-23,122.98,Gala,Online
+Donor 273,2023-04-23,49.01,Annual Appeal,Cheque
+Donor 61,2023-04-23,5.15,Giving Tuesday,Online
+Donor 167,2023-04-23,83.05,Monthly,Cash
+Donor 341,2023-04-23,47.39,Annual Appeal,Online
+Donor 179,2023-04-23,9.87,Monthly,Bank transfer
+Donor 388,2023-04-23,119.92,Annual Appeal,Online
+Donor 361,2023-04-23,58.06,Giving Tuesday,Cash
+Donor 40,2023-04-23,51.74,Annual Appeal,Online
+Donor 309,2023-04-24,27.42,Monthly,Cash
+Donor 40,2023-04-24,41.75,Annual Appeal,Cheque
+Donor 6,2023-04-24,21.47,Monthly,Bank transfer
+Donor 42,2023-04-24,28.73,Annual Appeal,Cash
+Donor 348,2023-04-24,9.42,Annual Appeal,Cash
+Donor 192,2023-04-25,67.33,Monthly,Cash
+Donor 81,2023-04-25,229.38,Gala,Online
+Donor 344,2023-04-25,53.09,Annual Appeal,Cash
+Donor 330,2023-04-25,44.14,Giving Tuesday,Online
+Donor 312,2023-04-26,21.29,Monthly,Cheque
+Donor 75,2023-04-26,21.45,Giving Tuesday,Online
+Donor 145,2023-04-26,12.42,Monthly,Cheque
+Donor 275,2023-04-27,18.03,Giving Tuesday,Bank transfer
+Donor 375,2023-04-28,41.97,Annual Appeal,Cheque
+Donor 11,2023-04-28,15.9,Giving Tuesday,Cash
+Donor 176,2023-04-28,18.6,Monthly,Cheque
+Donor 59,2023-04-28,24.95,Giving Tuesday,Cheque
+Donor 50,2023-04-28,87.69,Annual Appeal,Bank transfer
+Donor 265,2023-04-28,38.02,Monthly,Cheque
+Donor 384,2023-04-29,164.03,Gala,Online
+Donor 344,2023-04-29,3.19,Monthly,Online
+Donor 313,2023-04-29,83.67,Annual Appeal,Bank transfer
+Donor 20,2023-04-29,41.9,Gala,Cash
+Donor 70,2023-04-29,69.5,Annual Appeal,Cheque
+Donor 347,2023-04-29,18.79,Annual Appeal,Online
+Donor 20,2023-04-29,11.3,Giving Tuesday,Bank transfer
+Donor 10,2023-04-30,94.22,Giving Tuesday,Cash
+Donor 208,2023-04-30,60.41,Giving Tuesday,Cash
+Donor 225,2023-04-30,15.09,Monthly,Cash
+Donor 381,2023-05-01,125.02,Giving Tuesday,Cheque
+Donor 151,2023-05-01,49.35,Monthly,Cash
+Donor 255,2023-05-01,86.55,Giving Tuesday,Bank transfer
+Donor 57,2023-05-01,10.61,Giving Tuesday,Online
+Donor 317,2023-05-01,10.45,Monthly,Cash
+Donor 237,2023-05-01,57.13,Annual Appeal,Cash
+Donor 217,2023-05-01,18.8,Monthly,Online
+Donor 298,2023-05-01,21.24,Monthly,Cheque
+Donor 258,2023-05-02,48.22,Annual Appeal,Online
+Donor 246,2023-05-02,6.54,Monthly,Cheque
+Donor 397,2023-05-02,29.4,Annual Appeal,Cheque
+Donor 271,2023-05-02,18.48,Monthly,Online
+Donor 124,2023-05-02,162.46,Monthly,Cheque
+Donor 84,2023-05-03,33.26,Gala,Online
+Donor 385,2023-05-03,27.14,Monthly,Online
+Donor 149,2023-05-03,121.65,Giving Tuesday,Bank transfer
+Donor 362,2023-05-03,34.56,Giving Tuesday,Online
+Donor 397,2023-05-04,9.33,Annual Appeal,Online
+Donor 205,2023-05-04,16.13,Gala,Cash
+Donor 194,2023-05-05,119.89,Monthly,Cheque
+Donor 120,2023-05-05,16.6,Giving Tuesday,Bank transfer
+Donor 131,2023-05-05,30.14,Giving Tuesday,Bank transfer
+Donor 267,2023-05-05,8.19,Monthly,Online
+Donor 299,2023-05-06,62.39,Monthly,Cheque
+Donor 60,2023-05-06,9.43,Monthly,Cash
+Donor 165,2023-05-06,55.19,Monthly,Cash
+Donor 55,2023-05-06,16.93,Gala,Bank transfer
+Donor 185,2023-05-06,7.41,Annual Appeal,Online
+Donor 240,2023-05-07,22.47,Annual Appeal,Cheque
+Donor 13,2023-05-07,14.05,Monthly,Cash
+Donor 70,2023-05-07,16.42,Giving Tuesday,Cash
+Donor 18,2023-05-08,79.2,Annual Appeal,Cheque
+Donor 169,2023-05-08,39.74,Monthly,Online
+Donor 172,2023-05-08,60.72,Annual Appeal,Cash
+Donor 30,2023-05-08,42.6,Annual Appeal,Cheque
+Donor 196,2023-05-09,6.37,Monthly,Cash
+Donor 226,2023-05-09,52.97,Annual Appeal,Cash
+Donor 386,2023-05-09,10.75,Monthly,Bank transfer
+Donor 307,2023-05-09,60.16,Annual Appeal,Online
+Donor 387,2023-05-09,41.72,Monthly,Online
+Donor 222,2023-05-09,36.33,Giving Tuesday,Cheque
+Donor 279,2023-05-10,12.74,Annual Appeal,Cash
+Donor 13,2023-05-10,179.03,Giving Tuesday,Cheque
+Donor 356,2023-05-10,11.18,Giving Tuesday,Bank transfer
+Donor 333,2023-05-10,35.55,Monthly,Online
+Donor 349,2023-05-10,79.29,Annual Appeal,Online
+Donor 36,2023-05-10,33.29,Giving Tuesday,Bank transfer
+Donor 81,2023-05-10,57.69,Annual Appeal,Online
+Donor 187,2023-05-11,57.21,Monthly,Cheque
+Donor 201,2023-05-11,41.73,Giving Tuesday,Bank transfer
+Donor 160,2023-05-12,26.25,Gala,Bank transfer
+Donor 130,2023-05-12,8.31,Annual Appeal,Online
+Donor 351,2023-05-12,14.33,Giving Tuesday,Online
+Donor 3,2023-05-12,18.52,Giving Tuesday,Cash
+Donor 117,2023-05-12,34.46,Monthly,Cash
+Donor 223,2023-05-13,78.75,Annual Appeal,Cash
+Donor 223,2023-05-13,28.21,Gala,Bank transfer
+Donor 56,2023-05-13,30.88,Annual Appeal,Cheque
+Donor 306,2023-05-13,12.92,Giving Tuesday,Online
+Donor 367,2023-05-14,26.09,Monthly,Bank transfer
+Donor 353,2023-05-14,7.03,Monthly,Online
+Donor 304,2023-05-14,36.4,Giving Tuesday,Bank transfer
+Donor 47,2023-05-14,22.64,Monthly,Cash
+Donor 123,2023-05-14,37.14,Annual Appeal,Cheque
+Donor 109,2023-05-14,247.95,Gala,Cheque
+Donor 299,2023-05-15,36.09,Monthly,Online
+Donor 383,2023-05-16,50.48,Annual Appeal,Online
+Donor 182,2023-05-16,35.34,Gala,Cheque
+Donor 124,2023-05-16,65.87,Annual Appeal,Cash
+Donor 83,2023-05-16,6.49,Annual Appeal,Cash
+Donor 92,2023-05-16,14.74,Giving Tuesday,Cash
+Donor 296,2023-05-16,171.45,Annual Appeal,Bank transfer
+Donor 11,2023-05-17,30.84,Monthly,Online
+Donor 158,2023-05-17,14.08,Annual Appeal,Cheque
+Donor 220,2023-05-17,113.11,Annual Appeal,Cheque
+Donor 2,2023-05-17,36.4,Annual Appeal,Cheque
+Donor 365,2023-05-18,155.57,Gala,Cash
+Donor 292,2023-05-18,62.87,Monthly,Online
+Donor 100,2023-05-18,6.43,Annual Appeal,Cheque
+Donor 297,2023-05-18,361.49,Giving Tuesday,Online
+Donor 249,2023-05-19,45.12,Monthly,Cheque
+Donor 85,2023-05-19,41.89,Annual Appeal,Online
+Donor 319,2023-05-19,27.55,Annual Appeal,Cheque
+Donor 392,2023-05-19,157.78,Giving Tuesday,Cheque
+Donor 368,2023-05-20,27.23,Monthly,Bank transfer
+Donor 87,2023-05-20,26.74,Monthly,Cash
+Donor 351,2023-05-21,8.63,Monthly,Bank transfer
+Donor 281,2023-05-21,16.58,Annual Appeal,Cash
+Donor 335,2023-05-21,34.16,Monthly,Cheque
+Donor 206,2023-05-21,35.86,Annual Appeal,Online
+Donor 224,2023-05-21,144.52,Monthly,Cash
+Donor 32,2023-05-21,15.77,Monthly,Bank transfer
+Donor 133,2023-05-22,185.46,Annual Appeal,Bank transfer
+Donor 37,2023-05-22,16.19,Giving Tuesday,Bank transfer
+Donor 43,2023-05-22,30.78,Annual Appeal,Cheque
+Donor 343,2023-05-23,55.65,Giving Tuesday,Bank transfer
+Donor 354,2023-05-23,51.11,Annual Appeal,Cheque
+Donor 258,2023-05-23,45.89,Annual Appeal,Bank transfer
+Donor 362,2023-05-23,80.51,Gala,Cheque
+Donor 94,2023-05-23,57.29,Annual Appeal,Cash
+Donor 203,2023-05-24,94.04,Monthly,Bank transfer
+Donor 178,2023-05-24,7.75,Gala,Cash
+Donor 290,2023-05-24,56.89,Annual Appeal,Online
+Donor 65,2023-05-25,15.64,Gala,Cash
+Donor 173,2023-05-25,14.24,Monthly,Online
+Donor 284,2023-05-25,6.02,Annual Appeal,Cheque
+Donor 156,2023-05-25,49.14,Gala,Cheque
+Donor 227,2023-05-26,132.9,Monthly,Online
+Donor 13,2023-05-26,65.14,Monthly,Cash
+Donor 202,2023-05-26,6.93,Giving Tuesday,Bank transfer
+Donor 295,2023-05-26,49.09,Giving Tuesday,Online
+Donor 33,2023-05-26,43.24,Annual Appeal,Online
+Donor 115,2023-05-26,38.09,Gala,Bank transfer
+Donor 329,2023-05-27,31.64,Gala,Online
+Donor 257,2023-05-28,4.96,Annual Appeal,Online
+Donor 88,2023-05-28,7.01,Monthly,Cash
+Donor 396,2023-05-28,82.37,Monthly,Cheque
+Donor 45,2023-05-28,113.12,Annual Appeal,Cheque
+Donor 368,2023-05-28,7.95,Annual Appeal,Online
+Donor 68,2023-05-28,30.0,Annual Appeal,Cash
+Donor 354,2023-05-28,18.85,Giving Tuesday,Bank transfer
+Donor 49,2023-05-28,233.85,Annual Appeal,Bank transfer
+Donor 204,2023-05-28,11.81,Giving Tuesday,Cash
+Donor 89,2023-05-28,35.43,Monthly,Cash
+Donor 43,2023-05-28,46.62,Gala,Online
+Donor 156,2023-05-29,15.21,Annual Appeal,Online
+Donor 96,2023-05-29,12.67,Monthly,Cash
+Donor 215,2023-05-30,16.62,Monthly,Bank transfer
+Donor 271,2023-05-30,4.47,Annual Appeal,Cash
+Donor 292,2023-05-30,21.8,Annual Appeal,Bank transfer
+Donor 327,2023-05-31,5.63,Monthly,Bank transfer
+Donor 69,2023-05-31,31.99,Annual Appeal,Cash
+Donor 242,2023-06-01,99.4,Annual Appeal,Cash
+Donor 245,2023-06-01,95.24,Annual Appeal,Cash
+Donor 336,2023-06-01,20.2,Monthly,Bank transfer
+Donor 272,2023-06-02,24.52,Annual Appeal,Cheque
+Donor 265,2023-06-02,39.37,Annual Appeal,Bank transfer
+Donor 225,2023-06-02,56.95,Annual Appeal,Cash
+Donor 383,2023-06-03,20.33,Giving Tuesday,Cash
+Donor 191,2023-06-03,50.85,Annual Appeal,Online
+Donor 189,2023-06-03,23.16,Giving Tuesday,Cash
+Donor 117,2023-06-03,19.33,Monthly,Cheque
+Donor 268,2023-06-04,88.11,Monthly,Cash
+Donor 142,2023-06-04,10.09,Gala,Bank transfer
+Donor 351,2023-06-04,26.28,Monthly,Bank transfer
+Donor 99,2023-06-06,12.14,Annual Appeal,Cash
+Donor 159,2023-06-06,15.56,Monthly,Bank transfer
+Donor 57,2023-06-06,69.88,Annual Appeal,Cheque
+Donor 22,2023-06-06,102.79,Annual Appeal,Cash
+Donor 133,2023-06-06,95.92,Giving Tuesday,Online
+Donor 250,2023-06-07,177.25,Annual Appeal,Bank transfer
+Donor 161,2023-06-07,14.56,Gala,Online
+Donor 371,2023-06-07,29.4,Annual Appeal,Online
+Donor 250,2023-06-07,24.14,Monthly,Cash
+Donor 92,2023-06-08,21.42,Gala,Cash
+Donor 375,2023-06-08,65.82,Gala,Cheque
+Donor 7,2023-06-09,67.97,Monthly,Cash
+Donor 48,2023-06-09,91.98,Giving Tuesday,Online
+Donor 342,2023-06-09,23.28,Annual Appeal,Bank transfer
+Donor 44,2023-06-10,33.35,Annual Appeal,Online
+Donor 358,2023-06-10,39.78,Gala,Cheque
+Donor 364,2023-06-11,23.37,Gala,Bank transfer
+Donor 258,2023-06-11,56.44,Monthly,Bank transfer
+Donor 67,2023-06-12,37.15,Annual Appeal,Cash
+Donor 13,2023-06-12,21.3,Gala,Bank transfer
+Donor 256,2023-06-12,49.26,Annual Appeal,Online
+Donor 210,2023-06-13,112.36,Annual Appeal,Cheque
+Donor 332,2023-06-13,31.49,Annual Appeal,Cash
+Donor 254,2023-06-13,33.41,Monthly,Cash
+Donor 223,2023-06-14,12.7,Gala,Cash
+Donor 357,2023-06-14,194.71,Monthly,Cash
+Donor 124,2023-06-15,98.54,Giving Tuesday,Cash
+Donor 261,2023-06-15,6.13,Annual Appeal,Cash
+Donor 271,2023-06-15,32.37,Annual Appeal,Cheque
+Donor 107,2023-06-16,8.24,Annual Appeal,Cash
+Donor 35,2023-06-16,31.4,Monthly,Bank transfer
+Donor 50,2023-06-16,42.53,Monthly,Cheque
+Donor 171,2023-06-16,58.27,Annual Appeal,Bank transfer
+Donor 257,2023-06-17,18.88,Monthly,Online
+Donor 216,2023-06-17,44.9,Gala,Online
+Donor 104,2023-06-18,111.37,Annual Appeal,Bank transfer
+Donor 288,2023-06-18,25.4,Monthly,Cheque
+Donor 66,2023-06-18,22.17,Monthly,Cheque
+Donor 391,2023-06-18,70.02,Annual Appeal,Online
+Donor 238,2023-06-19,5.46,Monthly,Bank transfer
+Donor 249,2023-06-19,62.8,Annual Appeal,Online
+Donor 272,2023-06-19,72.03,Giving Tuesday,Online
+Donor 359,2023-06-20,48.98,Annual Appeal,Cash
+Donor 314,2023-06-20,86.58,Annual Appeal,Cash
+Donor 293,2023-06-20,27.9,Annual Appeal,Cheque
+Donor 187,2023-06-20,25.87,Annual Appeal,Cheque
+Donor 71,2023-06-20,40.26,Annual Appeal,Cheque
+Donor 30,2023-06-21,20.7,Monthly,Bank transfer
+Donor 169,2023-06-21,11.64,Annual Appeal,Cash
+Donor 277,2023-06-21,5.85,Monthly,Online
+Donor 355,2023-06-21,27.72,Annual Appeal,Cheque
+Donor 142,2023-06-21,79.11,Gala,Cheque
+Donor 221,2023-06-22,73.45,Giving Tuesday,Online
+Donor 10,2023-06-22,264.2,Giving Tuesday,Online
+Donor 199,2023-06-22,101.68,Annual Appeal,Bank transfer
+Donor 264,2023-06-22,60.52,Annual Appeal,Cheque
+Donor 262,2023-06-22,7.6,Gala,Bank transfer
+Donor 24,2023-06-22,100.4,Gala,Bank transfer
+Donor 117,2023-06-23,191.07,Giving Tuesday,Bank transfer
+Donor 108,2023-06-24,18.44,Giving Tuesday,Online
+Donor 342,2023-06-24,35.02,Annual Appeal,Bank transfer
+Donor 152,2023-06-24,58.26,Giving Tuesday,Online
+Donor 288,2023-06-24,15.98,Giving Tuesday,Bank transfer
+Donor 299,2023-06-24,151.67,Giving Tuesday,Bank transfer
+Donor 180,2023-06-24,27.7,Annual Appeal,Online
+Donor 50,2023-06-25,105.53,Monthly,Online
+Donor 127,2023-06-25,39.28,Monthly,Online
+Donor 166,2023-06-25,7.41,Gala,Cash
+Donor 364,2023-06-25,103.7,Monthly,Bank transfer
+Donor 179,2023-06-25,90.93,Giving Tuesday,Cash
+Donor 81,2023-06-25,175.0,Annual Appeal,Cheque
+Donor 298,2023-06-26,31.48,Annual Appeal,Online
+Donor 20,2023-06-26,62.36,Annual Appeal,Cash
+Donor 310,2023-06-26,65.87,Monthly,Online
+Donor 176,2023-06-27,46.52,Annual Appeal,Online
+Donor 18,2023-06-27,13.23,Monthly,Bank transfer
+Donor 35,2023-06-27,28.59,Monthly,Cash
+Donor 367,2023-06-27,6.69,Gala,Online
+Donor 258,2023-06-27,46.38,Giving Tuesday,Online
+Donor 91,2023-06-28,17.68,Gala,Bank transfer
+Donor 196,2023-06-28,24.82,Monthly,Cheque
+Donor 298,2023-06-28,101.44,Giving Tuesday,Online
+Donor 92,2023-06-28,34.27,Annual Appeal,Online
+Donor 149,2023-06-28,97.66,Annual Appeal,Bank transfer
+Donor 77,2023-06-28,9.19,Gala,Bank transfer
+Donor 232,2023-06-28,36.39,Giving Tuesday,Bank transfer
+Donor 147,2023-06-28,122.48,Gala,Online
+Donor 379,2023-06-28,40.5,Giving Tuesday,Online
+Donor 203,2023-06-29,71.45,Giving Tuesday,Cheque
+Donor 165,2023-06-29,45.96,Monthly,Online
+Donor 43,2023-06-29,51.76,Annual Appeal,Bank transfer
+Donor 203,2023-06-29,3.62,Gala,Online
+Donor 41,2023-06-29,50.42,Annual Appeal,Cash
+Donor 179,2023-06-29,3.54,Annual Appeal,Online
+Donor 216,2023-06-30,30.31,Gala,Bank transfer
+Donor 251,2023-06-30,14.49,Annual Appeal,Online
+Donor 340,2023-06-30,37.3,Annual Appeal,Cash
+Donor 279,2023-07-01,49.5,Monthly,Bank transfer
+Donor 172,2023-07-01,65.63,Annual Appeal,Online
+Donor 71,2023-07-01,13.09,Annual Appeal,Cash
+Donor 32,2023-07-02,9.7,Giving Tuesday,Cash
+Donor 55,2023-07-02,2.45,Monthly,Cash
+Donor 299,2023-07-02,16.46,Annual Appeal,Cheque
+Donor 263,2023-07-02,11.32,Annual Appeal,Cash
+Donor 98,2023-07-02,31.99,Monthly,Online
+Donor 328,2023-07-03,22.02,Monthly,Bank transfer
+Donor 125,2023-07-04,63.28,Monthly,Cheque
+Donor 83,2023-07-04,4.02,Annual Appeal,Cheque
+Donor 301,2023-07-04,75.56,Giving Tuesday,Bank transfer
+Donor 155,2023-07-04,60.4,Annual Appeal,Online
+Donor 28,2023-07-05,148.6,Monthly,Cash
+Donor 174,2023-07-05,9.5,Monthly,Cash
+Donor 135,2023-07-05,5.36,Monthly,Cash
+Donor 129,2023-07-05,34.56,Monthly,Bank transfer
+Donor 307,2023-07-06,252.73,Gala,Bank transfer
+Donor 371,2023-07-06,33.05,Annual Appeal,Online
+Donor 20,2023-07-06,4.85,Annual Appeal,Cash
+Donor 267,2023-07-07,2.4,Gala,Online
+Donor 52,2023-07-07,30.73,Monthly,Cheque
+Donor 340,2023-07-07,6.3,Annual Appeal,Online
+Donor 146,2023-07-08,20.31,Monthly,Cheque
+Donor 213,2023-07-08,78.5,Annual Appeal,Bank transfer
+Donor 54,2023-07-08,22.35,Monthly,Cheque
+Donor 211,2023-07-09,45.58,Monthly,Cheque
+Donor 41,2023-07-09,64.35,Monthly,Online
+Donor 318,2023-07-09,165.99,Giving Tuesday,Cheque
+Donor 368,2023-07-10,11.86,Gala,Online
+Donor 274,2023-07-10,30.29,Monthly,Cheque
+Donor 159,2023-07-10,32.22,Annual Appeal,Online
+Donor 305,2023-07-11,62.72,Monthly,Cheque
+Donor 369,2023-07-11,13.45,Annual Appeal,Bank transfer
+Donor 376,2023-07-12,11.94,Annual Appeal,Cash
+Donor 277,2023-07-12,43.9,Annual Appeal,Cash
+Donor 145,2023-07-13,71.1,Monthly,Online
+Donor 208,2023-07-13,20.77,Monthly,Cheque
+Donor 120,2023-07-13,31.45,Annual Appeal,Cheque
+Donor 205,2023-07-13,359.19,Gala,Online
+Donor 317,2023-07-14,17.83,Annual Appeal,Bank transfer
+Donor 234,2023-07-14,34.94,Giving Tuesday,Bank transfer
+Donor 227,2023-07-14,22.26,Annual Appeal,Cheque
+Donor 44,2023-07-14,39.48,Annual Appeal,Cheque
+Donor 136,2023-07-14,16.51,Giving Tuesday,Online
+Donor 161,2023-07-15,21.24,Monthly,Cheque
+Donor 237,2023-07-15,22.76,Monthly,Bank transfer
+Donor 104,2023-07-15,34.88,Giving Tuesday,Cheque
+Donor 258,2023-07-16,30.36,Annual Appeal,Bank transfer
+Donor 151,2023-07-16,20.88,Giving Tuesday,Cash
+Donor 361,2023-07-16,21.53,Gala,Online
+Donor 234,2023-07-17,28.06,Annual Appeal,Online
+Donor 384,2023-07-17,298.52,Monthly,Bank transfer
+Donor 161,2023-07-17,70.07,Monthly,Online
+Donor 250,2023-07-17,13.43,Annual Appeal,Online
+Donor 146,2023-07-17,60.63,Giving Tuesday,Cheque
+Donor 339,2023-07-17,87.76,Monthly,Cash
+Donor 35,2023-07-17,16.02,Gala,Bank transfer
+Donor 14,2023-07-18,6.59,Monthly,Online
+Donor 95,2023-07-19,59.82,Giving Tuesday,Online
+Donor 152,2023-07-20,10.28,Monthly,Bank transfer
+Donor 334,2023-07-20,177.08,Monthly,Cash
+Donor 177,2023-07-20,17.1,Giving Tuesday,Bank transfer
+Donor 288,2023-07-20,15.89,Monthly,Bank transfer
+Donor 337,2023-07-21,22.45,Gala,Bank transfer
+Donor 341,2023-07-21,117.28,Annual Appeal,Online
+Donor 396,2023-07-22,4.96,Giving Tuesday,Cheque
+Donor 114,2023-07-22,33.96,Monthly,Cash
+Donor 270,2023-07-22,67.49,Monthly,Bank transfer
+Donor 300,2023-07-22,28.08,Monthly,Bank transfer
+Donor 305,2023-07-22,19.38,Annual Appeal,Online
+Donor 28,2023-07-22,38.92,Gala,Bank transfer
+Donor 45,2023-07-23,87.02,Monthly,Cheque
+Donor 104,2023-07-23,17.88,Giving Tuesday,Cash
+Donor 391,2023-07-24,54.09,Giving Tuesday,Cheque
+Donor 294,2023-07-24,21.34,Giving Tuesday,Cheque
+Donor 140,2023-07-24,77.32,Monthly,Online
+Donor 381,2023-07-24,46.35,Giving Tuesday,Online
+Donor 369,2023-07-24,26.37,Monthly,Cheque
+Donor 65,2023-07-24,49.08,Annual Appeal,Cheque
+Donor 350,2023-07-24,350.64,Monthly,Cheque
+Donor 253,2023-07-25,68.42,Monthly,Online
+Donor 217,2023-07-25,182.38,Annual Appeal,Cheque
+Donor 373,2023-07-25,71.68,Monthly,Cash
+Donor 81,2023-07-25,25.73,Giving Tuesday,Cheque
+Donor 148,2023-07-26,64.04,Monthly,Cheque
+Donor 181,2023-07-26,61.88,Monthly,Online
+Donor 169,2023-07-26,41.07,Annual Appeal,Bank transfer
+Donor 28,2023-07-26,77.55,Annual Appeal,Cheque
+Donor 203,2023-07-26,207.87,Monthly,Online
+Donor 106,2023-07-26,8.19,Gala,Online
+Donor 196,2023-07-26,58.69,Annual Appeal,Online
+Donor 29,2023-07-27,82.14,Gala,Online
+Donor 352,2023-07-27,32.46,Annual Appeal,Bank transfer
+Donor 176,2023-07-27,11.81,Annual Appeal,Online
+Donor 311,2023-07-27,44.89,Annual Appeal,Online
+Donor 350,2023-07-27,99.09,Gala,Cheque
+Donor 120,2023-07-27,86.94,Annual Appeal,Online
+Donor 154,2023-07-28,11.22,Monthly,Online
+Donor 274,2023-07-29,51.19,Annual Appeal,Online
+Donor 104,2023-07-29,230.64,Annual Appeal,Online
+Donor 209,2023-07-29,77.73,Annual Appeal,Online
+Donor 92,2023-07-29,16.66,Giving Tuesday,Online
+Donor 277,2023-07-30,71.7,Giving Tuesday,Cash
+Donor 107,2023-07-30,54.39,Giving Tuesday,Online
+Donor 129,2023-07-30,9.01,Giving Tuesday,Cheque
+Donor 211,2023-07-30,4.9,Gala,Cheque
+Donor 387,2023-07-30,9.26,Monthly,Bank transfer
+Donor 80,2023-07-30,20.28,Monthly,Bank transfer
+Donor 270,2023-07-30,17.67,Gala,Cheque
+Donor 140,2023-07-30,14.89,Monthly,Cheque
+Donor 179,2023-07-31,25.96,Annual Appeal,Cash
+Donor 16,2023-07-31,33.94,Annual Appeal,Cash
+Donor 346,2023-07-31,41.07,Annual Appeal,Online
+Donor 154,2023-07-31,457.82,Annual Appeal,Cash
+Donor 319,2023-07-31,7.56,Annual Appeal,Bank transfer
+Donor 372,2023-07-31,33.46,Gala,Online
+Donor 93,2023-07-31,42.66,Giving Tuesday,Cash
+Donor 51,2023-08-01,26.24,Annual Appeal,Cash
+Donor 151,2023-08-01,9.72,Annual Appeal,Cash
+Donor 336,2023-08-01,32.09,Annual Appeal,Bank transfer
+Donor 298,2023-08-01,51.54,Monthly,Cheque
+Donor 123,2023-08-02,39.76,Monthly,Cash
+Donor 1,2023-08-03,35.82,Annual Appeal,Bank transfer
+Donor 296,2023-08-03,20.39,Giving Tuesday,Cash
+Donor 77,2023-08-04,34.63,Giving Tuesday,Bank transfer
+Donor 195,2023-08-04,10.15,Annual Appeal,Cheque
+Donor 273,2023-08-04,22.2,Annual Appeal,Cash
+Donor 191,2023-08-04,30.24,Annual Appeal,Cheque
+Donor 97,2023-08-04,15.15,Giving Tuesday,Cash
+Donor 118,2023-08-05,116.71,Annual Appeal,Cash
+Donor 18,2023-08-05,569.81,Annual Appeal,Bank transfer
+Donor 379,2023-08-05,137.73,Monthly,Cash
+Donor 162,2023-08-05,25.6,Annual Appeal,Online
+Donor 136,2023-08-05,14.81,Monthly,Bank transfer
+Donor 100,2023-08-05,24.21,Annual Appeal,Cheque
+Donor 177,2023-08-05,34.12,Annual Appeal,Cheque
+Donor 137,2023-08-06,49.07,Giving Tuesday,Cash
+Donor 292,2023-08-07,15.13,Annual Appeal,Bank transfer
+Donor 148,2023-08-07,13.6,Monthly,Cheque
+Donor 322,2023-08-07,7.23,Gala,Bank transfer
+Donor 40,2023-08-07,461.62,Annual Appeal,Cheque
+Donor 168,2023-08-07,17.07,Giving Tuesday,Cheque
+Donor 8,2023-08-07,43.55,Annual Appeal,Bank transfer
+Donor 237,2023-08-08,64.62,Monthly,Bank transfer
+Donor 347,2023-08-08,96.67,Monthly,Online
+Donor 208,2023-08-08,72.97,Annual Appeal,Cheque
+Donor 54,2023-08-08,13.93,Annual Appeal,Cheque
+Donor 4,2023-08-09,15.11,Giving Tuesday,Online
+Donor 369,2023-08-09,17.78,Monthly,Cash
+Donor 171,2023-08-09,107.6,Giving Tuesday,Bank transfer
+Donor 220,2023-08-09,208.96,Gala,Cheque
+Donor 63,2023-08-09,16.54,Monthly,Cheque
+Donor 183,2023-08-09,60.32,Annual Appeal,Bank transfer
+Donor 171,2023-08-09,8.22,Giving Tuesday,Cash
+Donor 368,2023-08-09,18.97,Annual Appeal,Cash
+Donor 290,2023-08-09,2.14,Monthly,Cash
+Donor 24,2023-08-09,9.81,Annual Appeal,Online
+Donor 347,2023-08-10,11.89,Gala,Online
+Donor 131,2023-08-10,52.07,Giving Tuesday,Cheque
+Donor 2,2023-08-10,20.11,Monthly,Cash
+Donor 118,2023-08-11,15.47,Monthly,Cheque
+Donor 147,2023-08-11,31.16,Monthly,Cash
+Donor 224,2023-08-11,5.17,Annual Appeal,Bank transfer
+Donor 64,2023-08-11,137.43,Annual Appeal,Cheque
+Donor 97,2023-08-11,160.08,Annual Appeal,Bank transfer
+Donor 396,2023-08-12,28.36,Giving Tuesday,Cash
+Donor 325,2023-08-12,102.88,Annual Appeal,Cash
+Donor 53,2023-08-12,62.82,Monthly,Cheque
+Donor 115,2023-08-12,58.68,Giving Tuesday,Bank transfer
+Donor 33,2023-08-13,11.9,Monthly,Cash
+Donor 382,2023-08-13,82.2,Giving Tuesday,Cheque
+Donor 389,2023-08-13,83.73,Giving Tuesday,Online
+Donor 236,2023-08-13,28.32,Giving Tuesday,Online
+Donor 345,2023-08-14,104.45,Annual Appeal,Online
+Donor 309,2023-08-14,5.83,Annual Appeal,Online
+Donor 161,2023-08-15,43.55,Annual Appeal,Cash
+Donor 175,2023-08-15,8.19,Giving Tuesday,Online
+Donor 166,2023-08-15,24.78,Annual Appeal,Online
+Donor 248,2023-08-15,46.65,Annual Appeal,Cheque
+Donor 397,2023-08-16,5.98,Annual Appeal,Cheque
+Donor 85,2023-08-16,34.16,Giving Tuesday,Cash
+Donor 233,2023-08-17,41.44,Monthly,Cash
+Donor 23,2023-08-17,189.35,Annual Appeal,Bank transfer
+Donor 211,2023-08-17,61.0,Annual Appeal,Cash
+Donor 43,2023-08-17,14.83,Annual Appeal,Bank transfer
+Donor 138,2023-08-18,59.39,Annual Appeal,Cash
+Donor 397,2023-08-18,11.52,Giving Tuesday,Bank transfer
+Donor 140,2023-08-18,34.2,Annual Appeal,Bank transfer
+Donor 253,2023-08-18,51.3,Annual Appeal,Cash
+Donor 232,2023-08-18,15.46,Annual Appeal,Online
+Donor 139,2023-08-19,13.23,Monthly,Cash
+Donor 26,2023-08-19,94.17,Annual Appeal,Bank transfer
+Donor 347,2023-08-19,157.4,Annual Appeal,Cash
+Donor 241,2023-08-19,20.95,Annual Appeal,Cash
+Donor 396,2023-08-19,34.69,Annual Appeal,Cheque
+Donor 85,2023-08-19,97.96,Annual Appeal,Cheque
+Donor 167,2023-08-20,22.79,Monthly,Cash
+Donor 95,2023-08-20,28.56,Annual Appeal,Bank transfer
+Donor 64,2023-08-20,18.6,Annual Appeal,Cash
+Donor 260,2023-08-20,23.83,Annual Appeal,Cash
+Donor 171,2023-08-20,39.27,Gala,Online
+Donor 327,2023-08-21,52.79,Gala,Bank transfer
+Donor 308,2023-08-21,40.88,Monthly,Bank transfer
+Donor 170,2023-08-21,32.78,Annual Appeal,Online
+Donor 329,2023-08-21,66.78,Monthly,Cash
+Donor 200,2023-08-21,60.99,Annual Appeal,Cheque
+Donor 389,2023-08-21,15.09,Giving Tuesday,Bank transfer
+Donor 263,2023-08-21,53.88,Annual Appeal,Cheque
+Donor 379,2023-08-21,13.97,Giving Tuesday,Online
+Donor 387,2023-08-22,17.08,Annual Appeal,Cheque
+Donor 139,2023-08-22,15.87,Gala,Bank transfer
+Donor 215,2023-08-22,135.98,Monthly,Online
+Donor 282,2023-08-22,66.89,Monthly,Cash
+Donor 122,2023-08-22,19.16,Monthly,Cheque
+Donor 222,2023-08-23,18.8,Monthly,Cash
+Donor 151,2023-08-23,42.8,Giving Tuesday,Bank transfer
+Donor 307,2023-08-23,74.38,Monthly,Bank transfer
+Donor 1,2023-08-23,31.81,Annual Appeal,Cash
+Donor 114,2023-08-23,47.77,Giving Tuesday,Online
+Donor 300,2023-08-23,3.18,Giving Tuesday,Online
+Donor 309,2023-08-23,17.61,Gala,Online
+Donor 369,2023-08-23,61.01,Annual Appeal,Online
+Donor 131,2023-08-24,705.94,Monthly,Cheque
+Donor 157,2023-08-24,15.4,Monthly,Online
+Donor 16,2023-08-24,15.86,Monthly,Online
+Donor 82,2023-08-24,86.88,Annual Appeal,Bank transfer
+Donor 323,2023-08-25,6.0,Annual Appeal,Online
+Donor 100,2023-08-25,17.78,Giving Tuesday,Online
+Donor 43,2023-08-26,231.54,Monthly,Cheque
+Donor 126,2023-08-26,44.8,Gala,Online
+Donor 52,2023-08-26,83.49,Giving Tuesday,Cheque
+Donor 171,2023-08-26,17.8,Giving Tuesday,Online
+Donor 73,2023-08-26,97.41,Annual Appeal,Cheque
+Donor 27,2023-08-26,28.39,Annual Appeal,Bank transfer
+Donor 19,2023-08-27,10.13,Monthly,Cheque
+Donor 26,2023-08-27,14.41,Giving Tuesday,Cash
+Donor 134,2023-08-27,91.07,Annual Appeal,Cash
+Donor 278,2023-08-28,19.84,Annual Appeal,Bank transfer
+Donor 60,2023-08-28,62.14,Annual Appeal,Cheque
+Donor 86,2023-08-28,32.84,Giving Tuesday,Bank transfer
+Donor 300,2023-08-28,48.86,Annual Appeal,Bank transfer
+Donor 68,2023-08-28,63.12,Annual Appeal,Bank transfer
+Donor 98,2023-08-29,29.57,Giving Tuesday,Cheque
+Donor 10,2023-08-29,38.93,Annual Appeal,Cash
+Donor 94,2023-08-30,107.66,Gala,Cash
+Donor 34,2023-08-30,34.12,Annual Appeal,Online
+Donor 201,2023-08-30,7.1,Monthly,Cheque
+Donor 254,2023-08-30,18.47,Annual Appeal,Bank transfer
+Donor 147,2023-08-30,70.05,Annual Appeal,Cheque
+Donor 357,2023-08-31,99.22,Annual Appeal,Bank transfer
+Donor 99,2023-08-31,18.81,Giving Tuesday,Cheque
+Donor 389,2023-09-01,97.74,Giving Tuesday,Cash
+Donor 287,2023-09-01,33.04,Gala,Online
+Donor 249,2023-09-01,25.39,Annual Appeal,Cash
+Donor 193,2023-09-01,53.82,Annual Appeal,Cash
+Donor 198,2023-09-01,92.58,Monthly,Cash
+Donor 101,2023-09-01,33.58,Giving Tuesday,Cheque
+Donor 101,2023-09-01,2.67,Monthly,Cheque
+Donor 183,2023-09-01,15.61,Annual Appeal,Cash
+Donor 368,2023-09-02,69.91,Annual Appeal,Online
+Donor 339,2023-09-02,48.19,Annual Appeal,Online
+Donor 285,2023-09-02,57.42,Giving Tuesday,Bank transfer
+Donor 103,2023-09-03,45.37,Monthly,Bank transfer
+Donor 308,2023-09-04,12.87,Giving Tuesday,Bank transfer
+Donor 129,2023-09-04,30.11,Annual Appeal,Online
+Donor 26,2023-09-04,21.14,Annual Appeal,Bank transfer
+Donor 164,2023-09-04,77.81,Annual Appeal,Bank transfer
+Donor 190,2023-09-05,110.77,Giving Tuesday,Online
+Donor 44,2023-09-05,39.08,Annual Appeal,Bank transfer
+Donor 175,2023-09-05,70.23,Monthly,Cheque
+Donor 200,2023-09-05,135.82,Giving Tuesday,Online
+Donor 212,2023-09-05,14.12,Giving Tuesday,Cheque
+Donor 133,2023-09-06,173.71,Gala,Bank transfer
+Donor 41,2023-09-06,45.75,Monthly,Cheque
+Donor 26,2023-09-07,36.86,Annual Appeal,Online
+Donor 71,2023-09-07,36.6,Monthly,Cheque
+Donor 95,2023-09-07,21.13,Monthly,Bank transfer
+Donor 165,2023-09-07,23.82,Giving Tuesday,Cheque
+Donor 326,2023-09-07,16.01,Annual Appeal,Online
+Donor 27,2023-09-07,47.08,Monthly,Bank transfer
+Donor 223,2023-09-08,19.39,Annual Appeal,Cash
+Donor 192,2023-09-08,88.29,Annual Appeal,Bank transfer
+Donor 66,2023-09-08,48.84,Annual Appeal,Bank transfer
+Donor 253,2023-09-08,8.12,Annual Appeal,Bank transfer
+Donor 301,2023-09-08,26.12,Annual Appeal,Cash
+Donor 161,2023-09-08,70.69,Monthly,Bank transfer
+Donor 393,2023-09-08,95.99,Giving Tuesday,Cheque
+Donor 309,2023-09-08,114.1,Gala,Cheque
+Donor 361,2023-09-09,7.67,Annual Appeal,Bank transfer
+Donor 107,2023-09-09,45.53,Monthly,Cheque
+Donor 2,2023-09-10,86.0,Giving Tuesday,Bank transfer
+Donor 101,2023-09-10,35.2,Annual Appeal,Cash
+Donor 258,2023-09-10,13.01,Monthly,Online
+Donor 161,2023-09-11,25.34,Giving Tuesday,Online
+Donor 281,2023-09-11,160.42,Annual Appeal,Online
+Donor 52,2023-09-11,55.15,Monthly,Cheque
+Donor 379,2023-09-11,69.14,Annual Appeal,Bank transfer
+Donor 210,2023-09-11,19.51,Giving Tuesday,Cheque
+Donor 398,2023-09-11,59.17,Annual Appeal,Bank transfer
+Donor 41,2023-09-12,58.95,Annual Appeal,Cash
+Donor 267,2023-09-12,15.55,Monthly,Online
+Donor 1,2023-09-12,8.87,Giving Tuesday,Cheque
+Donor 264,2023-09-13,12.65,Gala,Cheque
+Donor 216,2023-09-14,89.62,Annual Appeal,Cash
+Donor 18,2023-09-14,65.1,Annual Appeal,Online
+Donor 166,2023-09-15,15.52,Gala,Cash
+Donor 202,2023-09-16,46.08,Annual Appeal,Cheque
+Donor 303,2023-09-17,26.65,Gala,Cheque
+Donor 392,2023-09-17,18.91,Annual Appeal,Bank transfer
+Donor 302,2023-09-18,31.81,Monthly,Online
+Donor 118,2023-09-19,39.28,Annual Appeal,Cash
+Donor 64,2023-09-19,22.25,Monthly,Bank transfer
+Donor 355,2023-09-19,47.55,Annual Appeal,Bank transfer
+Donor 280,2023-09-20,7.71,Annual Appeal,Bank transfer
+Donor 356,2023-09-20,184.77,Monthly,Bank transfer
+Donor 53,2023-09-20,32.35,Monthly,Bank transfer
+Donor 58,2023-09-21,18.09,Annual Appeal,Cash
+Donor 190,2023-09-21,11.03,Monthly,Cash
+Donor 245,2023-09-21,17.71,Annual Appeal,Bank transfer
+Donor 193,2023-09-21,3.07,Giving Tuesday,Cash
+Donor 332,2023-09-21,31.48,Gala,Online
+Donor 365,2023-09-21,58.67,Giving Tuesday,Cheque
+Donor 55,2023-09-21,30.77,Monthly,Online
+Donor 16,2023-09-22,11.3,Monthly,Cash
+Donor 44,2023-09-22,35.52,Monthly,Cheque
+Donor 334,2023-09-22,16.21,Monthly,Cash
+Donor 366,2023-09-22,22.52,Giving Tuesday,Bank transfer
+Donor 297,2023-09-22,138.31,Annual Appeal,Online
+Donor 37,2023-09-22,62.95,Annual Appeal,Cheque
+Donor 26,2023-09-23,10.21,Annual Appeal,Bank transfer
+Donor 388,2023-09-23,36.2,Gala,Cheque
+Donor 290,2023-09-23,24.67,Annual Appeal,Bank transfer
+Donor 348,2023-09-23,81.09,Annual Appeal,Online
+Donor 68,2023-09-24,872.21,Monthly,Cash
+Donor 184,2023-09-24,76.95,Monthly,Bank transfer
+Donor 165,2023-09-24,182.5,Annual Appeal,Cash
+Donor 347,2023-09-25,26.2,Annual Appeal,Bank transfer
+Donor 397,2023-09-25,33.61,Monthly,Bank transfer
+Donor 234,2023-09-25,24.42,Annual Appeal,Online
+Donor 42,2023-09-25,360.31,Monthly,Online
+Donor 191,2023-09-25,44.12,Annual Appeal,Cheque
+Donor 146,2023-09-25,52.87,Giving Tuesday,Online
+Donor 345,2023-09-26,24.55,Monthly,Cheque
+Donor 315,2023-09-26,15.93,Annual Appeal,Online
+Donor 155,2023-09-26,20.74,Monthly,Cheque
+Donor 397,2023-09-27,10.28,Monthly,Cheque
+Donor 212,2023-09-27,49.27,Giving Tuesday,Online
+Donor 179,2023-09-27,28.07,Monthly,Online
+Donor 266,2023-09-27,16.9,Annual Appeal,Cash
+Donor 257,2023-09-28,50.27,Monthly,Cash
+Donor 383,2023-09-28,13.69,Monthly,Bank transfer
+Donor 212,2023-09-28,18.92,Giving Tuesday,Online
+Donor 285,2023-09-28,6.25,Annual Appeal,Bank transfer
+Donor 307,2023-09-28,48.46,Annual Appeal,Bank transfer
+Donor 133,2023-09-28,27.93,Monthly,Cash
+Donor 77,2023-09-28,58.17,Giving Tuesday,Online
+Donor 127,2023-09-28,32.85,Monthly,Online
+Donor 385,2023-09-29,72.16,Annual Appeal,Cheque
+Donor 336,2023-09-29,9.22,Monthly,Bank transfer
+Donor 313,2023-09-29,53.76,Annual Appeal,Cheque
+Donor 335,2023-09-29,13.41,Monthly,Bank transfer
+Donor 212,2023-09-30,50.13,Monthly,Cheque
+Donor 301,2023-09-30,27.95,Annual Appeal,Online
+Donor 235,2023-09-30,57.23,Giving Tuesday,Bank transfer
+Donor 322,2023-09-30,69.19,Annual Appeal,Cheque
+Donor 376,2023-10-01,9.95,Annual Appeal,Cash
+Donor 186,2023-10-01,44.94,Giving Tuesday,Online
+Donor 335,2023-10-01,28.17,Annual Appeal,Cheque
+Donor 149,2023-10-02,29.52,Annual Appeal,Bank transfer
+Donor 276,2023-10-02,43.7,Giving Tuesday,Cheque
+Donor 3,2023-10-03,149.89,Annual Appeal,Online
+Donor 327,2023-10-03,349.26,Annual Appeal,Online
+Donor 377,2023-10-03,45.62,Monthly,Bank transfer
+Donor 241,2023-10-04,29.99,Annual Appeal,Bank transfer
+Donor 335,2023-10-04,8.81,Giving Tuesday,Bank transfer
+Donor 384,2023-10-04,27.97,Gala,Cheque
+Donor 3,2023-10-04,39.53,Giving Tuesday,Online
+Donor 326,2023-10-05,145.22,Monthly,Cheque
+Donor 239,2023-10-05,75.1,Monthly,Cheque
+Donor 349,2023-10-05,310.7,Annual Appeal,Cash
+Donor 88,2023-10-05,7.27,Giving Tuesday,Bank transfer
+Donor 134,2023-10-06,91.79,Annual Appeal,Cash
+Donor 230,2023-10-06,106.65,Giving Tuesday,Online
+Donor 238,2023-10-07,58.99,Monthly,Bank transfer
+Donor 393,2023-10-07,30.02,Giving Tuesday,Cheque
+Donor 13,2023-10-07,13.42,Monthly,Cash
+Donor 249,2023-10-08,36.31,Annual Appeal,Cash
+Donor 190,2023-10-08,137.96,Annual Appeal,Online
+Donor 104,2023-10-08,15.31,Annual Appeal,Bank transfer
+Donor 105,2023-10-08,43.68,Annual Appeal,Online
+Donor 376,2023-10-08,4.34,Monthly,Cheque
+Donor 212,2023-10-08,23.38,Annual Appeal,Cheque
+Donor 334,2023-10-08,5.96,Annual Appeal,Online
+Donor 98,2023-10-09,25.49,Annual Appeal,Online
+Donor 289,2023-10-09,21.9,Giving Tuesday,Online
+Donor 141,2023-10-10,17.04,Giving Tuesday,Online
+Donor 380,2023-10-10,268.18,Gala,Bank transfer
+Donor 122,2023-10-10,22.98,Annual Appeal,Cheque
+Donor 101,2023-10-11,35.69,Annual Appeal,Cheque
+Donor 234,2023-10-11,38.63,Annual Appeal,Cheque
+Donor 211,2023-10-11,30.61,Giving Tuesday,Online
+Donor 257,2023-10-11,65.52,Giving Tuesday,Cheque
+Donor 223,2023-10-12,44.04,Monthly,Online
+Donor 269,2023-10-12,30.01,Annual Appeal,Online
+Donor 145,2023-10-12,238.3,Giving Tuesday,Bank transfer
+Donor 59,2023-10-13,31.32,Gala,Bank transfer
+Donor 345,2023-10-13,60.04,Giving Tuesday,Cheque
+Donor 44,2023-10-13,34.39,Giving Tuesday,Cheque
+Donor 247,2023-10-13,5.23,Annual Appeal,Cash
+Donor 58,2023-10-14,210.71,Annual Appeal,Bank transfer
+Donor 191,2023-10-14,78.31,Monthly,Bank transfer
+Donor 60,2023-10-14,24.45,Annual Appeal,Cash
+Donor 245,2023-10-14,4.12,Annual Appeal,Cash
+Donor 56,2023-10-14,23.0,Annual Appeal,Cash
+Donor 351,2023-10-15,195.82,Giving Tuesday,Online
+Donor 365,2023-10-15,33.53,Annual Appeal,Online
+Donor 393,2023-10-15,14.42,Giving Tuesday,Cheque
+Donor 134,2023-10-15,137.23,Gala,Cash
+Donor 380,2023-10-15,15.66,Annual Appeal,Online
+Donor 230,2023-10-15,79.02,Monthly,Bank transfer
+Donor 341,2023-10-15,41.51,Annual Appeal,Online
+Donor 310,2023-10-16,28.96,Annual Appeal,Cash
+Donor 217,2023-10-16,24.98,Monthly,Bank transfer
+Donor 324,2023-10-16,11.88,Monthly,Online
+Donor 278,2023-10-17,22.89,Annual Appeal,Cheque
+Donor 130,2023-10-17,57.78,Gala,Bank transfer
+Donor 192,2023-10-17,12.05,Annual Appeal,Cash
+Donor 246,2023-10-18,8.89,Giving Tuesday,Online
+Donor 205,2023-10-18,24.35,Annual Appeal,Bank transfer
+Donor 357,2023-10-18,143.48,Annual Appeal,Online
+Donor 386,2023-10-18,11.29,Monthly,Cheque
+Donor 153,2023-10-18,15.26,Monthly,Bank transfer
+Donor 72,2023-10-19,51.84,Giving Tuesday,Online
+Donor 180,2023-10-20,6.57,Annual Appeal,Cheque
+Donor 222,2023-10-20,15.72,Monthly,Cheque
+Donor 395,2023-10-20,11.59,Annual Appeal,Cash
+Donor 46,2023-10-20,133.77,Annual Appeal,Cash
+Donor 275,2023-10-20,8.43,Giving Tuesday,Online
+Donor 239,2023-10-20,35.36,Annual Appeal,Cash
+Donor 333,2023-10-21,79.68,Annual Appeal,Cash
+Donor 250,2023-10-21,53.77,Annual Appeal,Cash
+Donor 164,2023-10-21,122.36,Annual Appeal,Bank transfer
+Donor 80,2023-10-22,88.25,Monthly,Cheque
+Donor 308,2023-10-22,13.69,Annual Appeal,Bank transfer
+Donor 275,2023-10-22,8.34,Annual Appeal,Online
+Donor 228,2023-10-22,63.87,Monthly,Bank transfer
+Donor 158,2023-10-23,25.6,Monthly,Bank transfer
+Donor 123,2023-10-23,43.99,Annual Appeal,Online
+Donor 367,2023-10-24,107.29,Giving Tuesday,Online
+Donor 72,2023-10-24,14.39,Monthly,Bank transfer
+Donor 100,2023-10-24,12.9,Annual Appeal,Cheque
+Donor 126,2023-10-25,17.85,Giving Tuesday,Online
+Donor 359,2023-10-25,8.71,Annual Appeal,Bank transfer
+Donor 293,2023-10-25,79.49,Gala,Online
+Donor 91,2023-10-25,29.55,Monthly,Cheque
+Donor 285,2023-10-25,17.4,Giving Tuesday,Online
+Donor 245,2023-10-26,35.03,Gala,Cash
+Donor 136,2023-10-26,7.99,Annual Appeal,Cheque
+Donor 376,2023-10-26,7.08,Giving Tuesday,Cash
+Donor 108,2023-10-26,36.07,Monthly,Online
+Donor 399,2023-10-26,25.01,Giving Tuesday,Cheque
+Donor 276,2023-10-26,70.94,Annual Appeal,Cheque
+Donor 86,2023-10-27,21.66,Annual Appeal,Online
+Donor 167,2023-10-27,42.81,Monthly,Online
+Donor 158,2023-10-27,18.49,Annual Appeal,Cheque
+Donor 100,2023-10-27,10.83,Annual Appeal,Online
+Donor 389,2023-10-27,3.94,Monthly,Cash
+Donor 196,2023-10-28,101.43,Annual Appeal,Cheque
+Donor 123,2023-10-28,31.1,Monthly,Bank transfer
+Donor 99,2023-10-28,3.23,Annual Appeal,Cash
+Donor 243,2023-10-28,67.12,Monthly,Cheque
+Donor 314,2023-10-29,39.55,Monthly,Online
+Donor 369,2023-10-29,62.0,Annual Appeal,Online
+Donor 203,2023-10-29,11.89,Giving Tuesday,Cheque
+Donor 234,2023-10-30,29.02,Annual Appeal,Online
+Donor 29,2023-10-30,75.62,Monthly,Online
+Donor 386,2023-10-30,101.71,Monthly,Bank transfer
+Donor 139,2023-10-30,3.91,Gala,Cheque
+Donor 238,2023-10-30,20.24,Annual Appeal,Cash
+Donor 320,2023-10-30,47.05,Monthly,Online
+Donor 361,2023-10-30,205.66,Giving Tuesday,Bank transfer
+Donor 207,2023-10-31,90.8,Giving Tuesday,Online
+Donor 342,2023-10-31,42.94,Monthly,Bank transfer
+Donor 391,2023-10-31,11.5,Annual Appeal,Cash
+Donor 81,2023-10-31,20.22,Annual Appeal,Bank transfer
+Donor 187,2023-11-01,4.45,Monthly,Online
+Donor 5,2023-11-01,15.63,Giving Tuesday,Online
+Donor 89,2023-11-01,38.8,Giving Tuesday,Bank transfer
+Donor 241,2023-11-01,7.5,Annual Appeal,Online
+Donor 297,2023-11-01,61.22,Annual Appeal,Bank transfer
+Donor 246,2023-11-01,121.43,Giving Tuesday,Cheque
+Donor 109,2023-11-01,126.24,Annual Appeal,Cash
+Donor 305,2023-11-02,19.76,Monthly,Cash
+Donor 77,2023-11-02,40.14,Giving Tuesday,Cheque
+Donor 75,2023-11-02,102.41,Giving Tuesday,Online
+Donor 90,2023-11-02,92.53,Annual Appeal,Bank transfer
+Donor 303,2023-11-02,13.05,Monthly,Cheque
+Donor 207,2023-11-02,101.81,Giving Tuesday,Online
+Donor 258,2023-11-02,33.99,Monthly,Cash
+Donor 90,2023-11-02,44.54,Monthly,Online
+Donor 59,2023-11-03,96.13,Monthly,Cash
+Donor 190,2023-11-03,29.6,Annual Appeal,Online
+Donor 25,2023-11-03,12.24,Annual Appeal,Bank transfer
+Donor 211,2023-11-03,140.76,Gala,Cheque
+Donor 155,2023-11-04,71.19,Monthly,Bank transfer
+Donor 290,2023-11-05,68.19,Annual Appeal,Bank transfer
+Donor 66,2023-11-05,21.15,Annual Appeal,Online
+Donor 304,2023-11-05,40.8,Annual Appeal,Cash
+Donor 47,2023-11-06,57.7,Monthly,Bank transfer
+Donor 356,2023-11-06,25.07,Annual Appeal,Online
+Donor 196,2023-11-06,24.07,Monthly,Cash
+Donor 351,2023-11-06,31.85,Monthly,Cheque
+Donor 171,2023-11-07,18.43,Giving Tuesday,Online
+Donor 42,2023-11-07,14.31,Annual Appeal,Online
+Donor 104,2023-11-07,57.41,Annual Appeal,Bank transfer
+Donor 8,2023-11-07,15.09,Annual Appeal,Online
+Donor 26,2023-11-07,21.2,Annual Appeal,Cheque
+Donor 72,2023-11-08,88.13,Monthly,Cash
+Donor 302,2023-11-09,76.37,Annual Appeal,Cash
+Donor 354,2023-11-09,33.34,Monthly,Bank transfer
+Donor 61,2023-11-09,7.84,Annual Appeal,Bank transfer
+Donor 15,2023-11-10,22.5,Monthly,Cash
+Donor 327,2023-11-10,30.14,Annual Appeal,Online
+Donor 26,2023-11-11,93.11,Annual Appeal,Online
+Donor 65,2023-11-11,14.47,Giving Tuesday,Online
+Donor 107,2023-11-11,18.66,Gala,Online
+Donor 16,2023-11-11,18.12,Monthly,Online
+Donor 139,2023-11-11,11.96,Monthly,Cash
+Donor 106,2023-11-11,56.97,Monthly,Online
+Donor 63,2023-11-12,13.97,Giving Tuesday,Bank transfer
+Donor 88,2023-11-12,12.62,Giving Tuesday,Cash
+Donor 295,2023-11-12,355.88,Giving Tuesday,Bank transfer
+Donor 314,2023-11-13,19.35,Gala,Online
+Donor 370,2023-11-13,37.78,Annual Appeal,Cheque
+Donor 85,2023-11-13,88.99,Annual Appeal,Cheque
+Donor 328,2023-11-13,49.9,Annual Appeal,Cash
+Donor 47,2023-11-13,146.95,Monthly,Online
+Donor 295,2023-11-13,26.87,Gala,Cheque
+Donor 294,2023-11-13,129.34,Giving Tuesday,Online
+Donor 117,2023-11-13,49.76,Annual Appeal,Bank transfer
+Donor 369,2023-11-13,25.37,Giving Tuesday,Cheque
+Donor 182,2023-11-14,13.16,Monthly,Online
+Donor 91,2023-11-14,32.88,Monthly,Cheque
+Donor 280,2023-11-14,17.36,Monthly,Cash
+Donor 7,2023-11-14,16.81,Giving Tuesday,Cash
+Donor 123,2023-11-14,16.96,Gala,Bank transfer
+Donor 62,2023-11-14,6.91,Annual Appeal,Cash
+Donor 331,2023-11-14,18.62,Monthly,Cash
+Donor 3,2023-11-15,15.61,Monthly,Cheque
+Donor 259,2023-11-15,11.39,Annual Appeal,Online
+Donor 355,2023-11-15,52.45,Annual Appeal,Cash
+Donor 343,2023-11-15,19.14,Annual Appeal,Bank transfer
+Donor 54,2023-11-16,3.66,Giving Tuesday,Online
+Donor 129,2023-11-16,76.7,Monthly,Cash
+Donor 371,2023-11-16,66.97,Giving Tuesday,Bank transfer
+Donor 238,2023-11-16,33.58,Gala,Cash
+Donor 271,2023-11-16,21.26,Annual Appeal,Bank transfer
+Donor 254,2023-11-17,108.81,Monthly,Cheque
+Donor 360,2023-11-17,319.78,Giving Tuesday,Online
+Donor 302,2023-11-17,52.44,Annual Appeal,Cheque
+Donor 344,2023-11-17,19.35,Giving Tuesday,Cash
+Donor 350,2023-11-17,13.63,Monthly,Online
+Donor 389,2023-11-18,22.72,Annual Appeal,Cheque
+Donor 364,2023-11-18,23.69,Annual Appeal,Bank transfer
+Donor 70,2023-11-18,52.14,Monthly,Cheque
+Donor 200,2023-11-19,64.79,Gala,Bank transfer
+Donor 95,2023-11-19,57.45,Giving Tuesday,Bank transfer
+Donor 21,2023-11-20,109.03,Monthly,Bank transfer
+Donor 31,2023-11-20,39.6,Monthly,Cheque
+Donor 347,2023-11-20,6.56,Annual Appeal,Cash
+Donor 28,2023-11-20,13.63,Monthly,Cheque
+Donor 198,2023-11-20,45.94,Annual Appeal,Cash
+Donor 268,2023-11-21,5.84,Giving Tuesday,Bank transfer
+Donor 284,2023-11-21,74.15,Giving Tuesday,Cash
+Donor 59,2023-11-21,23.17,Giving Tuesday,Cheque
+Donor 182,2023-11-21,23.0,Monthly,Bank transfer
+Donor 97,2023-11-21,101.4,Annual Appeal,Bank transfer
+Donor 29,2023-11-22,4.03,Annual Appeal,Online
+Donor 315,2023-11-22,7.15,Annual Appeal,Online
+Donor 43,2023-11-22,34.93,Monthly,Online
+Donor 226,2023-11-22,39.23,Gala,Cheque
+Donor 229,2023-11-22,681.15,Giving Tuesday,Bank transfer
+Donor 95,2023-11-23,12.93,Monthly,Cheque
+Donor 265,2023-11-23,72.33,Giving Tuesday,Online
+Donor 15,2023-11-23,16.02,Annual Appeal,Cheque
+Donor 341,2023-11-23,118.81,Giving Tuesday,Cash
+Donor 30,2023-11-24,107.57,Monthly,Cash
+Donor 172,2023-11-24,52.75,Annual Appeal,Cheque
+Donor 130,2023-11-24,12.72,Monthly,Cheque
+Donor 244,2023-11-24,30.33,Giving Tuesday,Cheque
+Donor 261,2023-11-24,4.24,Monthly,Cheque
+Donor 69,2023-11-24,29.72,Monthly,Bank transfer
+Donor 286,2023-11-25,60.02,Gala,Cash
+Donor 180,2023-11-25,33.48,Annual Appeal,Cheque
+Donor 272,2023-11-25,17.88,Annual Appeal,Bank transfer
+Donor 74,2023-11-25,62.02,Annual Appeal,Bank transfer
+Donor 237,2023-11-25,13.24,Monthly,Cheque
+Donor 252,2023-11-25,11.62,Giving Tuesday,Bank transfer
+Donor 262,2023-11-25,87.4,Annual Appeal,Bank transfer
+Donor 123,2023-11-25,51.94,Monthly,Cash
+Donor 339,2023-11-25,182.34,Annual Appeal,Cash
+Donor 390,2023-11-25,145.41,Monthly,Cash
+Donor 101,2023-11-26,32.54,Annual Appeal,Cash
+Donor 21,2023-11-26,12.62,Monthly,Cash
+Donor 230,2023-11-27,27.63,Annual Appeal,Cash
+Donor 192,2023-11-27,23.3,Annual Appeal,Bank transfer
+Donor 303,2023-11-27,15.78,Gala,Cash
+Donor 42,2023-11-27,226.9,Monthly,Bank transfer
+Donor 307,2023-11-27,110.24,Annual Appeal,Cash
+Donor 272,2023-11-28,59.81,Annual Appeal,Cash
+Donor 58,2023-11-28,46.09,Annual Appeal,Online
+Donor 299,2023-11-28,33.56,Giving Tuesday,Cheque
+Donor 306,2023-11-28,6.3,Annual Appeal,Cash
+Donor 64,2023-11-28,30.43,Annual Appeal,Bank transfer
+Donor 366,2023-11-28,27.82,Annual Appeal,Cheque
+Donor 239,2023-11-28,27.97,Annual Appeal,Cheque
+Donor 200,2023-11-28,53.79,Gala,Cheque
+Donor 243,2023-11-29,44.87,Annual Appeal,Online
+Donor 267,2023-11-29,206.64,Giving Tuesday,Online
+Donor 57,2023-11-29,11.88,Giving Tuesday,Bank transfer
+Donor 296,2023-11-29,15.35,Monthly,Cheque
+Donor 203,2023-11-29,24.38,Annual Appeal,Online
+Donor 375,2023-11-30,109.0,Annual Appeal,Cheque
+Donor 136,2023-11-30,13.44,Monthly,Cheque
+Donor 116,2023-11-30,8.62,Monthly,Cheque
+Donor 151,2023-11-30,33.12,Annual Appeal,Online
+Donor 162,2023-11-30,33.46,Annual Appeal,Cheque
+Donor 246,2023-12-01,177.76,Monthly,Bank transfer
+Donor 351,2023-12-01,5.78,Monthly,Online
+Donor 265,2023-12-01,16.64,Annual Appeal,Cheque
+Donor 98,2023-12-01,84.76,Annual Appeal,Online
+Donor 134,2023-12-02,24.5,Monthly,Cheque
+Donor 375,2023-12-02,65.38,Annual Appeal,Bank transfer
+Donor 50,2023-12-02,10.4,Monthly,Bank transfer
+Donor 314,2023-12-02,833.02,Giving Tuesday,Cheque
+Donor 58,2023-12-03,660.38,Giving Tuesday,Cheque
+Donor 337,2023-12-03,268.82,Monthly,Online
+Donor 39,2023-12-03,45.52,Giving Tuesday,Bank transfer
+Donor 335,2023-12-03,41.62,Gala,Online
+Donor 131,2023-12-03,67.46,Annual Appeal,Online
+Donor 173,2023-12-04,16.22,Giving Tuesday,Bank transfer
+Donor 136,2023-12-04,176.74,Annual Appeal,Bank transfer
+Donor 51,2023-12-04,195.92,Gala,Cash
+Donor 328,2023-12-04,56.94,Gala,Cash
+Donor 19,2023-12-04,552.7,Giving Tuesday,Cash
+Donor 313,2023-12-04,259.96,Monthly,Bank transfer
+Donor 124,2023-12-04,34.78,Giving Tuesday,Online
+Donor 292,2023-12-04,45.3,Annual Appeal,Cash
+Donor 333,2023-12-05,90.76,Annual Appeal,Cash
+Donor 298,2023-12-05,39.74,Giving Tuesday,Cheque
+Donor 287,2023-12-05,38.8,Monthly,Cheque
+Donor 181,2023-12-05,169.14,Annual Appeal,Bank transfer
+Donor 242,2023-12-05,67.06,Annual Appeal,Bank transfer
+Donor 358,2023-12-06,3.78,Giving Tuesday,Online
+Donor 220,2023-12-06,46.3,Annual Appeal,Cheque
+Donor 256,2023-12-06,51.82,Annual Appeal,Online
+Donor 199,2023-12-07,8.98,Monthly,Cash
+Donor 104,2023-12-07,421.4,Annual Appeal,Cash
+Donor 163,2023-12-07,35.76,Giving Tuesday,Bank transfer
+Donor 351,2023-12-07,16.86,Monthly,Cheque
+Donor 270,2023-12-07,55.6,Annual Appeal,Online
+Donor 215,2023-12-08,62.2,Annual Appeal,Cash
+Donor 138,2023-12-08,21.52,Annual Appeal,Cheque
+Donor 324,2023-12-08,22.22,Annual Appeal,Online
+Donor 277,2023-12-08,79.64,Giving Tuesday,Cheque
+Donor 84,2023-12-08,241.44,Giving Tuesday,Cheque
+Donor 339,2023-12-09,154.62,Annual Appeal,Bank transfer
+Donor 159,2023-12-09,122.78,Annual Appeal,Bank transfer
+Donor 268,2023-12-09,111.98,Giving Tuesday,Bank transfer
+Donor 237,2023-12-09,958.06,Monthly,Online
+Donor 158,2023-12-09,156.6,Giving Tuesday,Cheque
+Donor 154,2023-12-09,131.86,Annual Appeal,Online
+Donor 370,2023-12-09,69.36,Monthly,Cheque
+Donor 339,2023-12-10,32.78,Gala,Cheque
+Donor 31,2023-12-10,28.64,Annual Appeal,Cheque
+Donor 276,2023-12-10,17.68,Giving Tuesday,Bank transfer
+Donor 304,2023-12-10,29.24,Monthly,Cheque
+Donor 257,2023-12-11,137.4,Giving Tuesday,Bank transfer
+Donor 207,2023-12-11,21.26,Monthly,Cash
+Donor 271,2023-12-12,195.3,Annual Appeal,Online
+Donor 138,2023-12-12,72.58,Giving Tuesday,Online
+Donor 54,2023-12-12,158.46,Giving Tuesday,Online
+Donor 139,2023-12-12,161.74,Annual Appeal,Cash
+Donor 359,2023-12-13,82.64,Giving Tuesday,Bank transfer
+Donor 358,2023-12-13,32.96,Annual Appeal,Bank transfer
+Donor 169,2023-12-13,73.38,Monthly,Online
+Donor 264,2023-12-13,22.02,Gala,Cheque
+Donor 394,2023-12-14,25.38,Annual Appeal,Cheque
+Donor 341,2023-12-14,22.9,Giving Tuesday,Cheque
+Donor 12,2023-12-14,25.3,Annual Appeal,Bank transfer
+Donor 112,2023-12-14,230.94,Monthly,Cheque
+Donor 53,2023-12-14,51.88,Gala,Bank transfer
+Donor 392,2023-12-14,319.98,Annual Appeal,Bank transfer
+Donor 153,2023-12-14,98.46,Annual Appeal,Bank transfer
+Donor 41,2023-12-14,31.66,Monthly,Cheque
+Donor 222,2023-12-15,97.54,Monthly,Online
+Donor 211,2023-12-15,257.58,Monthly,Online
+Donor 357,2023-12-15,23.92,Monthly,Online
+Donor 293,2023-12-15,32.88,Annual Appeal,Cash
+Donor 17,2023-12-15,45.74,Monthly,Cash
+Donor 262,2023-12-16,118.2,Annual Appeal,Online
+Donor 118,2023-12-16,27.56,Giving Tuesday,Cash
+Donor 208,2023-12-16,108.36,Monthly,Online
+Donor 308,2023-12-16,33.94,Giving Tuesday,Bank transfer
+Donor 10,2023-12-17,94.84,Giving Tuesday,Online
+Donor 163,2023-12-17,33.5,Annual Appeal,Cheque
+Donor 144,2023-12-17,252.02,Monthly,Cheque
+Donor 137,2023-12-18,11.78,Annual Appeal,Cash
+Donor 207,2023-12-18,63.7,Annual Appeal,Online
+Donor 44,2023-12-18,143.32,Gala,Bank transfer
+Donor 249,2023-12-18,10.5,Monthly,Cash
+Donor 18,2023-12-19,36.54,Giving Tuesday,Online
+Donor 140,2023-12-19,30.24,Monthly,Cash
+Donor 137,2023-12-19,165.3,Monthly,Cheque
+Donor 16,2023-12-19,27.0,Giving Tuesday,Bank transfer
+Donor 97,2023-12-21,98.98,Annual Appeal,Cash
+Donor 398,2023-12-21,90.42,Monthly,Bank transfer
+Donor 336,2023-12-22,149.68,Annual Appeal,Online
+Donor 119,2023-12-22,290.2,Monthly,Bank transfer
+Donor 145,2023-12-23,494.76,Giving Tuesday,Cheque
+Donor 128,2023-12-23,58.16,Giving Tuesday,Bank transfer
+Donor 10,2023-12-24,216.86,Annual Appeal,Bank transfer
+Donor 170,2023-12-24,140.9,Annual Appeal,Cheque
+Donor 129,2023-12-24,97.86,Monthly,Cheque
+Donor 313,2023-12-24,156.78,Annual Appeal,Cheque
+Donor 173,2023-12-24,96.98,Annual Appeal,Bank transfer
+Donor 211,2023-12-25,11.32,Annual Appeal,Online
+Donor 269,2023-12-25,50.1,Monthly,Bank transfer
+Donor 274,2023-12-25,18.56,Giving Tuesday,Cash
+Donor 35,2023-12-25,17.84,Giving Tuesday,Cash
+Donor 352,2023-12-26,110.04,Gala,Online
+Donor 137,2023-12-26,19.0,Monthly,Cash
+Donor 38,2023-12-26,8.6,Annual Appeal,Bank transfer
+Donor 236,2023-12-26,75.42,Giving Tuesday,Online
+Donor 95,2023-12-27,50.54,Giving Tuesday,Cash
+Donor 189,2023-12-27,6.8,Giving Tuesday,Cheque
+Donor 220,2023-12-27,18.92,Gala,Online
+Donor 308,2023-12-27,43.4,Annual Appeal,Online
+Donor 221,2023-12-27,261.26,Annual Appeal,Bank transfer
+Donor 202,2023-12-27,81.84,Monthly,Cash
+Donor 139,2023-12-28,35.98,Monthly,Online
+Donor 45,2023-12-28,14.9,Annual Appeal,Online
+Donor 256,2023-12-28,59.76,Monthly,Bank transfer
+Donor 389,2023-12-28,43.5,Monthly,Cheque
+Donor 26,2023-12-28,45.42,Monthly,Online
+Donor 25,2023-12-29,14.12,Giving Tuesday,Cash
+Donor 123,2023-12-29,38.78,Annual Appeal,Cash
+Donor 47,2023-12-29,94.62,Annual Appeal,Online
+Donor 17,2023-12-29,78.58,Annual Appeal,Cheque
+Donor 88,2023-12-30,84.6,Monthly,Cash
+Donor 388,2023-12-30,12.32,Annual Appeal,Cheque
+Donor 163,2023-12-30,5.92,Monthly,Cash
+Donor 326,2023-12-31,115.0,Gala,Online
+Donor 261,2023-12-31,51.8,Annual Appeal,Online
+Donor 34,2023-12-31,88.5,Monthly,Cash
+Donor 334,2023-12-31,33.46,Annual Appeal,Cheque
+Donor 277,2024-01-01,78.71,Annual Appeal,Bank transfer
+Donor 228,2024-01-01,38.75,Giving Tuesday,Bank transfer
+Donor 167,2024-01-01,27.01,Annual Appeal,Cheque
+Donor 43,2024-01-01,35.9,Annual Appeal,Online
+Donor 336,2024-01-01,51.93,Monthly,Cash
+Donor 7,2024-01-02,41.11,Gala,Cheque
+Donor 127,2024-01-03,9.01,Monthly,Online
+Donor 178,2024-01-03,109.55,Annual Appeal,Bank transfer
+Donor 249,2024-01-03,300.82,Giving Tuesday,Online
+Donor 140,2024-01-03,6.18,Monthly,Cash
+Donor 111,2024-01-03,124.28,Annual Appeal,Online
+Donor 248,2024-01-04,75.47,Gala,Cash
+Donor 355,2024-01-04,17.65,Monthly,Online
+Donor 140,2024-01-04,45.79,Annual Appeal,Cash
+Donor 152,2024-01-04,49.57,Annual Appeal,Cheque
+Donor 110,2024-01-04,38.83,Monthly,Bank transfer
+Donor 306,2024-01-04,36.04,Monthly,Cash
+Donor 55,2024-01-04,137.01,Giving Tuesday,Cheque
+Donor 294,2024-01-04,13.27,Gala,Online
+Donor 101,2024-01-05,53.01,Giving Tuesday,Online
+Donor 301,2024-01-05,7.74,Giving Tuesday,Bank transfer
+Donor 3,2024-01-05,6.51,Monthly,Cash
+Donor 56,2024-01-05,11.35,Annual Appeal,Online
+Donor 113,2024-01-06,106.62,Gala,Bank transfer
+Donor 377,2024-01-06,158.5,Annual Appeal,Cash
+Donor 239,2024-01-06,5.9,Giving Tuesday,Online
+Donor 50,2024-01-06,78.04,Giving Tuesday,Bank transfer
+Donor 181,2024-01-06,28.93,Gala,Bank transfer
+Donor 287,2024-01-06,47.11,Annual Appeal,Cheque
+Donor 166,2024-01-07,158.89,Gala,Bank transfer
+Donor 387,2024-01-07,38.48,Annual Appeal,Online
+Donor 246,2024-01-07,59.66,Monthly,Bank transfer
+Donor 284,2024-01-07,61.5,Giving Tuesday,Online
+Donor 327,2024-01-07,18.15,Monthly,Bank transfer
+Donor 132,2024-01-08,50.42,Monthly,Cheque
+Donor 9,2024-01-09,56.86,Monthly,Online
+Donor 119,2024-01-10,9.29,Annual Appeal,Bank transfer
+Donor 281,2024-01-10,269.35,Annual Appeal,Online
+Donor 45,2024-01-10,8.11,Monthly,Cash
+Donor 313,2024-01-10,47.8,Giving Tuesday,Cash
+Donor 368,2024-01-10,4.87,Annual Appeal,Cash
+Donor 385,2024-01-11,10.0,Giving Tuesday,Bank transfer
+Donor 273,2024-01-11,21.98,Gala,Cheque
+Donor 177,2024-01-11,32.06,Giving Tuesday,Bank transfer
+Donor 221,2024-01-11,237.98,Monthly,Cash
+Donor 251,2024-01-12,13.6,Annual Appeal,Bank transfer
+Donor 329,2024-01-12,108.72,Annual Appeal,Cash
+Donor 100,2024-01-12,22.21,Monthly,Cheque
+Donor 305,2024-01-12,82.45,Annual Appeal,Online
+Donor 228,2024-01-12,14.08,Annual Appeal,Online
+Donor 5,2024-01-12,38.02,Annual Appeal,Bank transfer
+Donor 310,2024-01-13,19.07,Monthly,Online
+Donor 50,2024-01-13,82.37,Monthly,Online
+Donor 172,2024-01-13,18.02,Annual Appeal,Cheque
+Donor 229,2024-01-13,53.57,Annual Appeal,Cheque
+Donor 373,2024-01-13,48.43,Annual Appeal,Online
+Donor 247,2024-01-14,64.96,Giving Tuesday,Cheque
+Donor 66,2024-01-15,48.05,Monthly,Bank transfer
+Donor 170,2024-01-15,6.06,Monthly,Bank transfer
+Donor 4,2024-01-15,15.7,Monthly,Online
+Donor 290,2024-01-15,200.54,Annual Appeal,Bank transfer
+Donor 92,2024-01-15,13.36,Monthly,Cheque
+Donor 201,2024-01-15,33.65,Monthly,Cash
+Donor 26,2024-01-15,19.66,Gala,Bank transfer
+Donor 245,2024-01-16,62.1,Annual Appeal,Online
+Donor 251,2024-01-16,12.07,Monthly,Cash
+Donor 55,2024-01-16,20.7,Monthly,Online
+Donor 294,2024-01-16,109.92,Annual Appeal,Bank transfer
+Donor 57,2024-01-17,45.56,Annual Appeal,Bank transfer
+Donor 23,2024-01-17,23.63,Monthly,Online
+Donor 156,2024-01-17,11.27,Annual Appeal,Online
+Donor 333,2024-01-17,40.62,Annual Appeal,Cheque
+Donor 396,2024-01-17,75.33,Giving Tuesday,Online
+Donor 398,2024-01-17,8.06,Annual Appeal,Cash
+Donor 245,2024-01-17,31.9,Giving Tuesday,Online
+Donor 184,2024-01-18,103.06,Giving Tuesday,Cheque
+Donor 51,2024-01-18,89.71,Annual Appeal,Cash
+Donor 198,2024-01-18,87.16,Annual Appeal,Online
+Donor 289,2024-01-19,36.22,Monthly,Cash
+Donor 118,2024-01-19,38.3,Monthly,Online
+Donor 201,2024-01-19,32.44,Annual Appeal,Cash
+Donor 135,2024-01-19,31.33,Monthly,Online
+Donor 120,2024-01-19,42.21,Annual Appeal,Bank transfer
+Donor 174,2024-01-20,89.65,Annual Appeal,Cheque
+Donor 200,2024-01-20,36.95,Giving Tuesday,Cash
+Donor 86,2024-01-20,30.14,Annual Appeal,Online
+Donor 70,2024-01-20,25.69,Giving Tuesday,Cash
+Donor 174,2024-01-21,37.16,Annual Appeal,Cheque
+Donor 362,2024-01-22,21.97,Giving Tuesday,Cash
+Donor 113,2024-01-22,25.08,Monthly,Online
+Donor 260,2024-01-22,138.51,Monthly,Bank transfer
+Donor 54,2024-01-22,9.31,Monthly,Cheque
+Donor 196,2024-01-23,51.82,Monthly,Online
+Donor 358,2024-01-23,40.91,Annual Appeal,Cheque
+Donor 329,2024-01-23,31.33,Annual Appeal,Cheque
+Donor 342,2024-01-23,12.27,Monthly,Cash
+Donor 104,2024-01-23,6.81,Giving Tuesday,Bank transfer
+Donor 249,2024-01-23,17.29,Monthly,Cheque
+Donor 326,2024-01-23,33.7,Annual Appeal,Cash
+Donor 392,2024-01-23,3.46,Giving Tuesday,Online
+Donor 399,2024-01-23,42.03,Giving Tuesday,Bank transfer
+Donor 175,2024-01-23,13.34,Monthly,Cheque
+Donor 128,2024-01-23,70.12,Monthly,Cash
+Donor 393,2024-01-24,20.99,Annual Appeal,Cheque
+Donor 228,2024-01-24,49.36,Giving Tuesday,Cash
+Donor 177,2024-01-24,25.55,Annual Appeal,Cash
+Donor 50,2024-01-24,14.53,Annual Appeal,Online
+Donor 39,2024-01-24,16.02,Annual Appeal,Cheque
+Donor 240,2024-01-24,85.15,Monthly,Cash
+Donor 119,2024-01-25,66.03,Annual Appeal,Cash
+Donor 82,2024-01-25,99.52,Monthly,Bank transfer
+Donor 238,2024-01-25,25.54,Annual Appeal,Cash
+Donor 235,2024-01-25,4.7,Annual Appeal,Online
+Donor 41,2024-01-25,70.14,Gala,Cash
+Donor 279,2024-01-25,21.73,Gala,Bank transfer
+Donor 63,2024-01-26,5.28,Annual Appeal,Cash
+Donor 158,2024-01-26,11.62,Annual Appeal,Online
+Donor 82,2024-01-26,31.31,Monthly,Bank transfer
+Donor 267,2024-01-26,50.34,Annual Appeal,Online
+Donor 3,2024-01-27,33.61,Monthly,Online
+Donor 95,2024-01-27,27.86,Annual Appeal,Bank transfer
+Donor 313,2024-01-27,10.66,Annual Appeal,Cash
+Donor 366,2024-01-27,45.83,Monthly,Online
+Donor 336,2024-01-27,30.32,Annual Appeal,Cheque
+Donor 5,2024-01-28,15.63,Annual Appeal,Online
+Donor 44,2024-01-28,4.66,Monthly,Cheque
+Donor 349,2024-01-29,93.53,Gala,Cash
+Donor 343,2024-01-29,5.61,Giving Tuesday,Cheque
+Donor 272,2024-01-29,27.9,Giving Tuesday,Cheque
+Donor 96,2024-01-29,43.27,Monthly,Bank transfer
+Donor 255,2024-01-30,527.12,Giving Tuesday,Online
+Donor 61,2024-01-30,16.58,Annual Appeal,Bank transfer
+Donor 48,2024-01-30,93.63,Monthly,Bank transfer
+Donor 71,2024-01-30,19.48,Annual Appeal,Cheque
+Donor 272,2024-01-30,135.43,Annual Appeal,Bank transfer
+Donor 300,2024-01-30,35.71,Annual Appeal,Cash
+Donor 292,2024-01-31,6.63,Annual Appeal,Cash
+Donor 165,2024-01-31,66.95,Giving Tuesday,Cheque
+Donor 246,2024-01-31,39.89,Giving Tuesday,Online
+Donor 30,2024-01-31,20.25,Giving Tuesday,Online
+Donor 187,2024-02-01,54.84,Monthly,Bank transfer
+Donor 331,2024-02-01,51.99,Annual Appeal,Bank transfer
+Donor 168,2024-02-01,11.57,Monthly,Bank transfer
+Donor 269,2024-02-02,31.35,Giving Tuesday,Cheque
+Donor 318,2024-02-02,20.83,Giving Tuesday,Bank transfer
+Donor 232,2024-02-02,60.85,Giving Tuesday,Bank transfer
+Donor 105,2024-02-02,99.4,Giving Tuesday,Cash
+Donor 203,2024-02-02,113.22,Gala,Cheque
+Donor 61,2024-02-02,21.59,Monthly,Cash
+Donor 236,2024-02-03,45.99,Gala,Bank transfer
+Donor 14,2024-02-03,16.2,Annual Appeal,Bank transfer
+Donor 216,2024-02-03,119.26,Annual Appeal,Online
+Donor 370,2024-02-03,57.83,Annual Appeal,Cheque
+Donor 363,2024-02-03,26.56,Monthly,Cash
+Donor 65,2024-02-04,6.31,Monthly,Bank transfer
+Donor 315,2024-02-04,28.75,Monthly,Cheque
+Donor 23,2024-02-04,12.53,Annual Appeal,Cash
+Donor 68,2024-02-05,22.13,Monthly,Cash
+Donor 250,2024-02-05,38.06,Monthly,Bank transfer
+Donor 375,2024-02-05,94.58,Giving Tuesday,Bank transfer
+Donor 374,2024-02-06,54.66,Annual Appeal,Online
+Donor 144,2024-02-07,171.18,Giving Tuesday,Cheque
+Donor 114,2024-02-07,56.33,Annual Appeal,Cash
+Donor 353,2024-02-08,38.53,Monthly,Cash
+Donor 218,2024-02-08,64.6,Monthly,Bank transfer
+Donor 55,2024-02-08,7.56,Monthly,Cheque
+Donor 20,2024-02-08,26.53,Monthly,Online
+Donor 320,2024-02-08,15.36,Annual Appeal,Cheque
+Donor 189,2024-02-08,54.02,Giving Tuesday,Cheque
+Donor 108,2024-02-08,41.94,Annual Appeal,Cheque
+Donor 294,2024-02-08,20.68,Annual Appeal,Cash
+Donor 205,2024-02-09,28.52,Annual Appeal,Cash
+Donor 316,2024-02-09,11.34,Gala,Cheque
+Donor 109,2024-02-09,8.09,Monthly,Online
+Donor 125,2024-02-09,57.17,Gala,Cash
+Donor 203,2024-02-09,76.87,Monthly,Bank transfer
+Donor 139,2024-02-09,25.53,Annual Appeal,Online
+Donor 187,2024-02-10,9.85,Monthly,Cheque
+Donor 66,2024-02-10,72.78,Monthly,Cash
+Donor 259,2024-02-10,46.6,Annual Appeal,Online
+Donor 164,2024-02-10,91.42,Gala,Cheque
+Donor 270,2024-02-10,38.94,Annual Appeal,Online
+Donor 98,2024-02-10,13.92,Monthly,Cash
+Donor 167,2024-02-10,33.42,Monthly,Bank transfer
+Donor 110,2024-02-10,1.57,Monthly,Cash
+Donor 16,2024-02-11,5.6,Giving Tuesday,Cash
+Donor 203,2024-02-11,45.12,Giving Tuesday,Cheque
+Donor 300,2024-02-11,27.93,Monthly,Cheque
+Donor 392,2024-02-12,28.37,Monthly,Cheque
+Donor 179,2024-02-13,15.97,Giving Tuesday,Cash
+Donor 132,2024-02-13,9.21,Monthly,Cheque
+Donor 330,2024-02-14,18.77,Annual Appeal,Bank transfer
+Donor 382,2024-02-14,16.82,Giving Tuesday,Cheque
+Donor 220,2024-02-14,35.03,Annual Appeal,Cheque
+Donor 330,2024-02-15,17.67,Giving Tuesday,Bank transfer
+Donor 121,2024-02-15,17.06,Gala,Cash
+Donor 247,2024-02-15,30.54,Monthly,Cheque
+Donor 253,2024-02-15,34.48,Giving Tuesday,Cash
+Donor 90,2024-02-15,10.13,Annual Appeal,Cash
+Donor 186,2024-02-16,6.7,Annual Appeal,Cheque
+Donor 267,2024-02-17,115.26,Annual Appeal,Cash
+Donor 117,2024-02-17,243.33,Monthly,Cash
+Donor 133,2024-02-17,6.55,Monthly,Cash
+Donor 146,2024-02-17,13.06,Gala,Cash
+Donor 365,2024-02-17,131.33,Monthly,Cash
+Donor 146,2024-02-17,8.28,Giving Tuesday,Online
+Donor 207,2024-02-17,18.02,Monthly,Cash
+Donor 32,2024-02-18,44.31,Gala,Cash
+Donor 165,2024-02-18,67.63,Annual Appeal,Cheque
+Donor 273,2024-02-18,16.95,Monthly,Online
+Donor 326,2024-02-18,29.09,Monthly,Online
+Donor 88,2024-02-19,7.02,Annual Appeal,Online
+Donor 187,2024-02-19,61.13,Monthly,Cash
+Donor 124,2024-02-19,101.25,Monthly,Cash
+Donor 18,2024-02-19,27.83,Annual Appeal,Cheque
+Donor 296,2024-02-19,2.95,Annual Appeal,Cash
+Donor 304,2024-02-20,10.51,Gala,Cash
+Donor 278,2024-02-20,7.04,Annual Appeal,Online
+Donor 255,2024-02-20,9.37,Annual Appeal,Bank transfer
+Donor 310,2024-02-21,20.53,Monthly,Online
+Donor 19,2024-02-21,13.37,Monthly,Online
+Donor 371,2024-02-21,16.07,Annual Appeal,Bank transfer
+Donor 206,2024-02-21,44.84,Monthly,Online
+Donor 67,2024-02-22,45.32,Monthly,Online
+Donor 368,2024-02-22,5.99,Giving Tuesday,Cash
+Donor 217,2024-02-22,47.34,Annual Appeal,Cheque
+Donor 48,2024-02-22,43.66,Annual Appeal,Online
+Donor 113,2024-02-22,309.23,Annual Appeal,Cheque
+Donor 244,2024-02-22,72.99,Giving Tuesday,Cash
+Donor 81,2024-02-23,114.22,Giving Tuesday,Bank transfer
+Donor 74,2024-02-24,12.4,Giving Tuesday,Online
+Donor 72,2024-02-24,12.37,Giving Tuesday,Online
+Donor 239,2024-02-24,43.96,Annual Appeal,Online
+Donor 292,2024-02-24,17.79,Annual Appeal,Online
+Donor 161,2024-02-25,42.74,Annual Appeal,Cash
+Donor 385,2024-02-25,27.7,Annual Appeal,Cheque
+Donor 316,2024-02-26,13.36,Annual Appeal,Bank transfer
+Donor 17,2024-02-26,36.16,Annual Appeal,Bank transfer
+Donor 65,2024-02-26,10.36,Giving Tuesday,Cash
+Donor 43,2024-02-26,40.26,Annual Appeal,Bank transfer
+Donor 11,2024-02-26,31.66,Monthly,Cheque
+Donor 31,2024-02-27,42.43,Monthly,Bank transfer
+Donor 71,2024-02-27,32.47,Giving Tuesday,Cheque
+Donor 374,2024-02-27,20.23,Monthly,Cash
+Donor 329,2024-02-28,12.07,Monthly,Online
+Donor 125,2024-02-28,4.06,Annual Appeal,Bank transfer
+Donor 353,2024-02-28,42.48,Annual Appeal,Cash
+Donor 100,2024-02-29,16.0,Monthly,Bank transfer
+Donor 384,2024-02-29,90.18,Monthly,Cheque
+Donor 191,2024-02-29,36.51,Giving Tuesday,Online
+Donor 172,2024-02-29,36.65,Annual Appeal,Bank transfer
+Donor 137,2024-03-01,35.82,Giving Tuesday,Cheque
+Donor 251,2024-03-01,57.62,Monthly,Cash
+Donor 129,2024-03-01,16.7,Annual Appeal,Bank transfer
+Donor 130,2024-03-02,16.95,Monthly,Online
+Donor 189,2024-03-02,52.97,Gala,Cheque
+Donor 256,2024-03-02,104.52,Monthly,Online
+Donor 87,2024-03-02,13.39,Giving Tuesday,Online
+Donor 381,2024-03-02,90.33,Annual Appeal,Online
+Donor 139,2024-03-02,20.22,Gala,Bank transfer
+Donor 238,2024-03-03,37.22,Monthly,Online
+Donor 298,2024-03-03,34.87,Gala,Cash
+Donor 208,2024-03-03,64.45,Monthly,Cash
+Donor 281,2024-03-04,75.14,Annual Appeal,Cheque
+Donor 160,2024-03-04,8.69,Giving Tuesday,Cheque
+Donor 385,2024-03-04,88.49,Gala,Online
+Donor 128,2024-03-04,16.79,Annual Appeal,Bank transfer
+Donor 222,2024-03-04,12.63,Gala,Cash
+Donor 36,2024-03-05,20.19,Annual Appeal,Cash
+Donor 345,2024-03-05,119.44,Annual Appeal,Bank transfer
+Donor 97,2024-03-05,17.81,Monthly,Online
+Donor 296,2024-03-05,19.43,Gala,Online
+Donor 367,2024-03-05,70.27,Annual Appeal,Cheque
+Donor 332,2024-03-05,102.9,Annual Appeal,Cash
+Donor 42,2024-03-06,20.83,Monthly,Cheque
+Donor 376,2024-03-06,14.74,Monthly,Bank transfer
+Donor 219,2024-03-06,35.52,Monthly,Online
+Donor 266,2024-03-06,20.85,Monthly,Cheque
+Donor 185,2024-03-06,33.29,Annual Appeal,Cheque
+Donor 14,2024-03-06,13.19,Giving Tuesday,Bank transfer
+Donor 62,2024-03-07,160.03,Giving Tuesday,Cash
+Donor 310,2024-03-07,34.38,Monthly,Cheque
+Donor 50,2024-03-07,10.9,Giving Tuesday,Cash
+Donor 39,2024-03-08,68.55,Annual Appeal,Cheque
+Donor 214,2024-03-08,23.23,Monthly,Bank transfer
+Donor 273,2024-03-09,84.48,Monthly,Cash
+Donor 165,2024-03-09,53.98,Giving Tuesday,Cheque
+Donor 56,2024-03-09,18.01,Annual Appeal,Cash
+Donor 331,2024-03-09,51.18,Monthly,Online
+Donor 226,2024-03-10,8.36,Gala,Cash
+Donor 155,2024-03-10,72.21,Monthly,Cash
+Donor 35,2024-03-10,94.88,Annual Appeal,Cash
+Donor 337,2024-03-11,11.97,Monthly,Cash
+Donor 302,2024-03-11,108.89,Annual Appeal,Bank transfer
+Donor 74,2024-03-12,48.95,Annual Appeal,Online
+Donor 388,2024-03-12,6.57,Monthly,Online
+Donor 32,2024-03-12,34.07,Monthly,Bank transfer
+Donor 182,2024-03-12,19.81,Monthly,Bank transfer
+Donor 60,2024-03-12,56.19,Giving Tuesday,Online
+Donor 116,2024-03-12,136.44,Monthly,Online
+Donor 394,2024-03-12,32.2,Giving Tuesday,Bank transfer
+Donor 392,2024-03-13,122.74,Giving Tuesday,Cash
+Donor 190,2024-03-13,22.8,Gala,Cash
+Donor 201,2024-03-13,64.85,Giving Tuesday,Online
+Donor 375,2024-03-14,47.41,Gala,Bank transfer
+Donor 361,2024-03-14,30.81,Gala,Online
+Donor 330,2024-03-15,5.24,Monthly,Bank transfer
+Donor 350,2024-03-15,9.86,Annual Appeal,Bank transfer
+Donor 386,2024-03-15,272.29,Annual Appeal,Cheque
+Donor 101,2024-03-16,8.83,Giving Tuesday,Cheque
+Donor 254,2024-03-16,5.03,Annual Appeal,Online
+Donor 213,2024-03-16,45.64,Giving Tuesday,Online
+Donor 272,2024-03-16,17.22,Monthly,Cash
+Donor 266,2024-03-16,8.51,Monthly,Cheque
+Donor 233,2024-03-17,58.39,Monthly,Bank transfer
+Donor 230,2024-03-17,92.06,Giving Tuesday,Online
+Donor 42,2024-03-18,43.01,Monthly,Bank transfer
+Donor 282,2024-03-18,30.26,Annual Appeal,Cheque
+Donor 232,2024-03-18,244.93,Annual Appeal,Cash
+Donor 328,2024-03-19,56.62,Annual Appeal,Bank transfer
+Donor 142,2024-03-19,59.66,Monthly,Cheque
+Donor 384,2024-03-19,4.38,Monthly,Online
+Donor 384,2024-03-19,141.81,Annual Appeal,Cash
+Donor 295,2024-03-20,110.86,Annual Appeal,Cash
+Donor 243,2024-03-21,19.26,Monthly,Cash
+Donor 30,2024-03-21,22.03,Annual Appeal,Cheque
+Donor 165,2024-03-21,39.87,Annual Appeal,Bank transfer
+Donor 294,2024-03-21,31.14,Gala,Online
+Donor 105,2024-03-21,142.33,Gala,Cash
+Donor 82,2024-03-22,3.72,Annual Appeal,Cheque
+Donor 232,2024-03-22,37.21,Annual Appeal,Cheque
+Donor 286,2024-03-22,31.4,Annual Appeal,Cash
+Donor 127,2024-03-22,128.61,Monthly,Cheque
+Donor 355,2024-03-23,35.63,Giving Tuesday,Cash
+Donor 320,2024-03-23,38.51,Gala,Cheque
+Donor 284,2024-03-24,2.9,Annual Appeal,Bank transfer
+Donor 200,2024-03-24,343.04,Annual Appeal,Cash
+Donor 264,2024-03-24,6.63,Gala,Cash
+Donor 263,2024-03-24,22.06,Annual Appeal,Bank transfer
+Donor 93,2024-03-24,68.92,Annual Appeal,Online
+Donor 88,2024-03-24,6.03,Annual Appeal,Bank transfer
+Donor 79,2024-03-25,159.39,Annual Appeal,Online
+Donor 326,2024-03-25,12.88,Monthly,Cash
+Donor 364,2024-03-25,7.79,Monthly,Online
+Donor 58,2024-03-26,55.48,Monthly,Bank transfer
+Donor 191,2024-03-26,7.63,Monthly,Online
+Donor 391,2024-03-26,22.73,Annual Appeal,Online
+Donor 227,2024-03-26,24.94,Annual Appeal,Online
+Donor 99,2024-03-26,8.55,Monthly,Online
+Donor 393,2024-03-26,21.3,Annual Appeal,Cash
+Donor 63,2024-03-26,18.24,Monthly,Online
+Donor 145,2024-03-27,21.97,Annual Appeal,Cheque
+Donor 17,2024-03-27,37.29,Monthly,Online
+Donor 327,2024-03-27,48.63,Monthly,Bank transfer
+Donor 259,2024-03-28,51.93,Giving Tuesday,Online
+Donor 247,2024-03-28,46.23,Annual Appeal,Bank transfer
+Donor 392,2024-03-28,10.77,Annual Appeal,Cheque
+Donor 143,2024-03-28,23.71,Monthly,Bank transfer
+Donor 140,2024-03-28,11.65,Monthly,Bank transfer
+Donor 231,2024-03-28,43.28,Monthly,Cash
+Donor 350,2024-03-28,31.16,Giving Tuesday,Bank transfer
+Donor 76,2024-03-29,17.18,Giving Tuesday,Cheque
+Donor 30,2024-03-29,70.09,Giving Tuesday,Cash
+Donor 302,2024-03-29,24.42,Annual Appeal,Cheque
+Donor 257,2024-03-29,7.29,Giving Tuesday,Cash
+Donor 356,2024-03-29,14.9,Annual Appeal,Cheque
+Donor 351,2024-03-30,34.69,Monthly,Online
+Donor 205,2024-03-31,52.38,Gala,Bank transfer
+Donor 256,2024-03-31,66.09,Monthly,Cash
+Donor 206,2024-04-01,51.85,Annual Appeal,Cheque
+Donor 121,2024-04-01,36.22,Annual Appeal,Online
+Donor 24,2024-04-01,40.58,Annual Appeal,Online
+Donor 250,2024-04-01,23.04,Monthly,Cheque
+Donor 145,2024-04-01,157.65,Monthly,Online
+Donor 147,2024-04-02,41.99,Annual Appeal,Cheque
+Donor 64,2024-04-02,91.56,Giving Tuesday,Cash
+Donor 191,2024-04-02,110.44,Annual Appeal,Cheque
+Donor 398,2024-04-02,40.59,Monthly,Bank transfer
+Donor 6,2024-04-02,29.07,Annual Appeal,Bank transfer
+Donor 343,2024-04-03,18.12,Monthly,Online
+Donor 112,2024-04-03,41.96,Monthly,Bank transfer
+Donor 151,2024-04-03,66.96,Gala,Bank transfer
+Donor 18,2024-04-04,77.01,Annual Appeal,Cash
+Donor 357,2024-04-04,129.52,Monthly,Cash
+Donor 21,2024-04-04,36.24,Monthly,Online
+Donor 62,2024-04-05,391.19,Monthly,Bank transfer
+Donor 263,2024-04-05,12.35,Annual Appeal,Bank transfer
+Donor 274,2024-04-05,118.26,Gala,Cheque
+Donor 278,2024-04-06,321.5,Annual Appeal,Online
+Donor 335,2024-04-06,67.92,Giving Tuesday,Cash
+Donor 351,2024-04-06,84.47,Monthly,Online
+Donor 150,2024-04-06,16.42,Annual Appeal,Online
+Donor 269,2024-04-06,10.16,Giving Tuesday,Online
+Donor 40,2024-04-07,62.47,Annual Appeal,Cheque
+Donor 108,2024-04-07,36.88,Giving Tuesday,Online
+Donor 51,2024-04-07,18.43,Monthly,Cheque
+Donor 318,2024-04-07,25.18,Annual Appeal,Online
+Donor 382,2024-04-07,92.33,Annual Appeal,Online
+Donor 326,2024-04-07,53.38,Gala,Cash
+Donor 312,2024-04-08,36.26,Monthly,Bank transfer
+Donor 152,2024-04-08,31.83,Monthly,Online
+Donor 127,2024-04-08,73.75,Annual Appeal,Bank transfer
+Donor 159,2024-04-08,17.6,Annual Appeal,Cash
+Donor 106,2024-04-08,21.0,Annual Appeal,Cash
+Donor 173,2024-04-08,8.58,Monthly,Online
+Donor 328,2024-04-08,400.99,Annual Appeal,Online
+Donor 340,2024-04-08,8.83,Monthly,Cheque
+Donor 324,2024-04-09,74.38,Giving Tuesday,Online
+Donor 131,2024-04-09,40.48,Monthly,Online
+Donor 254,2024-04-09,30.37,Annual Appeal,Online
+Donor 253,2024-04-09,22.69,Giving Tuesday,Cash
+Donor 201,2024-04-10,7.43,Giving Tuesday,Cash
+Donor 366,2024-04-10,135.66,Giving Tuesday,Bank transfer
+Donor 254,2024-04-10,25.87,Gala,Cheque
+Donor 131,2024-04-10,57.99,Annual Appeal,Cheque
+Donor 224,2024-04-10,100.08,Gala,Bank transfer
+Donor 235,2024-04-10,134.17,Gala,Bank transfer
+Donor 306,2024-04-10,29.48,Monthly,Cheque
+Donor 95,2024-04-10,14.79,Annual Appeal,Online
+Donor 53,2024-04-11,8.43,Monthly,Cash
+Donor 146,2024-04-11,68.12,Monthly,Cheque
+Donor 278,2024-04-11,9.15,Gala,Cash
+Donor 331,2024-04-12,22.84,Annual Appeal,Cash
+Donor 299,2024-04-14,40.67,Giving Tuesday,Cash
+Donor 265,2024-04-14,11.1,Annual Appeal,Bank transfer
+Donor 305,2024-04-15,72.01,Monthly,Cash
+Donor 364,2024-04-15,17.33,Annual Appeal,Cheque
+Donor 32,2024-04-15,14.74,Annual Appeal,Cash
+Donor 12,2024-04-16,78.5,Annual Appeal,Cash
+Donor 324,2024-04-16,11.61,Giving Tuesday,Cheque
+Donor 213,2024-04-17,27.47,Giving Tuesday,Bank transfer
+Donor 274,2024-04-17,8.94,Monthly,Cheque
+Donor 340,2024-04-18,45.1,Monthly,Cash
+Donor 203,2024-04-18,86.38,Giving Tuesday,Cash
+Donor 220,2024-04-18,69.39,Giving Tuesday,Cheque
+Donor 390,2024-04-18,61.82,Monthly,Cash
+Donor 228,2024-04-18,11.27,Annual Appeal,Online
+Donor 356,2024-04-19,113.62,Monthly,Cash
+Donor 297,2024-04-19,28.75,Annual Appeal,Cheque
+Donor 186,2024-04-19,43.68,Gala,Cash
+Donor 114,2024-04-19,3.24,Annual Appeal,Cash
+Donor 136,2024-04-20,37.16,Giving Tuesday,Cheque
+Donor 348,2024-04-20,42.8,Gala,Cheque
+Donor 119,2024-04-20,21.7,Annual Appeal,Bank transfer
+Donor 238,2024-04-20,28.99,Monthly,Cheque
+Donor 7,2024-04-20,17.45,Giving Tuesday,Bank transfer
+Donor 178,2024-04-20,3.72,Giving Tuesday,Cheque
+Donor 232,2024-04-20,53.79,Annual Appeal,Online
+Donor 274,2024-04-20,5.84,Giving Tuesday,Online
+Donor 342,2024-04-21,51.67,Annual Appeal,Cheque
+Donor 253,2024-04-21,23.9,Gala,Cash
+Donor 260,2024-04-21,127.96,Giving Tuesday,Cash
+Donor 70,2024-04-21,163.54,Giving Tuesday,Cash
+Donor 369,2024-04-21,16.25,Monthly,Cash
+Donor 90,2024-04-21,54.4,Monthly,Cash
+Donor 151,2024-04-21,35.82,Annual Appeal,Online
+Donor 220,2024-04-21,447.48,Monthly,Cash
+Donor 392,2024-04-22,14.1,Annual Appeal,Cheque
+Donor 77,2024-04-22,16.61,Giving Tuesday,Cash
+Donor 354,2024-04-22,37.57,Annual Appeal,Cheque
+Donor 35,2024-04-22,27.95,Monthly,Cash
+Donor 111,2024-04-22,57.41,Annual Appeal,Cash
+Donor 109,2024-04-22,47.54,Gala,Cheque
+Donor 298,2024-04-23,5.09,Monthly,Online
+Donor 239,2024-04-23,17.3,Giving Tuesday,Bank transfer
+Donor 31,2024-04-24,22.29,Monthly,Cheque
+Donor 44,2024-04-24,50.32,Annual Appeal,Cash
+Donor 133,2024-04-24,13.6,Monthly,Cheque
+Donor 119,2024-04-24,12.88,Annual Appeal,Online
+Donor 117,2024-04-24,61.76,Giving Tuesday,Cheque
+Donor 114,2024-04-25,240.39,Annual Appeal,Cheque
+Donor 115,2024-04-25,57.34,Gala,Bank transfer
+Donor 232,2024-04-25,7.82,Giving Tuesday,Cheque
+Donor 43,2024-04-25,87.77,Annual Appeal,Online
+Donor 318,2024-04-26,21.29,Monthly,Cheque
+Donor 245,2024-04-26,11.74,Annual Appeal,Cheque
+Donor 107,2024-04-26,44.56,Monthly,Cheque
+Donor 52,2024-04-26,80.59,Monthly,Cash
+Donor 69,2024-04-26,77.01,Annual Appeal,Online
+Donor 170,2024-04-27,12.03,Gala,Bank transfer
+Donor 363,2024-04-27,105.9,Annual Appeal,Cash
+Donor 17,2024-04-27,37.96,Giving Tuesday,Online
+Donor 172,2024-04-28,94.53,Giving Tuesday,Bank transfer
+Donor 133,2024-04-28,40.94,Annual Appeal,Cash
+Donor 79,2024-04-28,35.07,Giving Tuesday,Online
+Donor 190,2024-04-28,56.38,Giving Tuesday,Online
+Donor 300,2024-04-28,10.37,Monthly,Cash
+Donor 222,2024-04-29,38.54,Annual Appeal,Bank transfer
+Donor 7,2024-04-29,13.58,Gala,Online
+Donor 136,2024-04-29,20.79,Giving Tuesday,Cash
+Donor 189,2024-04-29,16.82,Giving Tuesday,Cheque
+Donor 397,2024-04-29,34.69,Giving Tuesday,Cash
+Donor 182,2024-04-29,37.78,Giving Tuesday,Online
+Donor 367,2024-04-30,19.17,Monthly,Bank transfer
+Donor 179,2024-04-30,38.94,Annual Appeal,Cash
+Donor 165,2024-04-30,33.56,Giving Tuesday,Bank transfer
+Donor 167,2024-05-01,21.09,Annual Appeal,Online
+Donor 281,2024-05-01,8.53,Monthly,Cheque
+Donor 332,2024-05-02,81.88,Giving Tuesday,Bank transfer
+Donor 91,2024-05-02,37.09,Gala,Cheque
+Donor 249,2024-05-02,28.42,Monthly,Bank transfer
+Donor 68,2024-05-02,35.85,Gala,Cheque
+Donor 23,2024-05-02,49.63,Monthly,Cheque
+Donor 280,2024-05-03,150.86,Gala,Cash
+Donor 48,2024-05-03,14.52,Annual Appeal,Online
+Donor 264,2024-05-03,309.32,Giving Tuesday,Cash
+Donor 120,2024-05-04,286.76,Annual Appeal,Bank transfer
+Donor 315,2024-05-04,5.17,Giving Tuesday,Cash
+Donor 51,2024-05-04,42.81,Giving Tuesday,Cash
+Donor 325,2024-05-04,54.96,Monthly,Bank transfer
+Donor 196,2024-05-04,6.88,Monthly,Bank transfer
+Donor 214,2024-05-05,20.61,Monthly,Cash
+Donor 212,2024-05-05,16.34,Monthly,Cash
+Donor 297,2024-05-05,55.23,Monthly,Bank transfer
+Donor 16,2024-05-05,16.54,Annual Appeal,Online
+Donor 179,2024-05-05,35.59,Annual Appeal,Bank transfer
+Donor 190,2024-05-06,71.25,Monthly,Cash
+Donor 148,2024-05-06,119.22,Monthly,Cash
+Donor 258,2024-05-06,27.73,Monthly,Cash
+Donor 177,2024-05-07,72.6,Gala,Online
+Donor 69,2024-05-07,20.86,Annual Appeal,Online
+Donor 93,2024-05-07,104.4,Gala,Online
+Donor 231,2024-05-07,103.63,Annual Appeal,Online
+Donor 37,2024-05-07,18.6,Monthly,Cash
+Donor 346,2024-05-08,198.52,Annual Appeal,Bank transfer
+Donor 364,2024-05-09,46.13,Monthly,Bank transfer
+Donor 74,2024-05-09,244.08,Monthly,Cash
+Donor 275,2024-05-09,50.04,Annual Appeal,Cash
+Donor 2,2024-05-09,5.32,Monthly,Bank transfer
+Donor 318,2024-05-09,18.47,Annual Appeal,Cash
+Donor 395,2024-05-10,14.14,Annual Appeal,Online
+Donor 154,2024-05-10,42.16,Giving Tuesday,Online
+Donor 143,2024-05-10,33.48,Annual Appeal,Cheque
+Donor 264,2024-05-11,7.99,Annual Appeal,Cash
+Donor 63,2024-05-11,61.91,Monthly,Cheque
+Donor 307,2024-05-11,66.52,Annual Appeal,Cash
+Donor 125,2024-05-11,35.22,Annual Appeal,Cash
+Donor 179,2024-05-12,544.41,Annual Appeal,Cheque
+Donor 388,2024-05-12,23.55,Giving Tuesday,Cash
+Donor 134,2024-05-12,57.67,Annual Appeal,Cheque
+Donor 187,2024-05-13,71.63,Annual Appeal,Cheque
+Donor 267,2024-05-13,41.62,Gala,Bank transfer
+Donor 133,2024-05-13,15.23,Annual Appeal,Bank transfer
+Donor 131,2024-05-13,32.06,Annual Appeal,Bank transfer
+Donor 85,2024-05-13,4.78,Annual Appeal,Online
+Donor 116,2024-05-14,19.95,Monthly,Online
+Donor 372,2024-05-14,10.47,Annual Appeal,Cash
+Donor 323,2024-05-14,62.26,Annual Appeal,Bank transfer
+Donor 214,2024-05-15,14.0,Annual Appeal,Cheque
+Donor 168,2024-05-15,400.51,Annual Appeal,Cheque
+Donor 241,2024-05-15,72.58,Annual Appeal,Cheque
+Donor 145,2024-05-15,15.73,Monthly,Cash
+Donor 208,2024-05-15,35.04,Giving Tuesday,Online
+Donor 222,2024-05-16,196.82,Annual Appeal,Cheque
+Donor 257,2024-05-16,246.84,Giving Tuesday,Online
+Donor 108,2024-05-16,4.6,Monthly,Online
+Donor 121,2024-05-18,46.37,Monthly,Cheque
+Donor 136,2024-05-18,75.73,Gala,Bank transfer
+Donor 245,2024-05-18,64.1,Monthly,Cash
+Donor 95,2024-05-19,21.2,Giving Tuesday,Bank transfer
+Donor 168,2024-05-19,12.56,Annual Appeal,Online
+Donor 46,2024-05-20,45.27,Annual Appeal,Bank transfer
+Donor 398,2024-05-20,71.57,Monthly,Bank transfer
+Donor 30,2024-05-21,137.29,Annual Appeal,Online
+Donor 203,2024-05-22,40.17,Monthly,Bank transfer
+Donor 352,2024-05-23,63.33,Gala,Cheque
+Donor 116,2024-05-23,53.05,Annual Appeal,Cheque
+Donor 181,2024-05-23,43.95,Giving Tuesday,Cash
+Donor 105,2024-05-24,20.26,Annual Appeal,Cash
+Donor 221,2024-05-24,8.5,Annual Appeal,Cash
+Donor 222,2024-05-24,79.02,Giving Tuesday,Online
+Donor 188,2024-05-24,55.52,Annual Appeal,Online
+Donor 97,2024-05-25,19.42,Monthly,Online
+Donor 117,2024-05-25,138.53,Annual Appeal,Cash
+Donor 387,2024-05-25,53.94,Annual Appeal,Cheque
+Donor 324,2024-05-25,199.99,Annual Appeal,Cash
+Donor 3,2024-05-25,67.09,Monthly,Cash
+Donor 384,2024-05-25,6.99,Annual Appeal,Online
+Donor 5,2024-05-25,36.1,Monthly,Bank transfer
+Donor 241,2024-05-25,122.67,Annual Appeal,Online
+Donor 175,2024-05-26,4.88,Annual Appeal,Cash
+Donor 168,2024-05-26,87.2,Annual Appeal,Cheque
+Donor 87,2024-05-26,26.14,Monthly,Cheque
+Donor 29,2024-05-26,124.6,Annual Appeal,Cash
+Donor 339,2024-05-27,21.09,Giving Tuesday,Cheque
+Donor 5,2024-05-27,8.69,Annual Appeal,Online
+Donor 110,2024-05-27,58.63,Annual Appeal,Online
+Donor 375,2024-05-28,14.49,Monthly,Bank transfer
+Donor 16,2024-05-28,19.34,Monthly,Online
+Donor 205,2024-05-29,6.77,Giving Tuesday,Bank transfer
+Donor 252,2024-05-29,5.19,Monthly,Cash
+Donor 276,2024-05-29,5.47,Monthly,Online
+Donor 147,2024-05-29,99.1,Giving Tuesday,Cash
+Donor 33,2024-05-30,57.57,Annual Appeal,Cheque
+Donor 182,2024-05-30,135.34,Annual Appeal,Bank transfer
+Donor 318,2024-05-30,10.62,Monthly,Bank transfer
+Donor 162,2024-05-30,75.15,Giving Tuesday,Online
+Donor 387,2024-05-31,12.7,Giving Tuesday,Cheque
+Donor 353,2024-05-31,24.15,Annual Appeal,Online
+Donor 387,2024-05-31,150.08,Giving Tuesday,Cash
+Donor 195,2024-06-01,145.49,Monthly,Cheque
+Donor 270,2024-06-01,21.07,Annual Appeal,Online
+Donor 394,2024-06-01,111.91,Annual Appeal,Online
+Donor 94,2024-06-02,61.66,Annual Appeal,Cash
+Donor 215,2024-06-02,14.79,Annual Appeal,Cash
+Donor 257,2024-06-02,55.83,Monthly,Bank transfer
+Donor 174,2024-06-02,57.74,Annual Appeal,Online
+Donor 141,2024-06-02,174.9,Giving Tuesday,Bank transfer
+Donor 59,2024-06-03,155.28,Annual Appeal,Online
+Donor 351,2024-06-03,13.94,Monthly,Bank transfer
+Donor 68,2024-06-04,22.14,Giving Tuesday,Bank transfer
+Donor 347,2024-06-04,43.3,Monthly,Cheque
+Donor 12,2024-06-05,19.55,Monthly,Cheque
+Donor 128,2024-06-05,26.38,Annual Appeal,Bank transfer
+Donor 111,2024-06-05,47.31,Monthly,Online
+Donor 262,2024-06-06,56.99,Monthly,Bank transfer
+Donor 147,2024-06-06,31.55,Monthly,Bank transfer
+Donor 63,2024-06-07,6.7,Annual Appeal,Online
+Donor 272,2024-06-07,5.67,Annual Appeal,Online
+Donor 330,2024-06-07,27.36,Monthly,Cash
+Donor 320,2024-06-07,29.71,Annual Appeal,Cheque
+Donor 296,2024-06-07,161.23,Monthly,Cheque
+Donor 146,2024-06-07,46.21,Annual Appeal,Cash
+Donor 250,2024-06-07,19.56,Giving Tuesday,Cash
+Donor 96,2024-06-08,31.51,Giving Tuesday,Bank transfer
+Donor 63,2024-06-09,19.14,Giving Tuesday,Cash
+Donor 174,2024-06-09,27.42,Monthly,Cash
+Donor 304,2024-06-09,49.91,Annual Appeal,Cheque
+Donor 248,2024-06-09,41.08,Monthly,Bank transfer
+Donor 264,2024-06-09,36.65,Annual Appeal,Cash
+Donor 192,2024-06-09,53.26,Monthly,Cash
+Donor 366,2024-06-09,6.78,Gala,Online
+Donor 339,2024-06-09,103.33,Giving Tuesday,Cash
+Donor 164,2024-06-10,17.47,Monthly,Online
+Donor 129,2024-06-10,29.32,Annual Appeal,Online
+Donor 9,2024-06-10,20.81,Giving Tuesday,Cash
+Donor 23,2024-06-10,11.99,Giving Tuesday,Cash
+Donor 50,2024-06-10,25.24,Annual Appeal,Bank transfer
+Donor 364,2024-06-10,46.18,Giving Tuesday,Cash
+Donor 321,2024-06-11,32.56,Monthly,Cheque
+Donor 294,2024-06-11,67.59,Monthly,Cash
+Donor 319,2024-06-11,117.48,Annual Appeal,Cash
+Donor 32,2024-06-11,53.64,Monthly,Cash
+Donor 280,2024-06-11,65.05,Annual Appeal,Cheque
+Donor 94,2024-06-12,11.09,Monthly,Cash
+Donor 391,2024-06-12,12.84,Annual Appeal,Bank transfer
+Donor 273,2024-06-12,32.18,Monthly,Cheque
+Donor 395,2024-06-12,30.12,Annual Appeal,Cheque
+Donor 133,2024-06-13,114.19,Annual Appeal,Cash
+Donor 72,2024-06-13,48.65,Monthly,Bank transfer
+Donor 17,2024-06-13,47.93,Monthly,Bank transfer
+Donor 360,2024-06-13,20.6,Gala,Bank transfer
+Donor 72,2024-06-13,23.3,Giving Tuesday,Cash
+Donor 245,2024-06-14,40.88,Gala,Cash
+Donor 8,2024-06-14,53.79,Monthly,Online
+Donor 345,2024-06-14,26.5,Annual Appeal,Bank transfer
+Donor 137,2024-06-14,11.26,Giving Tuesday,Cash
+Donor 263,2024-06-15,24.54,Giving Tuesday,Cheque
+Donor 341,2024-06-15,62.33,Annual Appeal,Cash
+Donor 212,2024-06-16,68.45,Giving Tuesday,Cheque
+Donor 288,2024-06-16,22.29,Annual Appeal,Bank transfer
+Donor 213,2024-06-16,7.5,Giving Tuesday,Cash
+Donor 166,2024-06-17,71.23,Annual Appeal,Online
+Donor 380,2024-06-17,58.26,Giving Tuesday,Cash
+Donor 108,2024-06-17,27.65,Gala,Cash
+Donor 338,2024-06-17,59.58,Annual Appeal,Cheque
+Donor 386,2024-06-17,8.61,Monthly,Online
+Donor 97,2024-06-17,30.14,Monthly,Cheque
+Donor 19,2024-06-18,55.07,Annual Appeal,Cash
+Donor 166,2024-06-19,9.68,Monthly,Cheque
+Donor 97,2024-06-19,64.2,Giving Tuesday,Online
+Donor 229,2024-06-19,12.14,Annual Appeal,Online
+Donor 263,2024-06-19,11.8,Gala,Cash
+Donor 196,2024-06-19,34.44,Annual Appeal,Cash
+Donor 220,2024-06-19,164.92,Giving Tuesday,Cheque
+Donor 344,2024-06-20,71.8,Monthly,Cheque
+Donor 192,2024-06-20,34.61,Annual Appeal,Cash
+Donor 260,2024-06-20,12.56,Giving Tuesday,Online
+Donor 255,2024-06-20,43.74,Giving Tuesday,Cheque
+Donor 230,2024-06-20,51.75,Giving Tuesday,Cash
+Donor 188,2024-06-20,49.15,Gala,Cheque
+Donor 397,2024-06-21,26.38,Annual Appeal,Cheque
+Donor 166,2024-06-21,89.65,Monthly,Online
+Donor 239,2024-06-21,40.25,Annual Appeal,Bank transfer
+Donor 78,2024-06-21,41.25,Monthly,Bank transfer
+Donor 35,2024-06-21,32.67,Annual Appeal,Online
+Donor 205,2024-06-21,8.91,Monthly,Cash
+Donor 276,2024-06-21,32.2,Annual Appeal,Cheque
+Donor 194,2024-06-22,26.71,Annual Appeal,Bank transfer
+Donor 245,2024-06-22,44.75,Monthly,Bank transfer
+Donor 227,2024-06-22,5.93,Annual Appeal,Cheque
+Donor 8,2024-06-22,53.39,Giving Tuesday,Bank transfer
+Donor 252,2024-06-22,33.49,Monthly,Cheque
+Donor 4,2024-06-23,31.18,Monthly,Cash
+Donor 380,2024-06-23,40.42,Monthly,Cheque
+Donor 240,2024-06-23,43.5,Giving Tuesday,Cheque
+Donor 124,2024-06-23,15.13,Giving Tuesday,Bank transfer
+Donor 201,2024-06-23,9.98,Gala,Cash
+Donor 8,2024-06-23,63.28,Annual Appeal,Online
+Donor 142,2024-06-24,6.64,Annual Appeal,Bank transfer
+Donor 256,2024-06-24,14.11,Giving Tuesday,Cheque
+Donor 218,2024-06-25,18.02,Annual Appeal,Cheque
+Donor 249,2024-06-25,48.2,Giving Tuesday,Cheque
+Donor 234,2024-06-25,42.24,Annual Appeal,Online
+Donor 258,2024-06-25,7.4,Gala,Bank transfer
+Donor 144,2024-06-26,4.89,Monthly,Cheque
+Donor 383,2024-06-26,75.02,Annual Appeal,Bank transfer
+Donor 37,2024-06-26,106.01,Monthly,Cheque
+Donor 162,2024-06-26,24.16,Annual Appeal,Online
+Donor 328,2024-06-26,726.7,Annual Appeal,Cash
+Donor 167,2024-06-26,302.06,Annual Appeal,Online
+Donor 353,2024-06-27,108.92,Monthly,Cheque
+Donor 391,2024-06-27,2.12,Annual Appeal,Cash
+Donor 317,2024-06-27,32.11,Annual Appeal,Bank transfer
+Donor 67,2024-06-27,76.29,Giving Tuesday,Online
+Donor 247,2024-06-28,45.11,Monthly,Online
+Donor 286,2024-06-28,24.37,Giving Tuesday,Cash
+Donor 377,2024-06-28,10.14,Giving Tuesday,Online
+Donor 83,2024-06-28,62.54,Monthly,Cash
+Donor 143,2024-06-29,11.95,Monthly,Cheque
+Donor 398,2024-06-29,205.38,Giving Tuesday,Cash
+Donor 193,2024-06-29,25.57,Monthly,Bank transfer
+Donor 95,2024-06-29,50.62,Giving Tuesday,Bank transfer
+Donor 129,2024-06-29,17.43,Monthly,Cheque
+Donor 220,2024-06-30,70.65,Monthly,Cheque
+Donor 29,2024-06-30,25.51,Annual Appeal,Cheque
+Donor 399,2024-06-30,4.85,Annual Appeal,Bank transfer
+Donor 288,2024-07-01,24.41,Monthly,Cheque
+Donor 154,2024-07-01,22.97,Monthly,Online
+Donor 227,2024-07-01,10.07,Gala,Cash
+Donor 31,2024-07-01,10.12,Monthly,Online
+Donor 175,2024-07-02,59.22,Annual Appeal,Cheque
+Donor 376,2024-07-02,57.16,Monthly,Online
+Donor 27,2024-07-02,113.52,Monthly,Bank transfer
+Donor 321,2024-07-02,41.71,Monthly,Online
+Donor 121,2024-07-02,22.8,Giving Tuesday,Online
+Donor 150,2024-07-02,31.73,Giving Tuesday,Cheque
+Donor 100,2024-07-03,55.53,Giving Tuesday,Cheque
+Donor 83,2024-07-03,5.6,Annual Appeal,Cash
+Donor 365,2024-07-03,38.83,Gala,Cheque
+Donor 360,2024-07-03,219.87,Annual Appeal,Bank transfer
+Donor 338,2024-07-04,181.42,Gala,Cash
+Donor 348,2024-07-04,25.48,Monthly,Bank transfer
+Donor 251,2024-07-04,142.85,Monthly,Bank transfer
+Donor 26,2024-07-04,39.88,Annual Appeal,Cheque
+Donor 374,2024-07-05,76.67,Giving Tuesday,Online
+Donor 286,2024-07-05,50.16,Annual Appeal,Cheque
+Donor 327,2024-07-06,42.3,Annual Appeal,Bank transfer
+Donor 169,2024-07-06,21.04,Monthly,Cheque
+Donor 188,2024-07-07,39.7,Monthly,Cheque
+Donor 81,2024-07-07,17.75,Annual Appeal,Online
+Donor 19,2024-07-07,19.46,Annual Appeal,Online
+Donor 15,2024-07-07,135.18,Monthly,Online
+Donor 307,2024-07-07,17.73,Monthly,Online
+Donor 340,2024-07-08,35.44,Monthly,Bank transfer
+Donor 231,2024-07-08,16.54,Annual Appeal,Cash
+Donor 373,2024-07-08,23.83,Giving Tuesday,Bank transfer
+Donor 10,2024-07-08,35.31,Annual Appeal,Cheque
+Donor 350,2024-07-09,3.45,Annual Appeal,Cheque
+Donor 147,2024-07-09,7.93,Monthly,Bank transfer
+Donor 62,2024-07-10,27.75,Giving Tuesday,Cash
+Donor 236,2024-07-10,9.11,Annual Appeal,Online
+Donor 333,2024-07-10,32.28,Monthly,Online
+Donor 70,2024-07-10,67.56,Monthly,Bank transfer
+Donor 320,2024-07-10,11.6,Giving Tuesday,Bank transfer
+Donor 207,2024-07-11,64.61,Annual Appeal,Online
+Donor 36,2024-07-11,6.77,Giving Tuesday,Online
+Donor 157,2024-07-11,41.43,Annual Appeal,Bank transfer
+Donor 228,2024-07-11,16.08,Monthly,Online
+Donor 65,2024-07-11,9.81,Annual Appeal,Online
+Donor 185,2024-07-11,16.68,Giving Tuesday,Online
+Donor 162,2024-07-12,13.86,Annual Appeal,Bank transfer
+Donor 178,2024-07-12,29.16,Gala,Bank transfer
+Donor 52,2024-07-12,71.42,Annual Appeal,Online
+Donor 78,2024-07-12,85.01,Annual Appeal,Cheque
+Donor 196,2024-07-13,20.97,Gala,Cash
+Donor 388,2024-07-13,67.85,Gala,Cheque
+Donor 209,2024-07-13,35.26,Annual Appeal,Online
+Donor 43,2024-07-14,57.47,Annual Appeal,Bank transfer
+Donor 111,2024-07-14,35.37,Annual Appeal,Cheque
+Donor 351,2024-07-15,63.12,Monthly,Online
+Donor 91,2024-07-15,27.21,Gala,Cash
+Donor 28,2024-07-15,142.93,Annual Appeal,Online
+Donor 205,2024-07-15,20.39,Annual Appeal,Cheque
+Donor 348,2024-07-16,45.27,Annual Appeal,Cheque
+Donor 10,2024-07-16,26.7,Monthly,Online
+Donor 44,2024-07-16,25.04,Annual Appeal,Cheque
+Donor 238,2024-07-16,11.02,Annual Appeal,Bank transfer
+Donor 113,2024-07-16,59.73,Monthly,Online
+Donor 146,2024-07-17,139.21,Monthly,Cash
+Donor 220,2024-07-17,38.32,Gala,Cheque
+Donor 45,2024-07-17,26.4,Giving Tuesday,Bank transfer
+Donor 68,2024-07-17,33.51,Annual Appeal,Online
+Donor 359,2024-07-17,43.4,Monthly,Cheque
+Donor 102,2024-07-17,25.5,Gala,Cheque
+Donor 39,2024-07-18,15.79,Gala,Cheque
+Donor 264,2024-07-18,16.04,Giving Tuesday,Cash
+Donor 233,2024-07-18,95.32,Annual Appeal,Cash
+Donor 314,2024-07-18,6.72,Giving Tuesday,Cheque
+Donor 40,2024-07-18,16.05,Annual Appeal,Cheque
+Donor 184,2024-07-18,26.18,Monthly,Cheque
+Donor 311,2024-07-19,68.9,Monthly,Cheque
+Donor 320,2024-07-19,5.02,Annual Appeal,Cash
+Donor 252,2024-07-19,34.36,Giving Tuesday,Online
+Donor 246,2024-07-19,56.08,Giving Tuesday,Cash
+Donor 304,2024-07-19,58.75,Giving Tuesday,Online
+Donor 238,2024-07-20,78.18,Giving Tuesday,Bank transfer
+Donor 100,2024-07-21,18.47,Monthly,Cheque
+Donor 68,2024-07-21,37.59,Annual Appeal,Online
+Donor 124,2024-07-21,83.74,Annual Appeal,Bank transfer
+Donor 333,2024-07-21,8.58,Annual Appeal,Online
+Donor 109,2024-07-21,11.19,Annual Appeal,Cash
+Donor 346,2024-07-21,10.89,Annual Appeal,Online
+Donor 353,2024-07-22,37.8,Giving Tuesday,Cheque
+Donor 46,2024-07-22,185.37,Monthly,Cheque
+Donor 10,2024-07-22,7.99,Monthly,Bank transfer
+Donor 110,2024-07-22,16.47,Annual Appeal,Cheque
+Donor 115,2024-07-22,25.72,Annual Appeal,Cheque
+Donor 399,2024-07-22,11.7,Monthly,Cash
+Donor 138,2024-07-23,25.94,Monthly,Bank transfer
+Donor 313,2024-07-23,18.91,Monthly,Online
+Donor 255,2024-07-23,37.11,Annual Appeal,Online
+Donor 313,2024-07-23,41.86,Giving Tuesday,Cash
+Donor 363,2024-07-23,19.26,Annual Appeal,Cheque
+Donor 310,2024-07-23,5.42,Annual Appeal,Cash
+Donor 148,2024-07-23,17.25,Gala,Bank transfer
+Donor 86,2024-07-23,26.58,Monthly,Cash
+Donor 223,2024-07-23,10.35,Giving Tuesday,Bank transfer
+Donor 366,2024-07-24,72.07,Monthly,Cheque
+Donor 127,2024-07-24,72.92,Gala,Cash
+Donor 286,2024-07-24,139.21,Annual Appeal,Cheque
+Donor 323,2024-07-24,33.76,Monthly,Bank transfer
+Donor 87,2024-07-25,37.61,Giving Tuesday,Cash
+Donor 150,2024-07-25,27.4,Monthly,Cheque
+Donor 327,2024-07-25,8.43,Monthly,Online
+Donor 212,2024-07-26,4.58,Monthly,Bank transfer
+Donor 330,2024-07-26,3.52,Giving Tuesday,Cash
+Donor 109,2024-07-26,15.48,Giving Tuesday,Online
+Donor 19,2024-07-26,164.72,Monthly,Online
+Donor 252,2024-07-26,16.46,Annual Appeal,Cash
+Donor 262,2024-07-27,5.81,Monthly,Online
+Donor 70,2024-07-27,100.48,Giving Tuesday,Cheque
+Donor 65,2024-07-27,28.14,Annual Appeal,Cash
+Donor 23,2024-07-28,75.12,Annual Appeal,Cash
+Donor 337,2024-07-28,118.68,Monthly,Online
+Donor 292,2024-07-28,23.75,Monthly,Bank transfer
+Donor 220,2024-07-28,17.55,Monthly,Cash
+Donor 227,2024-07-28,137.15,Giving Tuesday,Cheque
+Donor 309,2024-07-28,92.29,Annual Appeal,Cheque
+Donor 361,2024-07-28,62.29,Annual Appeal,Cash
+Donor 180,2024-07-29,37.91,Gala,Cheque
+Donor 395,2024-07-30,16.09,Annual Appeal,Online
+Donor 242,2024-07-31,105.42,Monthly,Cash
+Donor 70,2024-07-31,15.03,Monthly,Online
+Donor 292,2024-07-31,32.17,Monthly,Cash
+Donor 90,2024-08-01,44.34,Giving Tuesday,Cash
+Donor 83,2024-08-01,91.58,Annual Appeal,Cash
+Donor 280,2024-08-01,5.43,Annual Appeal,Online
+Donor 350,2024-08-01,4.98,Giving Tuesday,Cash
+Donor 109,2024-08-01,59.26,Giving Tuesday,Cash
+Donor 237,2024-08-02,32.82,Gala,Cheque
+Donor 153,2024-08-02,94.38,Annual Appeal,Online
+Donor 372,2024-08-02,52.98,Monthly,Cash
+Donor 133,2024-08-02,23.83,Annual Appeal,Cheque
+Donor 272,2024-08-02,10.59,Giving Tuesday,Online
+Donor 265,2024-08-02,227.01,Monthly,Bank transfer
+Donor 351,2024-08-03,97.6,Monthly,Cash
+Donor 49,2024-08-03,68.82,Monthly,Cheque
+Donor 200,2024-08-03,6.86,Annual Appeal,Bank transfer
+Donor 182,2024-08-03,57.71,Annual Appeal,Cheque
+Donor 249,2024-08-03,48.33,Monthly,Online
+Donor 353,2024-08-03,24.09,Monthly,Online
+Donor 238,2024-08-03,8.78,Monthly,Bank transfer
+Donor 216,2024-08-04,21.16,Giving Tuesday,Cheque
+Donor 142,2024-08-04,42.74,Annual Appeal,Cash
+Donor 190,2024-08-04,12.93,Gala,Online
+Donor 164,2024-08-04,3.74,Monthly,Bank transfer
+Donor 217,2024-08-04,71.46,Giving Tuesday,Online
+Donor 356,2024-08-05,6.81,Giving Tuesday,Bank transfer
+Donor 257,2024-08-05,149.71,Gala,Bank transfer
+Donor 347,2024-08-05,54.13,Monthly,Cheque
+Donor 263,2024-08-05,95.45,Annual Appeal,Cheque
+Donor 118,2024-08-06,21.47,Annual Appeal,Online
+Donor 111,2024-08-06,34.87,Annual Appeal,Cash
+Donor 260,2024-08-06,30.09,Annual Appeal,Online
+Donor 24,2024-08-07,46.48,Giving Tuesday,Online
+Donor 329,2024-08-07,60.45,Giving Tuesday,Cash
+Donor 203,2024-08-07,15.49,Annual Appeal,Cash
+Donor 238,2024-08-07,25.27,Annual Appeal,Online
+Donor 323,2024-08-07,71.3,Annual Appeal,Cash
+Donor 49,2024-08-07,16.54,Annual Appeal,Online
+Donor 283,2024-08-07,17.39,Giving Tuesday,Cash
+Donor 374,2024-08-07,31.91,Giving Tuesday,Online
+Donor 21,2024-08-07,5.6,Annual Appeal,Bank transfer
+Donor 109,2024-08-08,59.33,Annual Appeal,Cash
+Donor 3,2024-08-08,43.78,Annual Appeal,Cheque
+Donor 230,2024-08-08,24.24,Monthly,Cash
+Donor 393,2024-08-08,20.15,Annual Appeal,Online
+Donor 272,2024-08-08,9.73,Giving Tuesday,Cheque
+Donor 352,2024-08-08,11.18,Monthly,Cash
+Donor 7,2024-08-09,9.35,Annual Appeal,Online
+Donor 245,2024-08-09,27.66,Annual Appeal,Cash
+Donor 181,2024-08-10,93.11,Annual Appeal,Cheque
+Donor 354,2024-08-10,138.35,Annual Appeal,Cash
+Donor 110,2024-08-10,40.43,Monthly,Cheque
+Donor 112,2024-08-10,40.39,Gala,Bank transfer
+Donor 304,2024-08-10,91.92,Annual Appeal,Cheque
+Donor 345,2024-08-10,16.05,Giving Tuesday,Bank transfer
+Donor 233,2024-08-10,14.64,Giving Tuesday,Online
+Donor 175,2024-08-10,22.12,Annual Appeal,Bank transfer
+Donor 268,2024-08-11,11.77,Gala,Cheque
+Donor 188,2024-08-12,15.26,Giving Tuesday,Online
+Donor 104,2024-08-12,10.36,Gala,Bank transfer
+Donor 366,2024-08-12,19.76,Monthly,Cheque
+Donor 137,2024-08-13,23.91,Annual Appeal,Cash
+Donor 262,2024-08-13,80.46,Giving Tuesday,Bank transfer
+Donor 328,2024-08-13,45.98,Annual Appeal,Online
+Donor 320,2024-08-13,433.77,Giving Tuesday,Online
+Donor 281,2024-08-13,19.33,Monthly,Cash
+Donor 114,2024-08-13,9.4,Monthly,Bank transfer
+Donor 297,2024-08-13,5.62,Annual Appeal,Online
+Donor 254,2024-08-15,22.63,Monthly,Bank transfer
+Donor 107,2024-08-16,46.91,Monthly,Cash
+Donor 301,2024-08-16,47.33,Giving Tuesday,Cash
+Donor 275,2024-08-16,74.57,Monthly,Cash
+Donor 288,2024-08-17,44.86,Monthly,Cash
+Donor 86,2024-08-17,102.72,Monthly,Cheque
+Donor 211,2024-08-18,46.9,Annual Appeal,Cheque
+Donor 110,2024-08-19,180.65,Monthly,Cheque
+Donor 284,2024-08-19,552.5,Giving Tuesday,Cheque
+Donor 258,2024-08-19,19.31,Monthly,Online
+Donor 113,2024-08-19,20.38,Giving Tuesday,Cash
+Donor 310,2024-08-19,84.73,Monthly,Cash
+Donor 29,2024-08-20,152.71,Annual Appeal,Cash
+Donor 388,2024-08-20,12.45,Monthly,Cash
+Donor 358,2024-08-21,11.53,Giving Tuesday,Cheque
+Donor 398,2024-08-21,3.6,Monthly,Bank transfer
+Donor 288,2024-08-21,44.53,Giving Tuesday,Online
+Donor 101,2024-08-21,120.43,Monthly,Bank transfer
+Donor 391,2024-08-22,26.64,Giving Tuesday,Bank transfer
+Donor 23,2024-08-22,81.45,Monthly,Cheque
+Donor 178,2024-08-22,9.21,Monthly,Cash
+Donor 190,2024-08-22,29.96,Annual Appeal,Online
+Donor 196,2024-08-23,8.39,Gala,Online
+Donor 70,2024-08-23,30.5,Annual Appeal,Online
+Donor 54,2024-08-23,11.94,Monthly,Cheque
+Donor 260,2024-08-23,53.8,Annual Appeal,Cheque
+Donor 177,2024-08-23,39.63,Annual Appeal,Cheque
+Donor 354,2024-08-23,68.18,Monthly,Bank transfer
+Donor 129,2024-08-23,9.82,Gala,Online
+Donor 15,2024-08-23,282.43,Giving Tuesday,Bank transfer
+Donor 95,2024-08-25,392.21,Annual Appeal,Cash
+Donor 64,2024-08-25,3.06,Annual Appeal,Online
+Donor 72,2024-08-25,25.74,Monthly,Cash
+Donor 372,2024-08-25,216.67,Monthly,Online
+Donor 261,2024-08-25,10.62,Giving Tuesday,Online
+Donor 78,2024-08-26,15.22,Giving Tuesday,Cash
+Donor 159,2024-08-26,24.31,Monthly,Cheque
+Donor 172,2024-08-26,39.53,Giving Tuesday,Online
+Donor 78,2024-08-26,3.61,Annual Appeal,Bank transfer
+Donor 138,2024-08-26,21.73,Monthly,Bank transfer
+Donor 283,2024-08-26,113.95,Monthly,Cash
+Donor 373,2024-08-26,113.51,Annual Appeal,Bank transfer
+Donor 246,2024-08-27,11.11,Giving Tuesday,Cheque
+Donor 392,2024-08-27,10.48,Monthly,Online
+Donor 176,2024-08-27,63.99,Monthly,Bank transfer
+Donor 355,2024-08-27,6.65,Monthly,Cheque
+Donor 89,2024-08-28,2.61,Annual Appeal,Online
+Donor 136,2024-08-28,3.54,Annual Appeal,Cash
+Donor 366,2024-08-28,24.51,Giving Tuesday,Bank transfer
+Donor 292,2024-08-28,36.41,Annual Appeal,Cheque
+Donor 27,2024-08-29,10.82,Giving Tuesday,Cheque
+Donor 161,2024-08-29,8.13,Annual Appeal,Bank transfer
+Donor 389,2024-08-30,49.18,Giving Tuesday,Cheque
+Donor 343,2024-08-30,29.82,Monthly,Online
+Donor 221,2024-08-30,22.38,Gala,Cheque
+Donor 335,2024-08-30,22.95,Monthly,Online
+Donor 78,2024-08-30,26.26,Monthly,Cheque
+Donor 140,2024-08-31,23.52,Annual Appeal,Online
+Donor 379,2024-08-31,64.07,Annual Appeal,Cheque
+Donor 190,2024-09-01,14.94,Giving Tuesday,Cheque
+Donor 124,2024-09-01,143.4,Giving Tuesday,Cash
+Donor 125,2024-09-01,82.28,Gala,Cash
+Donor 136,2024-09-01,4.06,Giving Tuesday,Cheque
+Donor 306,2024-09-01,7.42,Monthly,Cheque
+Donor 372,2024-09-02,14.69,Annual Appeal,Bank transfer
+Donor 330,2024-09-02,62.25,Monthly,Online
+Donor 127,2024-09-02,1.55,Annual Appeal,Online
+Donor 319,2024-09-03,8.62,Giving Tuesday,Cheque
+Donor 141,2024-09-03,144.02,Giving Tuesday,Bank transfer
+Donor 181,2024-09-03,34.35,Monthly,Cheque
+Donor 221,2024-09-03,36.68,Giving Tuesday,Bank transfer
+Donor 218,2024-09-03,15.61,Monthly,Cash
+Donor 115,2024-09-04,20.35,Giving Tuesday,Cash
+Donor 263,2024-09-04,11.02,Monthly,Bank transfer
+Donor 231,2024-09-04,33.38,Giving Tuesday,Cash
+Donor 48,2024-09-04,14.52,Annual Appeal,Cheque
+Donor 54,2024-09-04,216.4,Annual Appeal,Online
+Donor 180,2024-09-05,36.77,Monthly,Online
+Donor 201,2024-09-05,24.11,Annual Appeal,Online
+Donor 239,2024-09-05,156.01,Annual Appeal,Cheque
+Donor 175,2024-09-05,22.41,Annual Appeal,Online
+Donor 303,2024-09-05,128.07,Giving Tuesday,Online
+Donor 68,2024-09-05,24.13,Annual Appeal,Bank transfer
+Donor 50,2024-09-05,52.47,Gala,Online
+Donor 172,2024-09-06,18.51,Annual Appeal,Online
+Donor 138,2024-09-06,179.88,Monthly,Cheque
+Donor 138,2024-09-06,232.98,Annual Appeal,Bank transfer
+Donor 195,2024-09-06,31.95,Annual Appeal,Online
+Donor 169,2024-09-07,21.46,Monthly,Online
+Donor 112,2024-09-07,10.77,Giving Tuesday,Online
+Donor 174,2024-09-07,13.12,Monthly,Cheque
+Donor 86,2024-09-07,89.51,Giving Tuesday,Cheque
+Donor 23,2024-09-08,40.64,Annual Appeal,Cash
+Donor 208,2024-09-08,17.52,Giving Tuesday,Cash
+Donor 339,2024-09-08,5.14,Monthly,Cash
+Donor 193,2024-09-09,16.91,Monthly,Cash
+Donor 90,2024-09-09,4.02,Annual Appeal,Online
+Donor 68,2024-09-09,72.39,Annual Appeal,Cheque
+Donor 130,2024-09-09,31.76,Annual Appeal,Online
+Donor 247,2024-09-09,13.15,Monthly,Cash
+Donor 352,2024-09-09,87.88,Giving Tuesday,Bank transfer
+Donor 383,2024-09-09,3.05,Monthly,Cash
+Donor 45,2024-09-10,100.25,Annual Appeal,Bank transfer
+Donor 3,2024-09-10,17.0,Monthly,Cash
+Donor 366,2024-09-10,39.08,Giving Tuesday,Online
+Donor 73,2024-09-10,72.71,Gala,Bank transfer
+Donor 127,2024-09-10,32.03,Annual Appeal,Bank transfer
+Donor 32,2024-09-11,154.06,Annual Appeal,Cash
+Donor 399,2024-09-11,40.91,Gala,Online
+Donor 174,2024-09-12,183.08,Gala,Cheque
+Donor 52,2024-09-12,20.65,Monthly,Cheque
+Donor 331,2024-09-12,95.61,Gala,Bank transfer
+Donor 91,2024-09-12,24.41,Gala,Cash
+Donor 155,2024-09-12,21.32,Annual Appeal,Cheque
+Donor 371,2024-09-12,83.96,Giving Tuesday,Online
+Donor 281,2024-09-12,47.77,Monthly,Bank transfer
+Donor 158,2024-09-13,53.34,Annual Appeal,Cash
+Donor 258,2024-09-13,16.84,Annual Appeal,Online
+Donor 95,2024-09-13,78.5,Gala,Cheque
+Donor 187,2024-09-13,2.22,Annual Appeal,Online
+Donor 398,2024-09-13,30.84,Annual Appeal,Cash
+Donor 216,2024-09-13,46.98,Annual Appeal,Bank transfer
+Donor 129,2024-09-13,14.75,Annual Appeal,Cash
+Donor 176,2024-09-13,27.38,Monthly,Cash
+Donor 337,2024-09-13,8.75,Monthly,Cheque
+Donor 224,2024-09-14,28.11,Giving Tuesday,Bank transfer
+Donor 49,2024-09-14,71.51,Giving Tuesday,Online
+Donor 197,2024-09-14,26.58,Giving Tuesday,Bank transfer
+Donor 278,2024-09-14,41.24,Annual Appeal,Bank transfer
+Donor 136,2024-09-14,23.26,Annual Appeal,Cash
+Donor 276,2024-09-14,128.78,Annual Appeal,Cash
+Donor 133,2024-09-15,59.04,Annual Appeal,Bank transfer
+Donor 260,2024-09-15,106.16,Monthly,Bank transfer
+Donor 332,2024-09-15,16.22,Giving Tuesday,Bank transfer
+Donor 312,2024-09-15,35.97,Annual Appeal,Cheque
+Donor 103,2024-09-15,7.62,Annual Appeal,Online
+Donor 225,2024-09-15,31.85,Annual Appeal,Online
+Donor 333,2024-09-16,15.39,Giving Tuesday,Bank transfer
+Donor 119,2024-09-16,4.29,Giving Tuesday,Online
+Donor 348,2024-09-16,29.39,Gala,Cheque
+Donor 281,2024-09-16,186.07,Monthly,Cheque
+Donor 219,2024-09-16,44.18,Annual Appeal,Cash
+Donor 161,2024-09-17,49.71,Annual Appeal,Cash
+Donor 50,2024-09-17,18.55,Giving Tuesday,Cheque
+Donor 166,2024-09-17,42.47,Gala,Bank transfer
+Donor 377,2024-09-17,6.87,Monthly,Cheque
+Donor 181,2024-09-18,22.34,Monthly,Bank transfer
+Donor 15,2024-09-18,34.48,Monthly,Cash
+Donor 298,2024-09-18,45.73,Annual Appeal,Bank transfer
+Donor 254,2024-09-18,27.22,Gala,Bank transfer
+Donor 384,2024-09-19,46.55,Annual Appeal,Cheque
+Donor 181,2024-09-19,49.42,Annual Appeal,Cheque
+Donor 261,2024-09-20,49.89,Annual Appeal,Bank transfer
+Donor 324,2024-09-20,29.49,Annual Appeal,Cheque
+Donor 165,2024-09-20,14.42,Monthly,Cheque
+Donor 355,2024-09-20,19.61,Monthly,Bank transfer
+Donor 143,2024-09-20,58.46,Monthly,Cash
+Donor 291,2024-09-20,24.43,Monthly,Cash
+Donor 52,2024-09-20,224.85,Monthly,Cash
+Donor 110,2024-09-20,155.82,Giving Tuesday,Cash
+Donor 214,2024-09-21,42.93,Giving Tuesday,Cheque
+Donor 118,2024-09-21,41.56,Monthly,Online
+Donor 115,2024-09-21,80.56,Annual Appeal,Online
+Donor 305,2024-09-22,252.5,Annual Appeal,Online
+Donor 301,2024-09-22,11.43,Gala,Cheque
+Donor 396,2024-09-22,22.88,Annual Appeal,Cash
+Donor 121,2024-09-22,87.44,Annual Appeal,Bank transfer
+Donor 329,2024-09-22,87.25,Monthly,Cash
+Donor 213,2024-09-22,30.27,Annual Appeal,Cheque
+Donor 232,2024-09-22,42.31,Gala,Bank transfer
+Donor 68,2024-09-23,133.23,Annual Appeal,Cheque
+Donor 177,2024-09-23,10.17,Annual Appeal,Cash
+Donor 22,2024-09-24,48.66,Annual Appeal,Cheque
+Donor 250,2024-09-24,53.8,Gala,Bank transfer
+Donor 227,2024-09-24,87.14,Annual Appeal,Bank transfer
+Donor 398,2024-09-25,26.06,Gala,Bank transfer
+Donor 207,2024-09-25,42.32,Monthly,Online
+Donor 95,2024-09-25,26.15,Gala,Bank transfer
+Donor 159,2024-09-26,41.16,Annual Appeal,Cash
+Donor 204,2024-09-27,34.09,Monthly,Bank transfer
+Donor 34,2024-09-27,131.8,Annual Appeal,Online
+Donor 59,2024-09-28,131.61,Annual Appeal,Bank transfer
+Donor 64,2024-09-28,5.83,Annual Appeal,Cash
+Donor 186,2024-09-29,28.41,Annual Appeal,Bank transfer
+Donor 22,2024-09-29,14.72,Annual Appeal,Bank transfer
+Donor 131,2024-09-29,25.19,Gala,Bank transfer
+Donor 291,2024-09-30,40.89,Annual Appeal,Cash
+Donor 197,2024-09-30,3.21,Monthly,Cheque
+Donor 267,2024-09-30,371.6,Annual Appeal,Online
+Donor 181,2024-09-30,16.23,Monthly,Cheque
+Donor 131,2024-09-30,19.6,Gala,Online
+Donor 366,2024-09-30,152.83,Annual Appeal,Cash
+Donor 172,2024-09-30,17.11,Annual Appeal,Online
+Donor 368,2024-09-30,16.58,Annual Appeal,Cash
+Donor 117,2024-09-30,54.8,Gala,Cash
+Donor 84,2024-10-01,122.06,Monthly,Cash
+Donor 115,2024-10-02,9.85,Monthly,Cheque
+Donor 375,2024-10-02,113.22,Annual Appeal,Online
+Donor 266,2024-10-03,75.62,Annual Appeal,Online
+Donor 386,2024-10-03,57.89,Annual Appeal,Cash
+Donor 302,2024-10-03,36.66,Annual Appeal,Cash
+Donor 251,2024-10-03,11.13,Annual Appeal,Cash
+Donor 314,2024-10-03,5.69,Monthly,Cash
+Donor 319,2024-10-03,40.51,Annual Appeal,Cash
+Donor 123,2024-10-03,12.08,Annual Appeal,Bank transfer
+Donor 330,2024-10-03,59.76,Annual Appeal,Cash
+Donor 47,2024-10-04,57.9,Annual Appeal,Cash
+Donor 37,2024-10-04,13.26,Giving Tuesday,Online
+Donor 278,2024-10-04,15.12,Annual Appeal,Online
+Donor 399,2024-10-04,87.94,Monthly,Cash
+Donor 150,2024-10-05,4.99,Gala,Cheque
+Donor 274,2024-10-05,31.67,Annual Appeal,Cheque
+Donor 223,2024-10-05,8.74,Giving Tuesday,Cash
+Donor 389,2024-10-05,19.23,Giving Tuesday,Cheque
+Donor 242,2024-10-07,4.87,Monthly,Bank transfer
+Donor 168,2024-10-07,9.71,Monthly,Online
+Donor 150,2024-10-07,111.0,Giving Tuesday,Cheque
+Donor 203,2024-10-07,53.53,Giving Tuesday,Bank transfer
+Donor 12,2024-10-08,59.07,Giving Tuesday,Cash
+Donor 52,2024-10-09,31.14,Giving Tuesday,Bank transfer
+Donor 55,2024-10-09,96.16,Annual Appeal,Online
+Donor 156,2024-10-09,54.23,Monthly,Cheque
+Donor 249,2024-10-09,10.09,Giving Tuesday,Online
+Donor 242,2024-10-09,15.76,Monthly,Cheque
+Donor 378,2024-10-10,23.25,Annual Appeal,Bank transfer
+Donor 286,2024-10-10,88.52,Monthly,Bank transfer
+Donor 178,2024-10-10,7.13,Monthly,Online
+Donor 328,2024-10-11,373.32,Monthly,Cheque
+Donor 48,2024-10-11,8.73,Gala,Cheque
+Donor 107,2024-10-11,13.34,Annual Appeal,Online
+Donor 313,2024-10-11,33.25,Monthly,Bank transfer
+Donor 115,2024-10-12,84.15,Gala,Cheque
+Donor 15,2024-10-12,71.47,Annual Appeal,Cash
+Donor 208,2024-10-12,72.69,Gala,Cash
+Donor 380,2024-10-13,124.23,Annual Appeal,Bank transfer
+Donor 42,2024-10-13,5.55,Giving Tuesday,Cash
+Donor 257,2024-10-13,31.72,Annual Appeal,Cash
+Donor 366,2024-10-13,22.54,Annual Appeal,Cash
+Donor 356,2024-10-13,11.52,Annual Appeal,Bank transfer
+Donor 97,2024-10-14,16.0,Annual Appeal,Cheque
+Donor 326,2024-10-14,382.34,Annual Appeal,Bank transfer
+Donor 345,2024-10-14,12.26,Annual Appeal,Online
+Donor 177,2024-10-14,63.09,Giving Tuesday,Cheque
+Donor 150,2024-10-15,80.57,Monthly,Cheque
+Donor 250,2024-10-16,53.95,Gala,Online
+Donor 324,2024-10-16,322.93,Annual Appeal,Cheque
+Donor 138,2024-10-16,11.51,Giving Tuesday,Bank transfer
+Donor 241,2024-10-16,68.84,Giving Tuesday,Cash
+Donor 283,2024-10-16,17.62,Monthly,Bank transfer
+Donor 90,2024-10-16,75.04,Annual Appeal,Online
+Donor 88,2024-10-17,17.03,Annual Appeal,Online
+Donor 296,2024-10-17,15.7,Monthly,Cheque
+Donor 252,2024-10-17,14.68,Monthly,Bank transfer
+Donor 30,2024-10-17,8.37,Monthly,Cash
+Donor 135,2024-10-18,17.12,Monthly,Cash
+Donor 265,2024-10-19,33.39,Monthly,Cash
+Donor 180,2024-10-20,90.84,Giving Tuesday,Bank transfer
+Donor 349,2024-10-20,21.59,Annual Appeal,Online
+Donor 202,2024-10-20,9.73,Giving Tuesday,Cheque
+Donor 264,2024-10-20,25.01,Monthly,Bank transfer
+Donor 366,2024-10-20,12.01,Annual Appeal,Online
+Donor 71,2024-10-20,38.15,Monthly,Cash
+Donor 19,2024-10-21,41.52,Annual Appeal,Online
+Donor 44,2024-10-21,134.34,Monthly,Online
+Donor 143,2024-10-21,14.56,Annual Appeal,Online
+Donor 144,2024-10-21,29.31,Annual Appeal,Cash
+Donor 298,2024-10-21,37.29,Monthly,Bank transfer
+Donor 310,2024-10-23,6.25,Monthly,Bank transfer
+Donor 75,2024-10-23,36.32,Annual Appeal,Online
+Donor 366,2024-10-23,109.78,Gala,Online
+Donor 22,2024-10-24,51.39,Monthly,Cash
+Donor 62,2024-10-24,94.26,Annual Appeal,Cash
+Donor 230,2024-10-24,8.81,Monthly,Online
+Donor 225,2024-10-25,22.37,Annual Appeal,Online
+Donor 163,2024-10-25,11.02,Annual Appeal,Cheque
+Donor 78,2024-10-25,87.88,Monthly,Online
+Donor 241,2024-10-25,2.09,Monthly,Bank transfer
+Donor 305,2024-10-25,14.28,Giving Tuesday,Online
+Donor 227,2024-10-26,48.23,Annual Appeal,Bank transfer
+Donor 123,2024-10-26,24.38,Giving Tuesday,Cash
+Donor 125,2024-10-26,30.8,Giving Tuesday,Online
+Donor 34,2024-10-27,41.35,Monthly,Cheque
+Donor 86,2024-10-28,15.4,Annual Appeal,Cheque
+Donor 348,2024-10-28,67.88,Gala,Online
+Donor 281,2024-10-28,7.66,Annual Appeal,Bank transfer
+Donor 232,2024-10-28,94.83,Monthly,Online
+Donor 59,2024-10-28,17.82,Annual Appeal,Online
+Donor 15,2024-10-29,135.63,Monthly,Cash
+Donor 111,2024-10-29,47.62,Giving Tuesday,Cash
+Donor 147,2024-10-29,43.87,Annual Appeal,Cheque
+Donor 37,2024-10-30,3.69,Annual Appeal,Bank transfer
+Donor 118,2024-10-30,19.42,Giving Tuesday,Cheque
+Donor 321,2024-10-30,12.39,Monthly,Bank transfer
+Donor 313,2024-10-30,14.79,Monthly,Bank transfer
+Donor 338,2024-10-30,5.96,Annual Appeal,Cash
+Donor 156,2024-10-30,43.97,Monthly,Bank transfer
+Donor 90,2024-10-30,31.03,Annual Appeal,Cash
+Donor 199,2024-10-30,88.33,Annual Appeal,Online
+Donor 111,2024-10-31,31.74,Gala,Cheque
+Donor 148,2024-10-31,176.11,Gala,Cash
+Donor 50,2024-10-31,31.74,Gala,Online
+Donor 148,2024-11-01,27.25,Gala,Online
+Donor 90,2024-11-01,44.52,Gala,Online
+Donor 285,2024-11-01,50.52,Monthly,Bank transfer
+Donor 138,2024-11-01,132.12,Gala,Cash
+Donor 289,2024-11-01,15.45,Annual Appeal,Bank transfer
+Donor 72,2024-11-01,124.98,Annual Appeal,Online
+Donor 256,2024-11-02,32.56,Annual Appeal,Cash
+Donor 88,2024-11-02,53.53,Monthly,Cash
+Donor 291,2024-11-02,46.3,Monthly,Cheque
+Donor 51,2024-11-02,17.38,Gala,Cheque
+Donor 345,2024-11-03,12.19,Annual Appeal,Cash
+Donor 176,2024-11-03,92.41,Monthly,Cheque
+Donor 363,2024-11-03,8.5,Monthly,Cash
+Donor 186,2024-11-03,105.25,Giving Tuesday,Bank transfer
+Donor 115,2024-11-03,134.76,Giving Tuesday,Online
+Donor 143,2024-11-03,15.27,Gala,Bank transfer
+Donor 8,2024-11-03,57.42,Monthly,Bank transfer
+Donor 362,2024-11-04,21.29,Annual Appeal,Online
+Donor 53,2024-11-04,9.32,Annual Appeal,Bank transfer
+Donor 33,2024-11-05,250.16,Annual Appeal,Online
+Donor 49,2024-11-05,56.68,Monthly,Cash
+Donor 119,2024-11-05,41.66,Gala,Online
+Donor 336,2024-11-05,40.38,Gala,Cash
+Donor 243,2024-11-05,22.86,Annual Appeal,Cash
+Donor 60,2024-11-05,31.89,Monthly,Bank transfer
+Donor 353,2024-11-06,24.41,Gala,Online
+Donor 242,2024-11-06,30.88,Gala,Cash
+Donor 128,2024-11-06,20.85,Monthly,Cash
+Donor 160,2024-11-06,226.55,Giving Tuesday,Cash
+Donor 196,2024-11-06,55.14,Monthly,Cheque
+Donor 252,2024-11-06,12.25,Gala,Cash
+Donor 389,2024-11-06,120.29,Monthly,Cheque
+Donor 314,2024-11-07,40.3,Annual Appeal,Bank transfer
+Donor 328,2024-11-07,46.06,Annual Appeal,Bank transfer
+Donor 264,2024-11-07,24.87,Monthly,Bank transfer
+Donor 90,2024-11-08,116.49,Annual Appeal,Online
+Donor 315,2024-11-08,68.36,Monthly,Online
+Donor 2,2024-11-08,30.33,Monthly,Bank transfer
+Donor 255,2024-11-08,28.29,Monthly,Online
+Donor 234,2024-11-08,52.09,Giving Tuesday,Online
+Donor 311,2024-11-09,30.99,Monthly,Cheque
+Donor 209,2024-11-09,14.46,Giving Tuesday,Cash
+Donor 137,2024-11-10,41.86,Giving Tuesday,Bank transfer
+Donor 345,2024-11-10,45.51,Annual Appeal,Cash
+Donor 30,2024-11-10,34.51,Annual Appeal,Cash
+Donor 151,2024-11-10,36.6,Monthly,Bank transfer
+Donor 88,2024-11-10,14.2,Monthly,Cash
+Donor 210,2024-11-10,30.33,Annual Appeal,Bank transfer
+Donor 281,2024-11-10,11.56,Gala,Cash
+Donor 256,2024-11-10,58.93,Gala,Bank transfer
+Donor 63,2024-11-10,20.28,Giving Tuesday,Online
+Donor 397,2024-11-11,20.87,Annual Appeal,Cheque
+Donor 277,2024-11-11,186.31,Giving Tuesday,Cash
+Donor 247,2024-11-11,17.26,Giving Tuesday,Bank transfer
+Donor 105,2024-11-12,31.22,Monthly,Online
+Donor 302,2024-11-12,50.78,Giving Tuesday,Cheque
+Donor 303,2024-11-12,68.88,Giving Tuesday,Online
+Donor 152,2024-11-12,13.55,Giving Tuesday,Cheque
+Donor 72,2024-11-12,35.04,Annual Appeal,Bank transfer
+Donor 141,2024-11-13,18.32,Monthly,Online
+Donor 219,2024-11-13,22.86,Giving Tuesday,Cheque
+Donor 72,2024-11-13,91.95,Monthly,Cheque
+Donor 221,2024-11-13,16.69,Annual Appeal,Online
+Donor 46,2024-11-13,17.27,Monthly,Cheque
+Donor 20,2024-11-14,143.75,Gala,Cheque
+Donor 248,2024-11-14,16.01,Annual Appeal,Online
+Donor 112,2024-11-14,112.95,Gala,Cash
+Donor 53,2024-11-14,33.1,Giving Tuesday,Bank transfer
+Donor 284,2024-11-14,116.64,Annual Appeal,Cash
+Donor 238,2024-11-14,14.97,Gala,Cash
+Donor 350,2024-11-14,20.79,Annual Appeal,Cheque
+Donor 384,2024-11-14,143.85,Monthly,Bank transfer
+Donor 82,2024-11-14,322.64,Giving Tuesday,Cheque
+Donor 218,2024-11-14,33.48,Gala,Online
+Donor 256,2024-11-14,14.17,Monthly,Bank transfer
+Donor 319,2024-11-14,69.85,Annual Appeal,Online
+Donor 344,2024-11-14,25.34,Annual Appeal,Bank transfer
+Donor 22,2024-11-14,196.04,Annual Appeal,Bank transfer
+Donor 63,2024-11-14,20.68,Annual Appeal,Cash
+Donor 171,2024-11-15,15.26,Monthly,Cheque
+Donor 316,2024-11-15,7.61,Annual Appeal,Online
+Donor 342,2024-11-15,103.81,Giving Tuesday,Cheque
+Donor 201,2024-11-16,195.73,Monthly,Bank transfer
+Donor 309,2024-11-16,10.79,Monthly,Cheque
+Donor 210,2024-11-16,4.76,Annual Appeal,Cheque
+Donor 19,2024-11-17,10.38,Monthly,Bank transfer
+Donor 298,2024-11-17,25.51,Gala,Bank transfer
+Donor 281,2024-11-17,35.65,Monthly,Cash
+Donor 370,2024-11-17,26.8,Giving Tuesday,Cheque
+Donor 163,2024-11-17,5.42,Gala,Bank transfer
+Donor 228,2024-11-17,37.51,Monthly,Cash
+Donor 203,2024-11-18,22.25,Annual Appeal,Cash
+Donor 373,2024-11-18,51.53,Gala,Cheque
+Donor 157,2024-11-19,27.41,Giving Tuesday,Online
+Donor 64,2024-11-19,16.78,Monthly,Online
+Donor 67,2024-11-21,19.89,Annual Appeal,Cash
+Donor 129,2024-11-21,17.92,Annual Appeal,Online
+Donor 249,2024-11-21,17.58,Annual Appeal,Cash
+Donor 351,2024-11-21,29.01,Gala,Cheque
+Donor 186,2024-11-21,11.3,Giving Tuesday,Cheque
+Donor 380,2024-11-22,3.09,Monthly,Online
+Donor 96,2024-11-22,275.91,Monthly,Online
+Donor 137,2024-11-22,10.49,Gala,Online
+Donor 190,2024-11-22,79.75,Giving Tuesday,Cheque
+Donor 316,2024-11-22,97.1,Annual Appeal,Online
+Donor 210,2024-11-23,51.41,Monthly,Cheque
+Donor 297,2024-11-23,27.68,Monthly,Cash
+Donor 344,2024-11-23,155.01,Giving Tuesday,Cheque
+Donor 20,2024-11-23,36.09,Monthly,Online
+Donor 14,2024-11-23,122.52,Annual Appeal,Online
+Donor 324,2024-11-23,36.63,Monthly,Bank transfer
+Donor 393,2024-11-24,44.95,Monthly,Online
+Donor 340,2024-11-24,43.19,Annual Appeal,Cash
+Donor 258,2024-11-24,12.41,Giving Tuesday,Online
+Donor 95,2024-11-25,11.66,Monthly,Bank transfer
+Donor 57,2024-11-25,97.42,Gala,Online
+Donor 243,2024-11-26,258.41,Annual Appeal,Cheque
+Donor 324,2024-11-26,19.87,Annual Appeal,Cash
+Donor 11,2024-11-26,43.7,Giving Tuesday,Cheque
+Donor 336,2024-11-26,11.62,Annual Appeal,Bank transfer
+Donor 285,2024-11-26,36.53,Monthly,Online
+Donor 363,2024-11-26,21.26,Annual Appeal,Online
+Donor 84,2024-11-26,208.77,Gala,Cheque
+Donor 173,2024-11-26,30.14,Annual Appeal,Cheque
+Donor 329,2024-11-27,31.07,Gala,Online
+Donor 185,2024-11-27,17.18,Monthly,Bank transfer
+Donor 55,2024-11-28,38.37,Annual Appeal,Cheque
+Donor 8,2024-11-28,78.76,Monthly,Bank transfer
+Donor 80,2024-11-28,74.33,Giving Tuesday,Cash
+Donor 72,2024-11-28,42.87,Annual Appeal,Cash
+Donor 363,2024-11-29,43.52,Monthly,Cash
+Donor 178,2024-11-30,7.83,Annual Appeal,Bank transfer
+Donor 303,2024-11-30,74.06,Annual Appeal,Online
+Donor 261,2024-11-30,81.85,Annual Appeal,Cheque
+Donor 343,2024-11-30,24.03,Monthly,Cheque
+Donor 351,2024-11-30,49.12,Giving Tuesday,Cheque
+Donor 103,2024-12-01,59.48,Monthly,Cheque
+Donor 123,2024-12-01,67.58,Annual Appeal,Online
+Donor 39,2024-12-01,29.22,Giving Tuesday,Cash
+Donor 189,2024-12-01,17.34,Monthly,Cheque
+Donor 163,2024-12-01,52.28,Annual Appeal,Online
+Donor 165,2024-12-01,10.32,Annual Appeal,Cash
+Donor 136,2024-12-01,989.44,Giving Tuesday,Bank transfer
+Donor 99,2024-12-02,179.26,Annual Appeal,Online
+Donor 66,2024-12-02,93.02,Monthly,Online
+Donor 160,2024-12-02,146.0,Annual Appeal,Online
+Donor 291,2024-12-02,32.94,Gala,Cheque
+Donor 256,2024-12-02,29.82,Gala,Bank transfer
+Donor 182,2024-12-02,30.34,Giving Tuesday,Bank transfer
+Donor 46,2024-12-02,180.62,Giving Tuesday,Cheque
+Donor 85,2024-12-03,10.5,Annual Appeal,Bank transfer
+Donor 121,2024-12-03,83.74,Annual Appeal,Bank transfer
+Donor 16,2024-12-03,115.3,Monthly,Bank transfer
+Donor 205,2024-12-03,16.5,Annual Appeal,Cheque
+Donor 313,2024-12-03,264.02,Gala,Bank transfer
+Donor 89,2024-12-03,50.52,Giving Tuesday,Cheque
+Donor 232,2024-12-03,75.32,Giving Tuesday,Cheque
+Donor 2,2024-12-03,62.14,Annual Appeal,Bank transfer
+Donor 137,2024-12-04,260.32,Gala,Cheque
+Donor 25,2024-12-04,24.92,Monthly,Bank transfer
+Donor 132,2024-12-04,152.7,Monthly,Cheque
+Donor 19,2024-12-04,418.74,Annual Appeal,Cash
+Donor 255,2024-12-04,47.74,Annual Appeal,Bank transfer
+Donor 279,2024-12-04,12.54,Annual Appeal,Cash
+Donor 133,2024-12-04,34.38,Monthly,Bank transfer
+Donor 212,2024-12-05,48.86,Annual Appeal,Bank transfer
+Donor 245,2024-12-05,51.0,Monthly,Bank transfer
+Donor 192,2024-12-06,20.1,Annual Appeal,Bank transfer
+Donor 367,2024-12-06,112.6,Giving Tuesday,Online
+Donor 51,2024-12-07,138.22,Monthly,Cheque
+Donor 174,2024-12-07,54.86,Giving Tuesday,Cheque
+Donor 396,2024-12-07,119.32,Monthly,Cash
+Donor 228,2024-12-07,92.3,Monthly,Online
+Donor 127,2024-12-07,100.74,Annual Appeal,Online
+Donor 2,2024-12-08,76.28,Annual Appeal,Cash
+Donor 171,2024-12-08,33.12,Annual Appeal,Online
+Donor 182,2024-12-08,78.52,Gala,Cash
+Donor 115,2024-12-08,41.08,Giving Tuesday,Online
+Donor 350,2024-12-08,66.36,Giving Tuesday,Online
+Donor 7,2024-12-08,137.42,Giving Tuesday,Online
+Donor 374,2024-12-09,55.48,Annual Appeal,Bank transfer
+Donor 221,2024-12-09,62.16,Annual Appeal,Cheque
+Donor 6,2024-12-09,21.92,Gala,Cheque
+Donor 365,2024-12-09,109.06,Annual Appeal,Bank transfer
+Donor 39,2024-12-09,162.12,Annual Appeal,Bank transfer
+Donor 243,2024-12-09,53.18,Monthly,Cash
+Donor 168,2024-12-10,122.66,Giving Tuesday,Online
+Donor 263,2024-12-10,184.42,Monthly,Cheque
+Donor 267,2024-12-10,54.86,Monthly,Cheque
+Donor 225,2024-12-11,88.58,Monthly,Online
+Donor 331,2024-12-11,15.98,Monthly,Cheque
+Donor 380,2024-12-11,38.04,Annual Appeal,Online
+Donor 100,2024-12-12,131.76,Annual Appeal,Online
+Donor 334,2024-12-12,46.98,Monthly,Cheque
+Donor 116,2024-12-13,18.16,Annual Appeal,Online
+Donor 169,2024-12-13,254.8,Gala,Bank transfer
+Donor 182,2024-12-13,20.12,Annual Appeal,Cheque
+Donor 122,2024-12-13,204.02,Gala,Online
+Donor 22,2024-12-13,84.78,Annual Appeal,Bank transfer
+Donor 302,2024-12-13,41.66,Monthly,Cheque
+Donor 300,2024-12-13,34.66,Annual Appeal,Online
+Donor 96,2024-12-13,1025.2,Annual Appeal,Cheque
+Donor 25,2024-12-14,51.58,Monthly,Bank transfer
+Donor 229,2024-12-14,59.14,Annual Appeal,Online
+Donor 301,2024-12-14,31.12,Annual Appeal,Online
+Donor 9,2024-12-15,29.22,Annual Appeal,Bank transfer
+Donor 133,2024-12-15,33.6,Giving Tuesday,Cash
+Donor 73,2024-12-15,124.46,Monthly,Cash
+Donor 82,2024-12-15,47.0,Annual Appeal,Cheque
+Donor 148,2024-12-16,255.52,Gala,Cash
+Donor 213,2024-12-16,80.7,Annual Appeal,Cheque
+Donor 235,2024-12-16,56.0,Gala,Cash
+Donor 354,2024-12-16,1153.54,Monthly,Cheque
+Donor 336,2024-12-16,325.72,Monthly,Cash
+Donor 182,2024-12-16,151.34,Monthly,Cash
+Donor 218,2024-12-17,96.66,Annual Appeal,Online
+Donor 245,2024-12-17,78.58,Monthly,Bank transfer
+Donor 166,2024-12-17,25.6,Giving Tuesday,Bank transfer
+Donor 54,2024-12-17,11.7,Annual Appeal,Cheque
+Donor 182,2024-12-18,27.58,Annual Appeal,Cheque
+Donor 399,2024-12-18,23.68,Annual Appeal,Online
+Donor 384,2024-12-18,62.7,Gala,Cheque
+Donor 154,2024-12-18,21.5,Giving Tuesday,Cash
+Donor 158,2024-12-19,320.24,Annual Appeal,Bank transfer
+Donor 202,2024-12-19,52.12,Monthly,Cheque
+Donor 82,2024-12-19,87.02,Annual Appeal,Online
+Donor 132,2024-12-19,260.24,Monthly,Cheque
+Donor 201,2024-12-19,46.8,Gala,Cheque
+Donor 259,2024-12-19,324.86,Annual Appeal,Cash
+Donor 229,2024-12-19,193.72,Annual Appeal,Online
+Donor 212,2024-12-20,55.54,Annual Appeal,Bank transfer
+Donor 238,2024-12-20,279.76,Monthly,Cash
+Donor 91,2024-12-21,22.54,Annual Appeal,Bank transfer
+Donor 78,2024-12-22,48.16,Giving Tuesday,Cheque
+Donor 19,2024-12-22,107.0,Giving Tuesday,Cash
+Donor 295,2024-12-22,52.54,Monthly,Online
+Donor 116,2024-12-22,59.02,Annual Appeal,Cheque
+Donor 339,2024-12-22,34.82,Annual Appeal,Bank transfer
+Donor 68,2024-12-23,204.48,Annual Appeal,Cheque
+Donor 304,2024-12-23,87.8,Monthly,Bank transfer
+Donor 180,2024-12-23,99.58,Annual Appeal,Bank transfer
+Donor 30,2024-12-23,41.52,Giving Tuesday,Online
+Donor 204,2024-12-23,499.58,Monthly,Bank transfer
+Donor 319,2024-12-24,58.74,Monthly,Online
+Donor 139,2024-12-24,106.72,Monthly,Online
+Donor 260,2024-12-24,188.9,Annual Appeal,Online
+Donor 27,2024-12-25,48.46,Monthly,Bank transfer
+Donor 288,2024-12-25,138.72,Annual Appeal,Bank transfer
+Donor 311,2024-12-25,41.72,Annual Appeal,Online
+Donor 189,2024-12-25,4.86,Gala,Online
+Donor 300,2024-12-25,87.7,Monthly,Online
+Donor 118,2024-12-25,344.22,Annual Appeal,Bank transfer
+Donor 70,2024-12-26,25.8,Giving Tuesday,Online
+Donor 147,2024-12-26,465.58,Annual Appeal,Online
+Donor 302,2024-12-27,161.9,Annual Appeal,Online
+Donor 138,2024-12-27,36.84,Annual Appeal,Bank transfer
+Donor 311,2024-12-27,27.84,Annual Appeal,Online
+Donor 339,2024-12-27,96.72,Annual Appeal,Cash
+Donor 143,2024-12-27,52.32,Gala,Online
+Donor 104,2024-12-27,29.3,Giving Tuesday,Bank transfer
+Donor 147,2024-12-28,143.8,Monthly,Online
+Donor 53,2024-12-28,34.48,Giving Tuesday,Bank transfer
+Donor 228,2024-12-28,117.98,Annual Appeal,Bank transfer
+Donor 248,2024-12-28,42.0,Annual Appeal,Online
+Donor 319,2024-12-28,62.16,Annual Appeal,Cash
+Donor 270,2024-12-29,127.58,Monthly,Online
+Donor 308,2024-12-29,29.26,Annual Appeal,Online
+Donor 220,2024-12-29,122.0,Annual Appeal,Online
+Donor 43,2024-12-29,73.84,Monthly,Online
+Donor 233,2024-12-30,9.1,Monthly,Cheque
+Donor 162,2024-12-30,130.16,Giving Tuesday,Bank transfer
+Donor 117,2024-12-30,132.9,Gala,Bank transfer

@@ -1,0 +1,401 @@
+date,vendor,category,amount
+2024-01-01,Payroll Co,Travel,"$1,619.80"
+2024-01-01,Landlord,Rent,"$2,392.14"
+2024-01-01,Uber,Payroll,"$1,459.57"
+2024-01-08,AWS,Travel,$437.34
+2024-01-08,AWS,Rent,$895.48
+2024-01-09,Landlord,Office,$920.37
+2024-01-09,Uber,Payroll,$470.85
+2024-01-09,Staples,Office,$365.53
+2024-01-13,Uber,Rent,"$1,056.22"
+2024-01-14,AWS,Rent,$383.70
+2024-01-14,Staples,Payroll,"$2,356.32"
+2024-01-14,AWS,Office,"$1,487.57"
+2024-01-15,Staples,Travel,"$1,279.05"
+2024-01-15,Payroll Co,Payroll,$865.00
+2024-01-18,Payroll Co,Travel,$72.83
+2024-01-19,AWS,Payroll,"$2,411.01"
+2024-01-19,Landlord,Cloud,"$1,484.22"
+2024-01-23,Landlord,Rent,"$1,636.91"
+2024-01-23,Landlord,Cloud,$611.39
+2024-01-25,AWS,Travel,$326.14
+2024-01-26,AWS,Rent,"$2,128.04"
+2024-01-27,Staples,Payroll,"$1,136.30"
+2024-01-27,Staples,Rent,$281.86
+2024-01-30,Uber,Travel,"$1,367.11"
+2024-01-30,Payroll Co,Rent,"$1,384.93"
+2024-01-30,Payroll Co,Travel,"$1,879.12"
+2024-02-04,Landlord,Cloud,"$1,236.84"
+2024-02-04,Landlord,Rent,$978.72
+2024-02-07,Landlord,Travel,$317.94
+2024-02-07,Payroll Co,Office,($247.07)
+2024-02-07,Uber,Travel,"$2,392.46"
+2024-02-08,Landlord,Travel,$148.65
+2024-02-08,AWS,Payroll,"$1,956.97"
+2024-02-11,AWS,Office,"$2,405.33"
+2024-02-13,Landlord,Payroll,"($1,479.23)"
+2024-02-13,Landlord,Rent,$46.82
+2024-02-13,Staples,Office,$33.14
+2024-02-13,Staples,Rent,"$1,845.53"
+2024-02-14,Landlord,Payroll,$949.12
+2024-02-15,AWS,Payroll,"$1,280.84"
+2024-02-15,AWS,Rent,"$1,081.30"
+2024-02-17,AWS,Cloud,$107.01
+2024-02-17,Staples,Travel,$448.25
+2024-02-18,Uber,Office,"$1,411.82"
+2024-02-18,Uber,Office,$855.41
+2024-02-19,AWS,Office,$339.52
+2024-02-19,Payroll Co,Travel,"$1,507.39"
+2024-02-20,AWS,Rent,"$2,398.73"
+2024-02-21,Uber,Cloud,"$1,309.50"
+2024-02-21,Uber,Travel,"$1,534.76"
+2024-02-23,AWS,Rent,$585.11
+2024-02-25,AWS,Travel,"$1,260.44"
+2024-02-27,Payroll Co,Rent,$654.70
+2024-02-29,Landlord,Travel,"$1,049.28"
+2024-02-29,Uber,Cloud,"$2,157.07"
+2024-03-01,AWS,Office,$207.60
+2024-03-01,Landlord,Office,$217.69
+2024-03-06,AWS,Cloud,"$1,955.65"
+2024-03-06,Landlord,Office,"$1,289.34"
+2024-03-07,Landlord,Office,"$2,351.32"
+2024-03-07,Staples,Travel,$107.91
+2024-03-09,Uber,Travel,"$1,229.32"
+2024-03-13,Landlord,Cloud,$608.54
+2024-03-14,Uber,Office,$211.43
+2024-03-16,Staples,Cloud,$310.90
+2024-03-17,Landlord,Rent,"$1,855.87"
+2024-03-19,Payroll Co,Payroll,"$1,090.34"
+2024-03-19,AWS,Cloud,"$1,731.58"
+2024-03-20,Payroll Co,Payroll,"$1,096.53"
+2024-03-20,Payroll Co,Travel,$588.76
+2024-03-21,AWS,Rent,"-$1,713.56"
+2024-03-21,Landlord,Cloud,"$2,186.76"
+2024-03-21,Payroll Co,Payroll,$469.39
+2024-03-21,Payroll Co,Office,$664.19
+2024-03-21,AWS,Cloud,"($2,090.43)"
+2024-03-24,Payroll Co,Cloud,"$2,126.23"
+2024-03-24,Uber,Payroll,"$2,003.47"
+2024-03-25,Staples,Cloud,"$2,170.45"
+2024-03-25,Uber,Office,"$1,705.87"
+2024-03-25,AWS,Payroll,"$1,242.00"
+2024-03-26,Uber,Payroll,"($2,309.82)"
+2024-03-27,Uber,Payroll,"$1,687.30"
+2024-03-27,AWS,Travel,"$2,496.71"
+2024-03-29,Payroll Co,Rent,$847.43
+2024-03-29,Staples,Rent,"$1,118.54"
+2024-03-30,Payroll Co,Office,$372.26
+2024-03-30,Staples,Office,"$1,279.94"
+2024-04-02,Staples,Cloud,$333.92
+2024-04-02,Payroll Co,Office,"$1,295.89"
+2024-04-03,AWS,Rent,"$2,067.85"
+2024-04-03,Landlord,Travel,"$2,096.91"
+2024-04-03,Landlord,Rent,"$1,052.17"
+2024-04-04,Uber,Payroll,$61.35
+2024-04-04,Staples,Rent,"$1,410.98"
+2024-04-05,Staples,Rent,$499.85
+2024-04-06,Payroll Co,Office,$107.73
+2024-04-06,Uber,Cloud,$388.61
+2024-04-06,Staples,Payroll,$152.06
+2024-04-07,Landlord,Rent,"$2,248.29"
+2024-04-07,Landlord,Cloud,$954.22
+2024-04-09,Landlord,Travel,"$1,842.06"
+2024-04-11,Staples,Office,"$2,404.22"
+2024-04-12,AWS,Payroll,"$1,638.81"
+2024-04-14,Landlord,Office,-$635.74
+2024-04-14,Landlord,Travel,"$1,634.53"
+2024-04-15,Landlord,Payroll,"$2,208.88"
+2024-04-15,Payroll Co,Travel,$310.88
+2024-04-16,Staples,Cloud,$431.26
+2024-04-17,Payroll Co,Office,$183.62
+2024-04-18,Uber,Cloud,"$1,282.46"
+2024-04-19,Staples,Rent,$229.98
+2024-04-21,Payroll Co,Office,"$1,473.67"
+2024-04-22,Uber,Payroll,"$2,198.47"
+2024-04-23,Uber,Payroll,"$1,979.32"
+2024-04-24,Uber,Rent,"$1,208.00"
+2024-04-25,AWS,Cloud,$717.07
+2024-04-29,Staples,Payroll,"$2,042.33"
+2024-05-01,Landlord,Office,"$2,191.09"
+2024-05-01,Payroll Co,Payroll,$678.05
+2024-05-02,Landlord,Travel,"$1,701.72"
+2024-05-02,Landlord,Cloud,"-$1,301.10"
+2024-05-03,AWS,Rent,$145.25
+2024-05-03,Staples,Office,$120.19
+2024-05-03,Uber,Office,"$1,828.62"
+2024-05-04,Payroll Co,Payroll,"$1,612.59"
+2024-05-07,AWS,Travel,"$2,078.35"
+2024-05-08,Staples,Payroll,"$1,146.83"
+2024-05-09,Payroll Co,Payroll,$572.65
+2024-05-11,Landlord,Office,"$1,626.35"
+2024-05-12,Uber,Rent,"($1,985.73)"
+2024-05-12,Payroll Co,Cloud,$515.96
+2024-05-13,Uber,Cloud,"$1,892.98"
+2024-05-13,Staples,Rent,$738.57
+2024-05-14,Staples,Cloud,"$1,555.40"
+2024-05-14,AWS,Office,"$1,808.21"
+2024-05-14,Payroll Co,Travel,"$2,125.16"
+2024-05-14,Landlord,Payroll,$745.28
+2024-05-16,Landlord,Office,"$1,539.29"
+2024-05-17,AWS,Travel,$284.86
+2024-05-17,Landlord,Cloud,$794.76
+2024-05-17,Landlord,Office,"$2,099.45"
+2024-05-18,AWS,Rent,$699.07
+2024-05-19,Staples,Payroll,"$1,108.37"
+2024-05-19,Payroll Co,Rent,"$1,264.16"
+2024-05-21,Staples,Payroll,$313.41
+2024-05-24,Staples,Payroll,$943.62
+2024-05-25,Payroll Co,Office,$456.02
+2024-05-26,AWS,Payroll,"$2,193.27"
+2024-05-26,Payroll Co,Rent,"$1,264.22"
+2024-05-27,Uber,Cloud,$175.05
+2024-05-27,Landlord,Rent,$525.35
+2024-05-27,Staples,Cloud,$443.32
+2024-05-27,Landlord,Office,$145.48
+2024-05-27,AWS,Rent,"$1,397.36"
+2024-05-27,Uber,Cloud,($830.66)
+2024-05-29,Uber,Office,$765.89
+2024-05-31,Landlord,Payroll,$572.95
+2024-05-31,Landlord,Office,"$2,152.30"
+2024-06-01,Uber,Payroll,$684.12
+2024-06-04,Payroll Co,Cloud,"$1,824.85"
+2024-06-04,Landlord,Payroll,"$1,212.65"
+2024-06-05,Uber,Travel,$211.21
+2024-06-05,AWS,Rent,$161.98
+2024-06-05,Staples,Payroll,"$1,796.56"
+2024-06-06,Payroll Co,Travel,$726.09
+2024-06-06,Landlord,Rent,"$2,247.43"
+2024-06-08,AWS,Payroll,$486.14
+2024-06-08,Uber,Rent,$584.05
+2024-06-10,Staples,Rent,$915.99
+2024-06-11,AWS,Travel,$721.07
+2024-06-12,AWS,Travel,$347.88
+2024-06-13,AWS,Office,"$1,096.56"
+2024-06-14,AWS,Travel,$225.53
+2024-06-14,Payroll Co,Cloud,$210.17
+2024-06-15,Landlord,Payroll,$404.90
+2024-06-17,AWS,Cloud,$154.96
+2024-06-18,Staples,Cloud,"$1,697.39"
+2024-06-19,Landlord,Cloud,$63.58
+2024-06-22,Uber,Payroll,$941.32
+2024-06-23,Landlord,Travel,"$1,798.49"
+2024-06-23,AWS,Rent,"($1,878.73)"
+2024-06-24,AWS,Rent,$239.09
+2024-06-27,AWS,Travel,"$2,484.91"
+2024-06-28,Landlord,Cloud,$615.42
+2024-06-29,AWS,Cloud,"$1,762.37"
+2024-06-30,Payroll Co,Payroll,"($1,390.82)"
+2024-07-02,Staples,Travel,"$1,722.44"
+2024-07-03,Landlord,Office,"$1,677.12"
+2024-07-06,Uber,Travel,$143.18
+2024-07-07,AWS,Rent,"$1,586.16"
+2024-07-07,Landlord,Travel,"$1,715.60"
+2024-07-08,Payroll Co,Payroll,$214.82
+2024-07-08,Landlord,Travel,"$1,291.86"
+2024-07-09,Payroll Co,Office,"$1,083.04"
+2024-07-09,Uber,Payroll,"$1,771.24"
+2024-07-11,Uber,Office,"$1,074.98"
+2024-07-12,Landlord,Cloud,$425.61
+2024-07-12,Staples,Travel,$429.77
+2024-07-13,Landlord,Travel,"$1,629.77"
+2024-07-13,Landlord,Payroll,$850.56
+2024-07-14,Staples,Payroll,$173.71
+2024-07-15,Landlord,Rent,"$2,267.62"
+2024-07-17,Landlord,Office,"$1,044.39"
+2024-07-17,AWS,Travel,$801.76
+2024-07-18,Landlord,Travel,($571.38)
+2024-07-20,Payroll Co,Cloud,$353.42
+2024-07-20,Payroll Co,Rent,"$2,052.71"
+2024-07-21,Payroll Co,Cloud,"$1,167.02"
+2024-07-21,Staples,Office,"$1,343.06"
+2024-07-21,Payroll Co,Payroll,"$1,071.52"
+2024-07-22,Staples,Travel,$567.23
+2024-07-22,AWS,Travel,"-$1,738.39"
+2024-07-23,Payroll Co,Rent,$891.48
+2024-07-24,Staples,Cloud,"$1,834.78"
+2024-07-25,Landlord,Office,$480.16
+2024-07-25,Payroll Co,Cloud,$129.69
+2024-07-25,Staples,Payroll,"$1,306.51"
+2024-07-27,Staples,Rent,$445.81
+2024-07-28,AWS,Payroll,"$2,308.37"
+2024-07-28,Payroll Co,Payroll,"$1,205.76"
+2024-07-29,Payroll Co,Office,$182.40
+2024-07-29,Uber,Payroll,"$2,247.41"
+2024-07-30,Uber,Payroll,"$1,233.72"
+2024-08-02,Staples,Office,"$2,418.06"
+2024-08-05,Payroll Co,Office,$478.35
+2024-08-06,AWS,Payroll,$634.36
+2024-08-07,Uber,Travel,"$1,974.01"
+2024-08-08,Uber,Office,"$2,396.85"
+2024-08-09,Payroll Co,Cloud,"$2,159.61"
+2024-08-10,Uber,Travel,$211.51
+2024-08-10,Uber,Travel,"$1,732.87"
+2024-08-10,Uber,Rent,$884.80
+2024-08-11,AWS,Cloud,"$1,331.24"
+2024-08-11,Landlord,Office,"$1,872.76"
+2024-08-11,AWS,Cloud,$262.92
+2024-08-11,Landlord,Travel,$410.63
+2024-08-13,Staples,Payroll,"$1,548.14"
+2024-08-13,Staples,Rent,"-$1,005.98"
+2024-08-13,Uber,Rent,$198.13
+2024-08-14,AWS,Travel,"$1,777.40"
+2024-08-15,AWS,Payroll,$897.07
+2024-08-16,AWS,Office,$338.83
+2024-08-18,Payroll Co,Office,"$1,887.41"
+2024-08-19,AWS,Payroll,"$2,445.26"
+2024-08-24,AWS,Travel,$152.98
+2024-08-25,Landlord,Payroll,"$1,799.61"
+2024-08-26,Staples,Travel,"$2,303.64"
+2024-08-26,Staples,Rent,-$644.22
+2024-08-26,Staples,Cloud,$640.02
+2024-08-27,Landlord,Cloud,"$2,401.74"
+2024-08-27,Uber,Office,$487.62
+2024-08-28,Landlord,Payroll,$452.67
+2024-08-28,Payroll Co,Travel,"$2,220.29"
+2024-08-30,AWS,Cloud,"$2,218.58"
+2024-09-01,AWS,Payroll,"$2,066.69"
+2024-09-01,Uber,Payroll,"$1,359.01"
+2024-09-04,Uber,Travel,$290.85
+2024-09-05,Landlord,Cloud,$732.94
+2024-09-05,Payroll Co,Cloud,"$2,005.81"
+2024-09-06,Landlord,Cloud,"$2,387.08"
+2024-09-07,AWS,Travel,$175.48
+2024-09-07,Payroll Co,Rent,$442.94
+2024-09-08,Uber,Rent,$360.20
+2024-09-08,Staples,Office,"$1,368.44"
+2024-09-10,Payroll Co,Travel,"$2,182.25"
+2024-09-11,Landlord,Travel,($358.93)
+2024-09-14,Uber,Cloud,"$2,122.33"
+2024-09-15,Landlord,Payroll,"$2,330.22"
+2024-09-16,Staples,Office,$779.19
+2024-09-16,AWS,Rent,"$2,266.54"
+2024-09-16,Payroll Co,Rent,"$1,942.79"
+2024-09-17,Staples,Rent,($876.06)
+2024-09-17,Payroll Co,Payroll,$254.16
+2024-09-18,AWS,Rent,"$1,737.29"
+2024-09-18,Payroll Co,Travel,$583.66
+2024-09-18,AWS,Cloud,$367.71
+2024-09-19,Payroll Co,Payroll,$559.59
+2024-09-19,Payroll Co,Office,"$2,469.13"
+2024-09-20,Payroll Co,Rent,"($1,255.52)"
+2024-09-21,Staples,Payroll,"$1,843.98"
+2024-09-26,Uber,Cloud,"$1,975.25"
+2024-09-26,AWS,Office,$139.76
+2024-09-26,Uber,Rent,"$1,809.92"
+2024-09-27,Staples,Rent,"$1,747.73"
+2024-09-27,Landlord,Office,"$1,678.81"
+2024-10-03,Staples,Travel,"$1,261.35"
+2024-10-03,Payroll Co,Cloud,$917.23
+2024-10-04,Payroll Co,Travel,$616.42
+2024-10-05,Uber,Cloud,"$1,526.94"
+2024-10-06,Payroll Co,Office,"$1,481.49"
+2024-10-07,Staples,Payroll,"$2,150.55"
+2024-10-07,AWS,Payroll,$285.82
+2024-10-07,Staples,Travel,"$1,074.16"
+2024-10-07,Landlord,Rent,"$1,158.00"
+2024-10-08,Uber,Travel,"$2,164.20"
+2024-10-08,AWS,Payroll,$413.93
+2024-10-09,Landlord,Travel,$779.85
+2024-10-09,AWS,Travel,$831.36
+2024-10-11,Payroll Co,Travel,$801.72
+2024-10-11,AWS,Payroll,$54.85
+2024-10-11,Payroll Co,Cloud,$126.84
+2024-10-12,Payroll Co,Office,"$1,161.47"
+2024-10-12,Landlord,Rent,"$1,057.58"
+2024-10-13,Uber,Payroll,"$2,033.57"
+2024-10-14,Uber,Office,"$1,777.23"
+2024-10-14,Staples,Cloud,$430.62
+2024-10-15,Payroll Co,Cloud,$382.83
+2024-10-17,Uber,Office,$731.36
+2024-10-18,Landlord,Travel,$505.36
+2024-10-19,Payroll Co,Cloud,$497.32
+2024-10-20,AWS,Travel,"$2,015.38"
+2024-10-20,Staples,Travel,"$2,090.27"
+2024-10-20,Payroll Co,Rent,$626.37
+2024-10-21,Landlord,Rent,"$1,074.90"
+2024-10-22,Payroll Co,Travel,$591.14
+2024-10-25,Uber,Payroll,"$2,211.50"
+2024-10-25,Staples,Travel,"$1,650.12"
+2024-10-25,AWS,Office,$173.15
+2024-10-25,Uber,Office,"$1,488.57"
+2024-10-28,Payroll Co,Office,($855.53)
+2024-10-28,Staples,Rent,$813.04
+2024-10-29,AWS,Rent,"$1,736.23"
+2024-11-05,Uber,Rent,$390.49
+2024-11-05,Payroll Co,Office,"$2,368.91"
+2024-11-05,Uber,Payroll,"$2,401.00"
+2024-11-05,Landlord,Office,"$1,759.19"
+2024-11-06,Payroll Co,Cloud,$976.22
+2024-11-07,Uber,Travel,$517.01
+2024-11-08,Landlord,Travel,$408.67
+2024-11-08,Landlord,Office,"$1,440.35"
+2024-11-10,Landlord,Payroll,"$1,674.53"
+2024-11-11,Uber,Cloud,"$1,543.54"
+2024-11-13,Landlord,Rent,"$1,168.51"
+2024-11-13,Staples,Office,"$2,253.90"
+2024-11-14,Uber,Cloud,($816.69)
+2024-11-14,Staples,Cloud,$462.41
+2024-11-16,AWS,Office,"$1,092.77"
+2024-11-16,AWS,Rent,"($1,539.76)"
+2024-11-18,Staples,Payroll,"$1,167.07"
+2024-11-19,Payroll Co,Travel,"$1,030.48"
+2024-11-19,Uber,Rent,$203.89
+2024-11-19,Landlord,Cloud,-$448.38
+2024-11-19,Payroll Co,Office,"$2,192.83"
+2024-11-22,AWS,Payroll,"$2,171.47"
+2024-11-22,Staples,Cloud,"-$1,452.35"
+2024-11-23,AWS,Office,$279.90
+2024-11-23,Landlord,Rent,"$1,658.76"
+2024-11-24,Landlord,Office,"$1,309.70"
+2024-11-24,AWS,Payroll,$423.07
+2024-11-26,Staples,Travel,$688.20
+2024-11-27,Staples,Cloud,$283.50
+2024-11-27,Uber,Office,"$1,387.99"
+2024-11-28,Uber,Payroll,"$1,696.13"
+2024-11-28,Staples,Travel,$318.67
+2024-11-29,AWS,Cloud,$247.48
+2024-11-30,AWS,Travel,$83.61
+2024-12-01,Payroll Co,Rent,$406.75
+2024-12-01,Landlord,Rent,"($1,032.19)"
+2024-12-02,Payroll Co,Rent,"$2,330.00"
+2024-12-02,Landlord,Rent,"$2,057.79"
+2024-12-04,Landlord,Payroll,"$2,326.15"
+2024-12-05,Staples,Travel,"$1,317.90"
+2024-12-05,AWS,Rent,$516.88
+2024-12-06,AWS,Payroll,"$2,072.55"
+2024-12-07,AWS,Cloud,"$1,500.61"
+2024-12-07,Staples,Rent,$930.88
+2024-12-07,Landlord,Payroll,"$1,939.12"
+2024-12-07,Landlord,Office,"$2,180.31"
+2024-12-08,AWS,Travel,$259.37
+2024-12-08,Payroll Co,Office,"$1,854.85"
+2024-12-09,Payroll Co,Rent,$586.85
+2024-12-10,Landlord,Rent,$811.32
+2024-12-10,Landlord,Rent,"$1,882.26"
+2024-12-10,Uber,Payroll,"$2,043.83"
+2024-12-11,AWS,Payroll,$640.52
+2024-12-11,Uber,Cloud,"$2,437.72"
+2024-12-11,Payroll Co,Payroll,$897.19
+2024-12-13,Staples,Rent,"$1,804.45"
+2024-12-16,Landlord,Payroll,$747.49
+2024-12-16,Uber,Cloud,"$1,691.78"
+2024-12-16,Payroll Co,Rent,$744.47
+2024-12-17,Uber,Office,"$1,410.38"
+2024-12-17,AWS,Payroll,$898.64
+2024-12-17,AWS,Payroll,$42.17
+2024-12-18,Landlord,Payroll,"$1,926.53"
+2024-12-18,Uber,Rent,"$1,628.92"
+2024-12-19,Payroll Co,Rent,$829.00
+2024-12-19,AWS,Cloud,"$2,036.11"
+2024-12-20,Uber,Rent,$607.41
+2024-12-20,Payroll Co,Office,$83.67
+2024-12-21,Landlord,Rent,"$2,392.15"
+2024-12-21,Payroll Co,Travel,"$1,576.28"
+2024-12-21,AWS,Payroll,"$1,926.35"
+2024-12-23,Uber,Office,"$1,620.80"
+2024-12-26,Staples,Office,"$1,897.69"
+2024-12-26,Uber,Travel,"$1,195.98"
+2024-12-29,Staples,Payroll,"$1,518.67"
+2024-12-29,Staples,Office,$792.10
+2024-12-29,AWS,Travel,"$1,970.73"
+2024-12-30,AWS,Cloud,"$1,021.26"

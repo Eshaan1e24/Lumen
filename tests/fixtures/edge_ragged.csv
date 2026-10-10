@@ -1,0 +1,6 @@
+date,amount,note
+2025-01-01,10,"hello, world"
+2025-01-02,20,"multi
+line"
+2025-01-03,30
+2025-01-04,40,x,extra,more
