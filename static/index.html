@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lumen: your data, explained</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap"
-    rel="stylesheet">
-  <script src="https://cdn.plot.ly/plotly-basic-2.35.2.min.js"></script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Ccircle cx='13' cy='13' r='12' fill='%23083F40'/%3E%3Ccircle cx='13' cy='13' r='10' fill='none' stroke='%239CC7C4' stroke-width='2'/%3E%3Ccircle cx='13' cy='13' r='5' fill='%23E8A33D'/%3E%3C/svg%3E">
+  <meta name="description" content="Upload a spreadsheet. Lumen finds the trends and odd spots, answers questions in plain English and suggests next steps. Private by default: your file stays in memory.">
+  <link rel="preload" href="/assets/vendor/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/vendor/fonts/bricolage-grotesque-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/vendor/fonts.css">
+  <script src="/assets/vendor/plotly-basic-2.35.2.min.js" defer></script>
   <style>
     :root {
       --ink: #14202B;
@@ -524,6 +525,8 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="/assets/lumen-fixes.css">
+  <link rel="stylesheet" href="/assets/lumen-extra.css">
 </head>
 
 <body>
@@ -537,25 +540,32 @@
   </header>
   <main>
     <div id="hero">
-      <div>
+      <div class="hero-copy">
         <h1>Your data already knows what to do next.</h1>
         <p>Drop in a sales, donations or expenses file. Lumen finds the trends and odd spots, answers your questions in
           plain English, and suggests next steps. Free and open source.</p>
       </div>
-      <div id="drop">
-        <h2>Add your spreadsheet</h2>
-        <p>CSV or Excel, up to 25 MB. Your file stays in memory and is never saved.</p>
-        <div class="row"><button class="btn" id="pick">Choose a file</button><button class="btn ghost" id="demo">Try
-            sample shop data</button></div>
-        <input type="file" id="file" accept=".csv,.xlsx,.xls" hidden>
+      <div class="hero-actions">
+        <div id="drop">
+          <h2>Add your spreadsheet</h2>
+          <p>CSV or Excel, up to 5 MB on this demo. Your file is held in memory, not stored by Lumen.</p>
+          <div class="row"><button class="btn" id="pick">Choose a file</button></div>
+          <input type="file" id="file" accept=".csv,.xlsx,.xls" hidden>
+        </div>
+        <div id="samples" class="samples" aria-labelledby="samples-h">
+          <h2 id="samples-h">Or start with a sample</h2>
+          <div class="sample-grid" id="sample-grid"><p class="note">Loading samples…</p></div>
+        </div>
         <div class="err" id="uerr" role="alert"></div>
       </div>
+      <section id="trust" aria-labelledby="trust-h"></section>
     </div>
     <div id="app">
       <aside>
         <div class="summary">
-          <h3>What matters most</h3>
+          <h3 id="sumh" tabindex="-1">What matters most</h3>
           <p id="sum"></p>
+          <p class="srcnote" id="sumsrc"></p>
         </div>
         <h3>Findings</h3>
         <div id="ins"></div>
@@ -563,44 +573,54 @@
         <ol class="recs" id="recs"></ol>
         <h3>Your data</h3>
         <p class="note" id="meta"></p>
+        <button class="btn ghost" id="print-btn" type="button">Print or save a one-page report</button>
       </aside>
       <div>
+        <div id="notices"></div>
+        <div id="measurepick"></div>
         <div class="kpis" id="kpis"></div>
         <section>
           <h2>Ask a question</h2>
           <p class="sub">Type it the way you would ask a colleague.</p>
           <div class="askbar"><input id="q" placeholder="e.g. Which product sold the most last quarter?"
-              aria-label="Question"><button class="btn" id="go">Ask</button></div>
-          <div class="chips" id="chips"></div>
+              aria-label="Question" maxlength="500" autocomplete="off"><button class="btn" id="go">Ask</button></div>
+          <p class="note" id="qmode"></p>
+          <div class="chips-wrap" id="chips-wrap"><p class="chips-h" id="chips-h">Suggested questions</p>
+            <div class="chips" id="chips" role="group" aria-labelledby="chips-h"></div></div>
           <div class="err" id="qerr" role="alert"></div>
-          <div class="answer" id="ans"></div>
+          <div class="calm" id="qinfo" role="status"></div>
+          <div class="answer" id="ans" aria-live="polite"></div>
+          <details class="trust-compact" id="trust-compact"><summary>How answers are checked</summary><div id="trust-compact-body"></div></details>
         </section>
         <section>
           <h2>At a glance</h2>
           <p class="sub">Charts picked automatically from your columns.</p>
           <div class="charts" id="charts"></div>
         </section>
+        <section id="health" aria-labelledby="health-h"></section>
         <section>
           <h2>Data Preview</h2>
           <p class="sub">View your data before and after automatic cleaning.</p>
-          <div class="tabs">
-            <button class="tab" id="tab-raw">Raw Input</button>
-            <button class="tab active" id="tab-processed">Cleaned Output</button>
+          <div class="tabs" role="tablist" aria-label="Data preview">
+            <button class="tab" id="tab-raw" role="tab" aria-selected="false" aria-controls="preview-box" tabindex="-1">Raw Input</button>
+            <button class="tab active" id="tab-processed" role="tab" aria-selected="true" aria-controls="preview-box">Cleaned Output</button>
           </div>
-          <div class="preview-table" id="preview-box"></div>
+          <div class="preview-table" id="preview-box" role="tabpanel" aria-labelledby="tab-processed" tabindex="0"></div>
           <p class="note" style="margin-top:8px" id="preview-note"></p>
         </section>
         <section>
           <h2>Forecast</h2>
-          <p class="sub" id="fsub">Where this measure is heading, with the range it will probably stay inside.</p>
+          <p class="sub" id="fsub">Where this measure is heading, with the ranges it will likely stay inside.</p>
           <div class="fcbar"><label>Predict <select id="fv"></select></label><label>over time in <select
                 id="fd"></select></label>
             <label>for the next <input id="fp" type="number" min="1" max="24" value="6" style="width:64px">
               periods</label><button class="btn" id="fgo">Update forecast</button>
           </div>
-          <div class="err" id="ferr" role="alert"></div>
+          <div class="calm" id="ferr" role="status"></div>
+          <ul class="fc-legend" id="fleg" hidden></ul>
           <div id="fchart" class="chart" style="height:340px"></div>
           <p class="note" id="fnote"></p>
+          <div class="fc-acc" id="facc" hidden></div>
         </section>
       </div>
     </div>
@@ -609,66 +629,122 @@
     const $ = s => document.querySelector(s); let sid = null;
     const C = { teal: '#0E6B6B', light: '#9CC7C4', amber: '#C77F00', ink: '#14202B', rule: '#E1E6E9' };
     const cfg = { displayModeBar: false, responsive: true };
-    const fmt = n => { if (n == null || isNaN(n)) return '–'; const a = Math.abs(n); if (a >= 1e6) return (n / 1e6).toFixed(a >= 1e7 ? 0 : 1) + 'M'; if (a >= 1e4) return Math.round(n / 1e3) + 'k'; if (a >= 1e3) return (n / 1e3).toFixed(1) + 'k'; return Number.isInteger(n) ? String(n) : n.toFixed(1) };
-    const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const fmt = n => {
+      if (n == null || n === '' || !Number.isFinite(+n)) return '–'; n = +n; const a = Math.abs(n), s = n < 0 ? '-' : '';
+      if (a >= 999.5e6) { const v = a / 1e9; return s + v.toFixed(v >= 10 ? 0 : 1) + 'B' }
+      if (a >= 999.5e3) { const v = a / 1e6; return s + v.toFixed(v >= 10 ? 0 : 1) + 'M' }
+      if (a >= 1e4) return s + Math.round(a / 1e3) + 'k';
+      if (a >= 1e3) { const v = +(a / 1e3).toFixed(1); return s + (v >= 10 ? Math.round(a / 1e3) : v.toFixed(1)) + 'k' }
+      if (Number.isInteger(n)) return String(n);
+      if (a < 1) return String(+n.toPrecision(3));            // rates / ratios: 0.0536 stays 0.0536 (was "0.1")
+      const r = +a.toFixed(1); return r >= 1000 ? s + '1.0k' : s + r.toFixed(1);
+    };
+    const full = n => n == null || !Number.isFinite(+n) ? '–' : (+n).toLocaleString(undefined, { maximumFractionDigits: Math.abs(n) < 1 ? 4 : Math.abs(n) < 100 ? 2 : 0 });  // exact value for hovers and big answers
+    const day = v => (typeof v === 'string' && /^\d{4}-\d{2}-\d{2}T00:00:00$/.test(v)) ? v.slice(0, 10) : v;
+    const cellv = v => v == null ? '' : typeof v === 'number' ? (Number.isInteger(v) ? String(v) : String(+v.toFixed(4))) : day(v);   // faithful: a preview must not round
+    const nice = d => /datetime|date/i.test(d) ? 'date' : /bool/i.test(d) ? 'yes / no' : /int|float|decimal/i.test(d) ? 'number' : 'text';
+    const hasPlotly = () => typeof Plotly !== 'undefined';
+    const NOPLOT = 'Charts need the plotting library, which could not load (offline or blocked). The numbers and findings still work.';
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const lay = (o = {}) => ({
       autosize: true, margin: { l: 56, r: 16, t: 8, b: 36 }, font: { family: 'Figtree', color: C.ink, size: 12 }, paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
       xaxis: { gridcolor: 'rgba(0,0,0,0)', linecolor: C.rule, automargin: true, ...(o.xaxis || {}) }, yaxis: { gridcolor: C.rule, zeroline: false, tickformat: '~s', automargin: true, ...(o.yaxis || {}) }, hoverlabel: { font: { family: 'Figtree' } }, ...o.rest
     });
-    async function api(p, o) { const r = await fetch(p, o); const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.detail || 'Something went wrong. Try again.'); return j }
-    const busy = (el, on) => el.classList.toggle('busy', on);
+    async function api(p, o) {
+      let r; try { r = await fetch(p, o) } catch (e) { throw new Error('Cannot reach the Lumen server. Check your connection and try again.') }
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) {
+        let d = j.detail; if (Array.isArray(d)) d = d.map(x => x.msg || '').filter(Boolean).join('; ');   // FastAPI 422 returns a list: was shown as "[object Object]"
+        d = String(d || ''); const expired = /session expired/i.test(d);
+        const err = new Error(expired ? 'Your session expired (the server restarted or timed out). Choose your file again to continue.' : (d || (r.status >= 500 ? 'The server had a problem. Please try again.' : 'Something went wrong. Try again.')));
+        err.expired = expired; err.status = r.status; throw err
+      }
+      return j
+    }
+    const busy = (el, on) => { el.classList.toggle('busy', on); el.setAttribute('aria-busy', on); if ('disabled' in el) el.disabled = on; if (el.id === 'drop' || el.id === 'samples') el.querySelectorAll('button').forEach(b => b.disabled = on) };
 
+    let loadSeq = 0;
     async function load(p) {
-      $('#uerr').textContent = ''; busy($('#drop'), true); $('#uerr').style.color = '#586674'; $('#uerr').innerHTML = '<span class="spin"></span>Reading your data…';
-      try { const d = await p; $('#uerr').textContent = ''; render(d) } catch (e) { $('#uerr').style.color = ''; $('#uerr').textContent = e.message } finally { busy($('#drop'), false) }
+      const my = ++loadSeq;
+      $('#uerr').textContent = ''; busy($('#drop'), true); busy($('#samples'), true); $('#uerr').style.color = '#586674'; $('#uerr').innerHTML = '<span class="spin"></span>Reading your data…';
+      try { const d = await p; if (my !== loadSeq) return; $('#uerr').textContent = ''; render(d) } catch (e) { if (my !== loadSeq) return; $('#uerr').style.color = ''; $('#uerr').textContent = e.message; $('#file').value = '' } finally { if (my === loadSeq) { busy($('#drop'), false); busy($('#samples'), false) } }
     }
     const send = f => { if (!f) return; const fd = new FormData(); fd.append('file', f); load(api('/api/upload', { method: 'POST', body: fd })) };
-    $('#pick').onclick = () => $('#file').click(); $('#file').onchange = e => send(e.target.files[0]);
-    $('#demo').onclick = () => load(api('/api/demo', { method: 'POST' }));
+    $('#pick').onclick = () => $('#file').click(); $('#file').onchange = e => { send(e.target.files[0]); };
+    window.loadSample = name => load(api('/api/sample', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) }));
     const drop = $('#drop');['dragover', 'dragenter'].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.add('over') }));
     ['dragleave', 'drop'].forEach(t => drop.addEventListener(t, e => { e.preventDefault(); drop.classList.remove('over') }));
     drop.addEventListener('drop', e => send(e.dataTransfer.files[0]));
-    $('#again').onclick = () => { $('#app').style.display = 'none'; $('#hero').style.display = 'grid'; $('#again').style.display = 'none'; $('#file').value = '' };
+    // dropping a file anywhere else would make the browser navigate away to the file and lose the session
+    ['dragover', 'drop'].forEach(t => window.addEventListener(t, e => { if (!e.target.closest || !e.target.closest('#drop')) e.preventDefault() }));
+    $('#again').onclick = () => { $('#app').style.display = 'none'; $('#hero').style.display = 'grid'; $('#again').style.display = 'none'; $('#file').value = ''; $('#q').value = ''; $('#ans').innerHTML = ''; $('#uerr').textContent = ''; askSeq++; asking = false; busy($('#go'), false); $('#notices').innerHTML = ''; $('#qinfo').textContent = ''; $('#qerr').textContent = ''; LX.reset(); window.scrollTo(0, 0); $('#pick').focus() };
 
     function lineChart(el, c) {
       const x = c.x, y = c.y; let mi = y.length ? y.indexOf(Math.max(...y)) : -1;
       const tf = c.freq === 'D' ? '%d %b %Y' : (c.freq === 'W' ? '%d %b' : '%b %Y');
-      const ht = c.freq === 'D' ? '%{x|%d %b %Y}: %{y:,.0f}<extra></extra>' : '%{x|%b %Y}: %{y:,.0f}<extra></extra>';
-      Plotly.newPlot(el, [{ x, y, mode: 'lines', line: { color: C.teal, width: 2.5, shape: 'spline', smoothing: .4 }, fill: 'tozeroy', fillcolor: 'rgba(14,107,107,.09)', hovertemplate: ht },
+      const ht = c.freq === 'D' ? '%{x|%d %b %Y}: %{text}<extra></extra>' : '%{x|%b %Y}: %{text}<extra></extra>';
+      Plotly.newPlot(el, [{ x, y, mode: 'lines', text: y.map(full), line: { color: C.teal, width: 2.5, shape: 'spline', smoothing: .4 }, fill: 'tozeroy', fillcolor: 'rgba(14,107,107,.09)', hovertemplate: ht },
       { x: mi >= 0 ? [x[mi]] : [], y: mi >= 0 ? [y[mi]] : [], mode: 'markers+text', text: mi >= 0 ? ['Peak ' + fmt(y[mi])] : [], textposition: 'top center', marker: { color: C.amber, size: 9 }, hoverinfo: 'skip', cliponaxis: false }],
         lay({ xaxis: { tickformat: tf }, rest: { showlegend: false, margin: { l: 56, r: 16, t: 26, b: 36 } } }), cfg)
     }
+    function histChart(el, c) {
+      if (!hasPlotly || !c.x || !c.x.length) { el.innerHTML = '<p class="note">No values to chart.</p>'; return }
+      Plotly.newPlot(el, [{ type: 'bar', x: c.x, y: c.y, marker: { color: C.teal }, hovertemplate: '%{x}: %{y:,} records<extra></extra>' }],
+        lay({ xaxis: { tickangle: -40, automargin: true, showgrid: false, tickfont: { size: 10 } }, yaxis: { title: { text: 'Records', standoff: 6 }, tickformat: ',d' }, rest: { showlegend: false, bargap: .08, margin: { l: 56, r: 12, t: 8, b: 78 } } }), cfg)
+    }
     function barH(el, x, y) {
-      const n = x.length;
-      Plotly.newPlot(el, [{ type: 'bar', orientation: 'h', y: x, x: y, marker: { color: y.map((_, i) => i === 0 ? C.teal : C.light) }, text: y.map(fmt), textposition: 'outside', cliponaxis: false, hovertemplate: '%{y}: %{x:,.0f}<extra></extra>' }],
-        lay({ xaxis: { showgrid: false, showticklabels: false, range: [0, Math.max(...y) * 1.18] }, yaxis: { autorange: 'reversed', tickformat: '', gridcolor: 'rgba(0,0,0,0)', linecolor: C.rule }, rest: { showlegend: false, margin: { l: 90, r: 30, t: 6, b: 10 } } }), cfg)
+      // handles: negatives (axis now spans below zero), long labels (truncated, full label on hover; ticks are index-based so
+      // truncated duplicates cannot merge), nulls, empty input
+      if (!x.length) { el.innerHTML = '<p class="note">No rows to chart.</p>'; return }
+      const vals = y.map(v => v == null || !Number.isFinite(+v) ? null : +v), nums = vals.filter(v => v != null);
+      const mx = Math.max(0, ...nums), mn = Math.min(0, ...nums), pad = (mx - mn) * .18 || 1;
+      const lim = (el.clientWidth || 600) < 520 ? 18 : 30, lab = x.map(s => String(s ?? '(blank)')), short = lab.map(s => s.length > lim ? s.slice(0, lim - 1) + '…' : s);
+      Plotly.newPlot(el, [{ type: 'bar', orientation: 'h', y: lab.map((_, i) => i), x: vals, marker: { color: vals.map((v, i) => v != null && v < 0 ? C.amber : i === 0 ? C.teal : C.light) },
+        text: vals.map(fmt), textposition: 'outside', cliponaxis: false, hovertext: lab.map((l, i) => l + ': ' + full(vals[i])), hoverinfo: 'text' }],
+        lay({ xaxis: { showgrid: false, showticklabels: false, zeroline: true, zerolinecolor: C.rule, range: [mn < 0 ? mn - pad : 0, mx > 0 ? mx + pad : pad] },
+          yaxis: { autorange: 'reversed', tickmode: 'array', tickvals: lab.map((_, i) => i), ticktext: short, gridcolor: 'rgba(0,0,0,0)', linecolor: C.rule }, rest: { showlegend: false, margin: { l: 90, r: 30, t: 6, b: 10 } } }), cfg)
     }
 
     function render(d) {
-      sid = d.session_id; $('#hero').style.display = 'none'; $('#app').style.display = 'grid'; $('#again').style.display = 'block';
-      $('#sum').textContent = d.narrative.summary;
-      $('#ins').innerHTML = d.insights.length ? d.insights.map(i => `<div class="ins ${i.severity}"><b>${esc(i.title)}</b><p>${esc(i.detail)}</p></div>`).join('') : '<p class="note">No strong patterns found. Try asking a question.</p>';
-      $('#recs').innerHTML = d.narrative.recommendations.map(r => `<li>${esc(r)}</li>`).join('');
+      sid = d.session_id; askSeq++; asking = false; busy($('#go'), false); $('#q').value = ''; document.querySelectorAll('#charts .js-plotly-plot, #fchart.js-plotly-plot, #rc').forEach(g => { try { hasPlotly() && Plotly.purge(g) } catch (e) { } }); $('#hero').style.display = 'none'; $('#app').style.display = 'grid'; $('#again').style.display = 'block';
+      LX.state.session = d; LX.state.fc = null; { const hs = $('#health'); if (hs) hs.innerHTML = LX.healthHtml(d.profile) }
+      { const pk = $('#measurepick'); if (pk) { pk.innerHTML = LX.pickerHtml(d.profile);
+        pk.querySelectorAll('select').forEach(sel => sel.onchange = async () => {
+          const pm = $('#pm'), pd = $('#pdate'); pk.classList.add('busy');
+          try { const d2 = await api('/api/reanalyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: d.session_id, metric: pm ? pm.value : null, date: pd ? pd.value : null }) }); render(d2) }
+          catch (e) { pk.classList.remove('busy'); const n = pk.querySelector('.pk-n'); if (n) n.textContent = e.message }
+        }) } }
+      const nar = d.narrative || {}, insights = d.insights || [];
+      $('#sum').textContent = nar.summary || '';
+      $('#sumsrc').textContent = LX.sourceLabel(nar.source); LX.fcClear();
+      $('#notices').innerHTML = LX.noticesHtml(d.notices);
+      $('#ins').innerHTML = insights.length ? insights.map(LX.insightHtml).join('') : '<p class="note">No strong patterns found. Try asking a question.</p>';
+      $('#recs').innerHTML = LX.recsHtml(nar.recommendations);
       const p = d.profile; $('#meta').textContent = `${p.rows.toLocaleString()} rows, ${p.columns.length} columns. Main measure: ${p.metric || 'none found'}.`;
-      $('#kpis').innerHTML = (p.kpis || []).map(k => `<div class="kpi"><small>${esc(k.label)}</small><strong>${k.kind === 'int' ? k.value.toLocaleString() : fmt(k.value)}</strong>${k.delta != null ? `<em class="${k.delta >= 0 ? 'up' : 'down'}">${k.delta >= 0 ? '+' : ''}${k.delta.toFixed(0)}% <span style="font-weight:400;color:var(--muted)">${esc(k.vs)}</span></em>` : `<em>${esc(k.note || '')}</em>`}</div>`).join('');
-      $('#chips').innerHTML = d.suggested_questions.map(q => `<button class="chip">${esc(q)}</button>`).join('');
+      $('#kpis').innerHTML = (p.kpis || []).map(k => `<div class="kpi"><small>${esc(k.label)}</small><strong title="${esc(k.kind === 'int' ? (+k.value).toLocaleString() : full(k.value))}">${k.kind === 'int' ? (+k.value).toLocaleString() : fmt(k.value)}</strong>${k.delta != null ? `<em class="${Math.round(k.delta) > 0 ? 'up' : Math.round(k.delta) < 0 ? 'down' : ''}">${Math.round(k.delta) > 0 ? '+' : ''}${Math.round(k.delta)}% <span style="font-weight:400;color:var(--muted)">${esc(k.vs)}</span></em>` : `<em>${esc(k.note || '')}</em>`}</div>`).join('');
+      const sq = d.suggested_questions || [], chipsOn = sq.length && (d.ai || d.sample);   // an upload with no AI key cannot answer any question, so its chips would only lead to a refusal
+      $('#chips').innerHTML = sq.map(q => `<button class="chip" type="button">${esc(q)}</button>`).join('');
+      $('#chips-wrap').hidden = !chipsOn;
       document.querySelectorAll('.chip').forEach(b => b.onclick = () => { $('#q').value = b.textContent; ask() });
-      $('#qerr').textContent = d.ai ? '' : 'Questions are switched off: add a GEMINI_API_KEY on the server. Everything else works without it.'; $('#ans').innerHTML = '';
+      $('#q').placeholder = d.ai ? 'e.g. Which product sold the most last quarter?' : d.sample ? 'Pick a suggested question below (demo mode)' : 'Questions need an API key on this server';
+      $('#qmode').textContent = d.ai ? '' : d.sample ? 'Demo mode: no AI key is set on this server. The suggested questions below run stored queries on the data right now; typing your own question needs an AI key.' : 'Questions are switched off on this server (no Gemini API key). Everything else works without it.';
+      $('#qerr').textContent = ''; $('#qinfo').textContent = ''; $('#ans').innerHTML = '';
       $('#charts').innerHTML = '';
-      $('#fv').innerHTML = p.metric_cols.map(c => `<option ${c === p.metric ? 'selected' : ''}>${esc(c)}</option>`).join('');
+      $('#fv').innerHTML = p.metric_cols.map(c => `<option value="${esc(c)}" ${c === p.metric ? 'selected' : ''}>${esc(c === 'records' ? 'number of records' : c)}</option>`).join('');
       $('#fd').innerHTML = p.date_cols.map(c => `<option ${c === p.date ? 'selected' : ''}>${esc(c)}</option>`).join('');
-      $('#fgo').disabled = !p.date_cols.length; $('#ferr').textContent = p.date_cols.length ? '' : 'Forecasting needs a date column, and none was found.';
+      const canFc = p.date_cols.length && p.metric_cols.length; $('#fgo').disabled = !canFc; $('#ferr').textContent = canFc ? '' : (p.date_cols.length ? 'Forecasting needs a numeric measure, and none was found.' : 'Forecasting needs a date column, and none was found.');
       
       const renderTable = (pv) => {
         if(!pv) return '';
-        let h = `<table><thead><tr>` + pv.columns.map((c, i) => `<th>${esc(c)}<br><small style="color:var(--muted);font-weight:normal">${esc(pv.dtypes[i])}</small></th>`).join('') + `</tr></thead><tbody>`;
-        h += pv.rows.map(r => `<tr>` + r.map(v => `<td title="${esc(v)}">${esc(v)}</td>`).join('') + `</tr>`).join('');
+        let h = `<table><thead><tr>` + pv.columns.map((c, i) => `<th>${esc(c)}<br><small style="color:var(--muted);font-weight:normal" title="${esc(pv.dtypes[i])}">${esc(nice(pv.dtypes[i]))}</small></th>`).join('') + `</tr></thead><tbody>`;
+        h += pv.rows.map(r => `<tr>` + r.map((v, ci) => { const t = /bool/i.test(pv.dtypes[ci]) && (v === 0 || v === 1) ? (v ? 'Yes' : 'No') : cellv(v); return `<td title="${esc(t)}">${esc(t)}</td>` }).join('') + `</tr>`).join('');
         return h + `</tbody></table>`;
       };
       const showPreview = (type) => {
         const isRaw = type === 'raw';
-        $('#tab-raw').className = isRaw ? 'tab active' : 'tab';
-        $('#tab-processed').className = !isRaw ? 'tab active' : 'tab';
+        $('#tab-raw').className = isRaw ? 'tab active' : 'tab'; $('#tab-raw').setAttribute('aria-selected', isRaw); $('#tab-raw').tabIndex = isRaw ? 0 : -1;
+        $('#tab-processed').className = !isRaw ? 'tab active' : 'tab'; $('#tab-processed').setAttribute('aria-selected', !isRaw); $('#tab-processed').tabIndex = !isRaw ? 0 : -1;
+        $('#preview-box').setAttribute('aria-labelledby', isRaw ? 'tab-raw' : 'tab-processed');
         const pv = isRaw ? d.raw_preview : d.processed_preview;
         if(pv) {
           $('#preview-box').innerHTML = renderTable(pv);
@@ -678,67 +754,86 @@
       if(d.processed_preview) {
         $('#tab-raw').onclick = () => showPreview('raw');
         $('#tab-processed').onclick = () => showPreview('processed');
+        document.querySelector('.tabs').onkeydown = e => { if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { const raw = e.key === 'ArrowLeft'; showPreview(raw ? 'raw' : 'processed'); $(raw ? '#tab-raw' : '#tab-processed').focus() } };
         showPreview('processed');
       }
 
       // draw after the grid has laid out, so charts get the right width
       requestAnimationFrame(() => requestAnimationFrame(() => {
+        if (!hasPlotly()) { $('#charts').innerHTML = `<p class="note" style="grid-column:1/-1">${NOPLOT}</p>`; $('#ferr').textContent = NOPLOT; return }
         d.charts.forEach(c => {
-          const el = document.createElement('div'); el.className = 'chart' + (c.type === 'line' ? ' wide' : ''); $('#charts').appendChild(el); c.type === 'line' ? lineChart(el, c) : barH(el, c.x, c.y);
-          const t = document.createElement('p'); t.className = 'note'; t.style.margin = '0 0 -6px'; t.textContent = c.title; el.before(t); if (c.type === 'line') t.style.gridColumn = '1/-1'
+          const cell = document.createElement('figure'); cell.className = 'cell' + (c.type === 'line' ? ' wide' : '');
+          const t = document.createElement('figcaption'); t.className = 'note'; t.textContent = c.title; cell.appendChild(t);
+          const el = document.createElement('div'); el.className = 'chart'; el.setAttribute('role', 'img');
+          const lo = Math.min(...c.y), hi = Math.max(...c.y);
+          el.setAttribute('aria-label', `${c.title}. ${c.type === 'line' ? `${c.y.length} points from ${fmt(c.y[0])} to ${fmt(c.y[c.y.length - 1])}, peak ${fmt(hi)}, low ${fmt(lo)}.` : `Top: ${c.x[0]} (${fmt(c.y[0])}); ${c.x.length} categories.`}`);
+          cell.appendChild(el); $('#charts').appendChild(cell); c.type === 'line' ? lineChart(el, c) : c.type === 'hist' ? histChart(el, c) : barH(el, c.x, c.y);
         });
-        if (p.date_cols.length) runForecast()
+        if (p.date_cols.length && p.metric_cols.length) runForecast();
+        const h3 = $('#sumh'); if (h3) h3.focus({ preventScroll: true });
       }))
     }
 
+    let askSeq = 0, asking = false, askingQ = '';
     async function ask() {
-      const q = $('#q').value.trim(); if (!q) return; $('#qerr').textContent = ''; busy($('#go'), true); $('#ans').innerHTML = '<p class="note"><span class="spin"></span>Working it out…</p>';
+      const q = $('#q').value.trim(); if (!q || (asking && q === askingQ)) return;   // ignore key-repeat / double submit of the SAME question; a different question supersedes the one in flight
+      const my = ++askSeq; asking = true; askingQ = q;
+      $('#qerr').textContent = ''; $('#qinfo').textContent = ''; busy($('#go'), true); $('#ans').innerHTML = '<p class="note"><span class="spin"></span>Working it out…</p>';
       try {
         const r = await api('/api/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sid, question: q }) });
-        const cols = r.columns, rows = r.rows, ch = r.chart || {};
+        if (my !== askSeq) return;                                   // a newer question / dataset replaced this one: drop the stale answer
+        const cols = r.columns || [], rows = r.rows || [], ch = r.chart || {}, first = rows[0] || [];
         const single = rows.length === 1 && (ch.type === 'number' || cols.length === 1);
-        let html = `<span class="badge ${r.verified ? 'ok' : 'chk'}">${r.verified ? 'Answer checked against the data' : 'Please double-check this one'}</span>`;
-        html += single ? `<div class="big">${typeof rows[0][0] === 'number' ? fmt(rows[0][0]) : esc(rows[0][0])}</div>` : '';
-        html += `<p class="a">${esc(r.answer)}</p>`; if (r.caveats) html += `<p class="note">${esc(r.caveats)}</p>`;
-        if (!single) html += '<div id="rc" class="chart" style="height:300px"></div>';
-        html += `<details><summary>How this was worked out</summary><pre>${esc(r.sql)}</pre><div style="overflow:auto"><table><tr>${cols.map(c => `<th>${esc(c)}</th>`).join('')}</tr>${rows.slice(0, 50).map(x => `<tr>${x.map(v => `<td>${esc(v)}</td>`).join('')}</tr>`).join('')}</table></div></details>`;
-        $('#ans').innerHTML = html; if (single) return;
-        const xi = cols.indexOf(ch.x), yi = cols.indexOf(ch.y);
-        if (['bar', 'line', 'pie'].includes(ch.type) && xi >= 0 && yi >= 0) {
-          const x = rows.map(r => r[xi]), y = rows.map(r => r[yi]); const isDate = /^\d{4}-\d{2}/.test(String(x[0]));
-          requestAnimationFrame(() => {
-            if (ch.type === 'pie') Plotly.newPlot('rc', [{ type: 'pie', labels: x, values: y, hole: .45, marker: { colors: [C.teal, C.light, C.amber, '#5F9EA0', '#D9B26A', '#7A8B99'] } }], lay({ rest: { margin: { l: 10, r: 10, t: 10, b: 10 } } }), cfg);
-            else if (isDate || ch.type === 'line') Plotly.newPlot('rc', [{ x, y, mode: 'lines+markers', line: { color: C.teal, width: 2.5 }, marker: { size: 6 }, hovertemplate: '%{y:,.0f}<extra></extra>' }], lay({ rest: { showlegend: false } }), cfg);
-            else barH('rc', x.map(String), y)
-          })
+        let html = LX.noteHtml(r) + LX.statusBadge(r);
+        if (single) {
+          let bi = cols.indexOf(ch.y); if (bi < 0 || typeof first[bi] !== 'number') bi = first.findIndex(v => typeof v === 'number');
+          const li = first.findIndex((v, i) => i !== bi && typeof v === 'string');
+          const v = bi >= 0 ? first[bi] : first[0];
+          html += `<div class="big">${bi >= 0 ? (v == null ? '–' : Math.abs(v) >= 1e9 ? fmt(v) : full(v)) : (esc(day(v)) || '–')}</div>`;   // exact value; was fmt() => "9.0k" for 9,046
+          if (li >= 0) html += `<div class="biglabel">${esc(cols[li])}: ${esc(day(first[li]))}</div>`;
         }
-        else $('#rc').remove()
-      } catch (e) { $('#ans').innerHTML = ''; $('#qerr').textContent = e.message } finally { busy($('#go'), false) }
+        html += `<p class="a">${esc(r.answer)}</p>`; html += LX.caveatsHtml(r.caveats);
+        const plottable = ['bar', 'line', 'pie'].includes(ch.type) && cols.indexOf(ch.x) >= 0 && cols.indexOf(ch.y) >= 0 && rows.length > 0;
+        if (!single && plottable) html += '<div id="rc" class="chart" role="img" style="height:300px"></div>';
+        const showAll = ch.type === 'table' || (!single && !plottable);                       // table answers: show the table, do not hide it in a collapsed <details>
+        html += LX.detailsHtml(r, cols, rows, showAll);
+        $('#ans').innerHTML = html; if (single || !plottable) return;
+        const xi = cols.indexOf(ch.x), yi = cols.indexOf(ch.y);
+        const x = rows.map(r => r[xi]), y = rows.map(r => r[yi]); const isDate = /^\d{4}-\d{2}-\d{2}/.test(String(x[0]));
+        const rc = $('#rc'); rc.setAttribute('aria-label', `${ch.type} chart: ${cols[yi]} by ${cols[xi]}, ${rows.length} rows. ${r.answer}`.slice(0, 300));
+        requestAnimationFrame(() => {
+          if (!hasPlotly()) { rc.outerHTML = `<p class="note">${NOPLOT}</p>`; return }
+          let pairs = ch.type === 'pie' ? x.map((l, i) => [String(l ?? '(blank)'), +y[i]]).filter(p => p[1] > 0) : [];
+          if (ch.type === 'pie' && !y.some(v => v < 0) && pairs.length > 1) {                    // positives only; top 7 + "Other" (28 slices were unreadable; negatives made % add up to >100)
+            pairs.sort((a, b) => b[1] - a[1]); if (pairs.length > 8) { const rest = pairs.slice(7).reduce((s, p) => s + p[1], 0); pairs = pairs.slice(0, 7).concat([[`Other (${pairs.length - 7})`, rest]]) }
+            Plotly.newPlot(rc, [{ type: 'pie', labels: pairs.map(p => p[0]), values: pairs.map(p => p[1]), hole: .45, sort: false, marker: { colors: [C.teal, C.light, C.amber, '#5F9EA0', '#D9B26A', '#7A8B99', '#2B8A8A', '#B8C4CC'] } }], lay({ rest: { margin: { l: 10, r: 10, t: 10, b: 10 } } }), cfg)
+          }
+          else if (ch.type === 'line' || (isDate && ch.type !== 'pie')) Plotly.newPlot(rc, [{ x: x.map(day), y, text: y.map(full), mode: 'lines+markers', line: { color: C.teal, width: 2.5 }, marker: { size: 6 }, hovertemplate: '%{text}<extra></extra>' }], lay({ rest: { showlegend: false } }), cfg)
+          else barH(rc, x.map(v => String(day(v))), y)
+        })
+      } catch (e) {
+        if (my !== askSeq) return; $('#ans').innerHTML = '';
+        if ([400, 429, 503].includes(e.status)) $('#qinfo').textContent = e.message;       // rate limit / AI off / unanswerable: a calm note, the suggested questions still work
+        else $('#qerr').textContent = e.message
+      }
+      finally { if (my === askSeq) { asking = false; busy($('#go'), false) } }
     }
-    $('#go').onclick = ask; $('#q').onkeydown = e => { if (e.key === 'Enter') ask() };
+    $('#go').onclick = ask; $('#q').onkeydown = e => { if (e.key === 'Enter' && !e.isComposing) ask() };
 
+    let fcSeq = 0;
     async function runForecast() {
+      if (!hasPlotly()) { $('#ferr').textContent = NOPLOT; return }
+      const my = ++fcSeq; const per = Math.min(24, Math.max(1, Math.round(+$('#fp').value) || 6)); $('#fp').value = per;     // clamp client-side: '' / 0 / -3 / 2.5 / 100 were silently coerced or caused a 422
       $('#ferr').textContent = ''; busy($('#fgo'), true);
       try {
-        const r = await api('/api/forecast', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sid, date_col: $('#fd').value, value_col: $('#fv').value, periods: +$('#fp').value }) });
-        const f = r.forecast, h = r.history, last = h.x.length - 1;
-        const tf = r.freq === 'D' ? '%d %b %Y' : (r.freq === 'W' ? '%d %b' : '%b %Y');
-        const ht = r.freq === 'D' ? '%{x|%d %b %Y}: %{y:,.0f}' : '%{x|%b %Y}: %{y:,.0f}';
-        Plotly.newPlot('fchart', [
-          { x: h.x, y: h.y, mode: 'lines', name: 'Actual', line: { color: C.teal, width: 2.5 }, hovertemplate: ht + '<extra>Actual</extra>' },
-          { x: [...f.x, ...f.x.slice().reverse()], y: [...f.upper, ...f.lower.slice().reverse()], fill: 'toself', fillcolor: 'rgba(199,127,0,.16)', line: { width: 0 }, name: 'Likely range', hoverinfo: 'skip' },
-          { x: [h.x[last], ...f.x], y: [h.y[last], ...f.y], mode: 'lines', name: 'Forecast', line: { color: C.amber, width: 2.5, dash: 'dot' }, hovertemplate: ht + '<extra>Forecast</extra>' }],
-          lay({
-            xaxis: { tickformat: tf }, rest: {
-              legend: { orientation: 'h', y: 1.12, x: 0 }, margin: { l: 56, r: 16, t: 30, b: 36 },
-              shapes: [{ type: 'line', x0: h.x[last], x1: h.x[last], yref: 'paper', y0: 0, y1: 1, line: { color: '#9AA7B1', width: 1, dash: 'dash' } }]
-            }
-          }), cfg);
-        $('#fnote').textContent = r.note
-      } catch (e) { $('#ferr').textContent = e.message } finally { busy($('#fgo'), false) }
+        const r = await api('/api/forecast', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sid, date_col: $('#fd').value, value_col: $('#fv').value, periods: per }) });
+        if (my !== fcSeq) return;
+        LX.drawForecast(r, $('#fv').value);
+      } catch (e) { if (my !== fcSeq) return; LX.fcClear(); $('#ferr').textContent = e.message } finally { if (my === fcSeq) busy($('#fgo'), false) }
     }
     $('#fgo').onclick = runForecast;
   </script>
+  <script src="/assets/lumen-app.js"></script>
 </body>
 
 </html>
