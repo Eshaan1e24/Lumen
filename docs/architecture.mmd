@@ -1,0 +1,31 @@
+flowchart TB
+  U["CSV / Excel upload or sample dataset"] --> UP["FastAPI: size, column and zip-bomb limits"]
+  UP --> P["pandas: header finding, type detection, cleaning"]
+  P --> S[("In-memory session: LRU + time limit")]
+  subgraph CODE["Computed in code, no AI needed"]
+    direction LR
+    F["Findings: trend, what-changed bridge, daily spikes, concentration"]
+    FC["Forecaster: backtest-selected model, range from past errors"]
+  end
+  S --> F
+  S --> FC
+  subgraph ASK["Plain-English questions, every answer checked"]
+    direction TB
+    Q["Question"] --> G2["Rate limit, then Gemini writes SQL + a second SQL"]
+    G2 --> V["Parser guard: one read-only SELECT over data"]
+    V --> D["DuckDB sandbox: no file or network access, time and memory limits"]
+    D --> X{"Do the two queries agree?"}
+    X --> E["Gemini writes the explanation"]
+    E --> NG{"Does every number trace to the result?"}
+    NG -- no --> PL["Plain summary built in code"]
+  end
+  S -.-> D
+  F --> N{"AI available and within limits?"}
+  N -- yes --> G1["Gemini: summary and next steps, numbers must match the findings"]
+  N -- no --> T["Template summary built from the findings"]
+  NG -- yes --> UI
+  PL --> UI
+  G1 --> UI
+  T --> UI
+  FC --> UI
+  UI["Dashboard: findings, answer + checks + SQL, forecast with its own backtest"]
