@@ -286,11 +286,12 @@ def answer(df: pd.DataFrame, question: str, ai: bool = True) -> dict:
 
     checks = [{"id": "read_only", "ok": True, "label": "Read-only SQL: parsed and allowed before it ran"},
               {"id": "ran", "ok": True, "label": f"Ran on your data in an isolated sandbox: {len(res):,} row{'s' if len(res) != 1 else ''}"}]
-    second = None                                                   # independent second formulation
-    if plan.check_sql.strip():
+    second, repeated = None, bool(plan.check_sql.strip()) and sqlguard.same_query(plan.sql, plan.check_sql)
+    if plan.check_sql.strip() and not repeated:                     # independent second formulation (a copy of the first proves nothing)
         try: second = sqlguard.run_sql(df, plan.check_sql)
         except Exception: second = None
-    if second is None: checks.append({"id": "second_query", "ok": None, "label": "Second query: could not be run, so this answer was not cross-checked"})
+    if repeated: checks.append({"id": "second_query", "ok": None, "label": "Second query: identical to the first, so this answer was not cross-checked"})
+    elif second is None: checks.append({"id": "second_query", "ok": None, "label": "Second query: could not be run, so this answer was not cross-checked"})
     else:
         agree = _fingerprint(res) == _fingerprint(second)
         checks.append(_check("A second, differently written query returns the same values", "A second, differently written query returned DIFFERENT values: double-check this one", agree, "second_query"))
@@ -358,7 +359,8 @@ def narrate(facts: list, meta: dict, ai: bool = True) -> dict:
                 "recommendations": [f["action"] for f in facts if f.get("action")][:4], "source": "template"}
     if not ai or not available() or not facts: return fallback
     key = _facts_text(facts)
-    if key in _NARR_CACHE: return _NARR_CACHE[key]
+    with _lock:
+        if key in _NARR_CACHE: return _NARR_CACHE[key]
     try:
         n = generate(f"""You advise a non-technical small-business owner or NGO coordinator. Dataset: {json.dumps(clean(meta))}.
 Statistical findings (computed in code, already verified): {key}
@@ -368,6 +370,7 @@ Use ONLY numbers that appear in the findings. Do not claim causes.""", Narrative
         if ungrounded(n.summary + " " + " ".join(n.recommendations), allowed) or not n.recommendations: return fallback
         out = {"summary": n.summary.strip(), "recommendations": [r.strip() for r in n.recommendations[:4]], "source": "ai"}
     except AIUnavailable: return fallback
-    if len(_NARR_CACHE) > 64: _NARR_CACHE.pop(next(iter(_NARR_CACHE)))
-    _NARR_CACHE[key] = out
+    with _lock:                     # build_payload runs in the threadpool, so several workers can reach here at once
+        if len(_NARR_CACHE) > 64: _NARR_CACHE.pop(next(iter(_NARR_CACHE)))
+        _NARR_CACHE[key] = out
     return out

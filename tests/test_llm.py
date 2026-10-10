@@ -68,6 +68,14 @@ def test_disagreeing_second_query_is_flagged():
     assert any(c["id"] == "second_query" and c["ok"] is False for c in r["checks"])
 
 
+@pytest.mark.parametrize("copy", [SQL, SQL.upper() + ";", "  " + SQL.replace(" ", "\n  ") + " -- same"])
+def test_repeated_second_query_is_not_a_cross_check(copy):
+    use([plan(SQL, copy), expl("Hoodie leads with 900.")])
+    r = llm.answer(DF, "q")
+    assert r["status"] == "partly" and not r["verified"]
+    assert any(c["id"] == "second_query" and c["ok"] is None and "identical" in c["label"] for c in r["checks"])
+
+
 def test_made_up_number_replaced_by_plain_summary():
     use([plan(SQL, CHECK), expl("Hoodie sold 12,345 units, up 80%.")])
     r = llm.answer(DF, "q")

@@ -14,6 +14,7 @@ app.add_middleware(GZipMiddleware, minimum_size=1024)
 SESSIONS = limits.SessionStore(max_weight=limits.MAX_CELLS)   # in memory only: LRU + time-to-live, bounded by count and size; never written to disk by Lumen
 ASK = limits.RateLimiter(per_window=int(os.getenv("LUMEN_ASK_PER_10MIN", 8)), per_day=int(os.getenv("LUMEN_ASK_PER_DAY", 60)),
                          global_per_day=int(os.getenv("LUMEN_ASK_GLOBAL_PER_DAY", 400)))
+FORECAST = limits.RateLimiter(per_window=int(os.getenv("LUMEN_FORECAST_PER_10MIN", 30)), per_day=300, global_per_day=int(os.getenv("LUMEN_FORECAST_GLOBAL_PER_DAY", 5000)))
 NARRATE = limits.RateLimiter(per_window=6, per_day=40, global_per_day=int(os.getenv("LUMEN_NARRATE_GLOBAL_PER_DAY", 200)))
 STATIC = pathlib.Path(__file__).parent.parent / "static"
 
@@ -103,7 +104,10 @@ def _process_upload(raw, filename, ai):
         raw_df = A.read_raw_df(raw, filename)
         if raw_df.shape[1] > limits.MAX_COLS: raise ValueError(f"That file has {raw_df.shape[1]} columns; this server accepts up to {limits.MAX_COLS}.")
         raw_preview = A.df_to_preview(raw_df)
-        return start_session(A.preprocess_df(raw_df), raw_preview, ai_narrative=ai)
+        df = A.preprocess_df(raw_df)
+        if df.size > limits.MAX_CELLS:    # the session store keeps one oversized session, so stop it here (a small .xlsx can expand a lot)
+            raise ValueError(f"That file has {df.size:,} cells after cleaning; this server accepts up to {limits.MAX_CELLS:,}.")
+        return start_session(df, raw_preview, ai_narrative=ai)
     except ValueError as e: raise HTTPException(400, str(e))
     except Exception:
         logging.exception("Upload processing failed")
@@ -189,8 +193,10 @@ class Fc(BaseModel):
 
 
 @app.post("/api/forecast")
-def fc(body: Fc):
+def fc(request: Request, body: Fc):
     df = get_session(body.session_id)["df"]   # a 404 here must not be re-wrapped as a 400
+    ok, retry, _ = FORECAST.check(limits.client_key(request))   # backtesting is CPU-heavy on a free instance
+    if not ok: raise HTTPException(429, f"Too many forecasts in a short time. Please try again in about {max(1, retry // 60 + 1)} minutes.")
     try: return A.clean(A.forecast(df, body.date_col, body.value_col, max(1, min(body.periods, 24))))
     except ValueError as e: raise HTTPException(400, str(e))
     except Exception:

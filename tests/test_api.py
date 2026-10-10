@@ -103,6 +103,21 @@ def test_upload_limits_and_errors(monkeypatch):
     assert r.status_code == 400 and "doesn't look like" in r.json()["detail"]
 
 
+def test_upload_over_the_cell_budget_is_rejected(monkeypatch):
+    monkeypatch.setattr(limits, "MAX_CELLS", 50)
+    r = client.post("/api/upload", files={"file": ("w.csv", b"a,b,c\n" + b"1,2,3\n" * 40, "text/csv")})
+    assert r.status_code == 400 and "cells" in r.json()["detail"]
+
+
+def test_forecast_is_rate_limited(monkeypatch):
+    monkeypatch.setattr(main, "FORECAST", limits.RateLimiter(per_window=1, per_day=10, global_per_day=10))
+    sid = open_sample()["session_id"]
+    body = {"session_id": sid, "date_col": "order_date", "value_col": "amount", "periods": 3}
+    assert client.post("/api/forecast", json=body).status_code == 200
+    r = client.post("/api/forecast", json=body)
+    assert r.status_code == 429 and "minute" in r.json()["detail"]
+
+
 def test_unknown_session_and_internal_errors_do_not_leak():
     assert client.post("/api/forecast", json={"session_id": "nope", "date_col": "a", "value_col": "b"}).status_code == 404
     assert client.post("/api/ask", json={"session_id": "nope", "question": "q"}).status_code == 404

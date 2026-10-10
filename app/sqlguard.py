@@ -82,6 +82,24 @@ def guard(sql: str, table: str = "data") -> str:
     return sql.strip().rstrip(";").strip()
 
 
+_IDENT_KEYS = {"column_names", "table_name", "alias", "function_name", "schema_name", "catalog_name"}   # case-insensitive in DuckDB
+
+
+def _strip_positions(node, ident=False):
+    if isinstance(node, dict): return {k: _strip_positions(v, k in _IDENT_KEYS) for k, v in node.items() if k != "query_location"}
+    if isinstance(node, list): return [_strip_positions(v, ident) for v in node]
+    return node.lower() if ident and isinstance(node, str) else node
+
+
+def same_query(a: str, b: str) -> bool:
+    """True if two queries parse to the same tree (they differ only in whitespace, case, comments or a trailing semicolon).
+    Used so a 'second query' that merely repeats the first cannot count as an independent cross-check."""
+    try:
+        trees = [_strip_positions(json.loads(_parser().execute("select json_serialize_sql(?)", [q.strip().rstrip(";")]).fetchone()[0])) for q in (a, b)]
+    except Exception: return a.strip().lower() == b.strip().lower()
+    return trees[0] == trees[1]
+
+
 def run_sql(df: pd.DataFrame, sql: str, timeout: int = 10, table: str = "data") -> pd.DataFrame:
     """Guard, then execute against `df` in an isolated in-memory DuckDB. Returns at most MAX_ROWS rows."""
     s = guard(sql, table)

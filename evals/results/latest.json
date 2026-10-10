@@ -1,0 +1,142 @@
+[
+ {
+  "q": "What is the total revenue?",
+  "correct": true,
+  "status": "checked",
+  "secs": 64.8,
+  "error": ""
+ },
+ {
+  "q": "How many orders are there in total?",
+  "correct": true,
+  "status": "checked",
+  "secs": 13.3,
+  "error": ""
+ },
+ {
+  "q": "Which product brings in the most revenue?",
+  "correct": true,
+  "status": "checked",
+  "secs": 58.7,
+  "error": ""
+ },
+ {
+  "q": "Which region has the lowest total sales?",
+  "correct": true,
+  "status": "checked",
+  "secs": 39.5,
+  "error": ""
+ },
+ {
+  "q": "What was the average order value?",
+  "correct": true,
+  "status": "checked",
+  "secs": 10.6,
+  "error": ""
+ },
+ {
+  "q": "How many hoodies were sold?",
+  "correct": true,
+  "status": "checked",
+  "secs": 7.5,
+  "error": ""
+ },
+ {
+  "q": "What was total revenue in 2025?",
+  "correct": true,
+  "status": "checked",
+  "secs": 3.7,
+  "error": ""
+ },
+ {
+  "q": "Which month had the highest revenue?",
+  "correct": true,
+  "status": "partly",
+  "secs": 4.1,
+  "error": ""
+ },
+ {
+  "q": "What share of revenue comes from the Campus region?",
+  "correct": true,
+  "status": "checked",
+  "secs": 6.7,
+  "error": ""
+ },
+ {
+  "q": "Which product sold the most units?",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.4,
+  "error": ""
+ },
+ {
+  "q": "How much revenue did Mugs bring in online?",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.3,
+  "error": ""
+ },
+ {
+  "q": "How many distinct products do we sell?",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.6,
+  "error": ""
+ },
+ {
+  "q": "What was the biggest single order?",
+  "correct": true,
+  "status": "disagree",
+  "secs": 2.3,
+  "error": ""
+ },
+ {
+  "q": "Revenue by region",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.8,
+  "error": ""
+ },
+ {
+  "q": "Total revenue per product in 2024",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.5,
+  "error": ""
+ },
+ {
+  "q": "How many orders were on weekends?",
+  "correct": true,
+  "status": "checked",
+  "secs": 2.5,
+  "error": ""
+ },
+ {
+  "q": "What day had the highest total revenue?",
+  "correct": true,
+  "status": "partly",
+  "secs": 4.9,
+  "error": ""
+ },
+ {
+  "q": "What was the average quantity per order for notebooks?",
+  "correct": true,
+  "status": "checked",
+  "secs": 7.4,
+  "error": ""
+ },
+ {
+  "q": "Which region sold the most hoodies by revenue?",
+  "correct": true,
+  "status": "checked",
+  "secs": 6.5,
+  "error": ""
+ },
+ {
+  "q": "Revenue growth 2025 vs 2024 in percent",
+  "correct": true,
+  "status": "checked",
+  "secs": 5.4,
+  "error": ""
+ }
+]
